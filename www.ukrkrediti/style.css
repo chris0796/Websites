@@ -1,0 +1,158 @@
+/* Custom CSS */
+@media (min-width: 992px) {
+    .col-lg-1-5 {
+        flex: 0 0 20%;
+        max-width: 20%;
+        position: relative;
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 350px) {
+    .font-size-13 {
+        font-size: 13px;
+    }
+}
+.font-size-14 {
+    font-size: 14px;
+}
+@media (min-width: 1200px) {
+    .top-loan-slogan {
+        font-size: 1.25rem;
+    }
+    .top-loan-text {
+        font-size: 1rem;
+    }
+    .top-loan-button-text {
+        font-size: 1.125em;
+    }
+}
+@media (max-width: 992px) {
+    .top-loan-slogan {
+        font-size: 1rem;
+    }
+    .top-loan-text {
+        font-size: .875rem;
+    }
+    .top-loan-button-text {
+        font-size: 1.125em;
+    }
+}
+@media (max-width: 768px) {
+    .top-loan-slogan {
+        font-size: 1.25rem;
+    }
+    .top-loan-text {
+        font-size: 1rem;
+    }
+    .top-loan-button-text {
+        font-size: 1.125em;
+    }
+}
+.shadow-g {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+.box:hover .hover-box {
+    background-color: #F9F9F9;
+}
+.box:hover .hover-button {
+    background-color: #03b372;
+}
+.box:hover .small-button-emoji {
+    animation: buttonEmoji 2s infinite;
+}
+.box, .box a span, .box:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+.text-main {
+    color: #00d385;
+}
+.text-minor {
+    color: #272727;
+}
+.text-unselected {
+    color: #F5F6F7;
+}
+.text-red-500 {
+    color: #F56565;
+}
+.bg-main {
+    background-color: #00d385;
+}
+@keyframes heartEmoji {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.1);
+    }
+    20% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.1);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+.heart-emoji {
+    animation: heartEmoji 2s infinite;
+}
+@keyframes buttonEmoji {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(8deg);
+    }
+    15% {
+        transform: rotate(-8deg);
+    }
+    20% {
+        transform: rotate(8deg);
+    }
+    25% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(8deg);
+    }
+    35% {
+        transform: rotate(-8deg);
+    }
+    40% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.button-emoji {
+    animation: buttonEmoji 2s infinite;
+}
+#notification {
+    transition: display 1s;
+}
+@media (min-width: 1200px) {
+    #notification {
+        max-width: 1140px;
+    }
+}
+#map{
+    width: 100%;
+    height: auto;
+}
+@media(min-width: 800px) {
+    #map{
+        width: 800px;
+    }
+}
+#map a:hover path{
+    color: #CCF6E7;
+}
+		
+#main-container{
+	margin-top: 62px;
+}
