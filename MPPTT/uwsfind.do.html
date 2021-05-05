@@ -1,0 +1,422 @@
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=9; IE=10; IE=11; IE=EDGE"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="/static/icons/shortcut-icon.ico" type="image/x-icon"/>
+        <link rel="apple-touch-icon" sizes="57x57" href="/static/icons/apple-touch-icon-57x57.png"/>
+        <link rel="apple-touch-icon" sizes="60x60" href="/static/icons/apple-touch-icon-60x60.png"/>
+        <link rel="apple-touch-icon" sizes="72x72" href="/static/icons/apple-touch-icon-72x72.png"/>
+        <link rel="apple-touch-icon" sizes="76x76" href="/static/icons/apple-touch-icon-76x76.png"/>
+        <link rel="apple-touch-icon" sizes="114x114" href="/static/icons/apple-touch-icon-114x114.png"/>
+        <link rel="apple-touch-icon" sizes="120x120" href="/static/icons/apple-touch-icon-120x120.png"/>
+        <link rel="apple-touch-icon" sizes="144x144" href="/static/icons/apple-touch-icon-144x144.png"/>
+        <link rel="apple-touch-icon" sizes="152x152" href="/static/icons/apple-touch-icon-152x152.png"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon-180x180.png"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-16x16.png" sizes="16x16"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-32x32.png" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/png" href="/static/icons/icon-192x192.png" sizes="192x192"/>
+        <meta name="msapplication-square70x70logo" content="/static/icons/msapplication-square70x70logo.png"/>
+        <meta name="msapplication-square150x150logo" content="/static/icons/msapplication-square150x150logo.png"/>
+        <meta name="msapplication-square310x310logo" content="/static/icons/msapplication-square310x310logo.png"/>
+                    <link rel="stylesheet" type="text/css" href="/static/css2/open-sans.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/widths.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/colgroups.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-fonts.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-style.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-buttons.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-inputs.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-forms.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-tabs.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-wizard.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="/static/css2/nalog-user-panel.css?ver=4.38.45"/>
+            <link rel="stylesheet" type="text/css" href="css/uwsfind.css?ver=3.39.20"/>
+            <script type="text/javascript" src="/static/js/uni-string.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.min.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.cookie.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.blockUI.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.simplemodal.min.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.mask.min.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.is-input.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-checkbox.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-radio.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-text.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-select.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-date.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-kladr2.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-tree2.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-set.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/jquery.uni-fias.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/ajax-forms.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/uni-dialogs.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/js.cookie.min.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="/static/js/uni-i18n.js?ver=4.38.45"></script>
+            <script type="text/javascript" src="js/uwsfind-table.js?ver=3.39.20"></script>
+            <script type="text/javascript" src="js/uwsfind.js?ver=3.39.20"></script>
+        <title>Сведения о юридических лицах и индивидуальных предпринимателях, в отношении которых представлены документы для государственной регистрации</title>
+        <script type="text/javascript">
+            function i18n(s) { return s; }
+            var STATIC_VERSION = '4.38.45';
+            var APPLICATION_VERSION = '3.39.20';
+            var RTKOMM_PAGE_STYLE = 'NALOG';
+            
+            
+            
+            
+            var FEEDBACK_CODE = '19';
+            var HELP_LINK = '';
+            
+        </script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    document.title = $('#uniPageTitle').text();
+                    $(':text.txt-date').uni_date();
+                    $(':text.txt-timestamp').uni_date({ format: 'dd.MM.yyyy HH:mm:ss'});
+                    $(':text.txt-fias').uni_fias();
+                    $(':text.txt-kladr').uni_kladr();
+                    $(':text.txt-tree').uni_tree();
+                    $(':text.txt-set').uni_set();
+                    $(':text').uni_text();
+                    $(':password').uni_text();
+                    $('textarea').uni_text();
+                    $(':checkbox').uni_checkbox();
+                    $(':radio').uni_radio();
+                    $('select').uni_select();
+                    $o = $('input.txt-inn')
+                            .add('input.txt-inn-fl')
+                            .add('input.txt-inn-ul')
+                            .add('input.txt-ogrn')
+                            .add('input.txt-ogrn-ip')
+                            .add('input.txt-ogrn-ul')
+                            .add('input.txt-decimal-code')
+                            .add('input.txt-int')
+                            .add('input.txt-numeric')
+                            .add('input.txt-decimal');
+                    if ($o.length) {
+                        $o.is_input({
+                            filterRegexp: /\D/g,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только цифры'
+                        });
+                    }
+                    $o = $('input.txt-sum').add('input.txt-sum-2');
+                    if ($o.length) {
+                        $o.is_input({
+                            regexp: /^\d*\.{0,1}\d{0,2}$/,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только цифры\nВ качестве разделителя рублей и копеек используйте точку, например: 123.45'
+                        });
+                    }
+                    $o = $('input.txt-sum-4');
+                    if ($o.length) {
+                        $o.is_input({
+                            regexp: /^\d*\.{0,1}\d{0,4}$/,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только цифры\nВ качестве разделителя рублей и копеек используйте точку, например: 123.4567'
+                        });
+                    }
+                    $o = $('input.txt-ru-name');
+                    if ($o.length) {
+                        $o.is_input({
+                            regexp: /^[а-яА-ЯёЁ\-\'\s\.]*$/,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только русские буквы, пробелы, апострофы, дефисы и точки'
+                        });
+                    }
+                    $o = $('input.txt-ru-name-iv');
+                    if ($o.length) {
+                        $o.is_input({
+                            regexp: /^[а-яА-ЯёЁIV\-\'\s\.]*$/,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только русские буквы, символы I и V, пробелы, апострофы, дефисы и точки'
+                        });
+                    }
+                    $o = $('input.txt-en-name');
+                    if ($o.length) {
+                        $o.is_input({
+                            regexp: /^[a-zA-Z\-\'\s\.]*$/,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только латинские буквы, пробелы, апострофы, дефисы и точки'
+                        });
+                    }
+                    $o = $('input.txt-inter-name');
+                    if ($o.length) {
+                        $o.is_input({
+                            regexp: /^[а-яА-ЯёЁa-zA-Z\-\'\s\.]*$/,
+                            hint: 'Вы пытаетесь ввести недопустимые символы.\nРазрешается вводить только русские или латинские буквы, пробелы, апострофы, дефисы и точки'
+                        });
+                    }
+                    $(':text.txt-phone').each(function() {
+                        var $inp = $(this);
+                        $inp.val($inp.val().replace(/[^\+\d\(\)]/g, ''));
+                        $inp.mask('+0(00099)0000099', {
+                            placeholder: '_(___)_______',
+                            translation: {'+': {pattern: /\+/, optional: true}}
+                        });
+                    });
+                });
+            </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(75923425, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/75923425" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+
+
+    <body>
+
+        <div class="page-wrapper" id="uniPageWrapper">
+            <div class="top-bar-wrapper">
+                <div class="top-bar" id="uniTopBar"></div>
+            </div>
+            <div class="page-header" id="uniPageHeader">
+                <div class="page-menu-wrapper">
+                    <div class="page-menu">
+                    </div>
+                </div>
+                    
+                <a class="lnk-nalog" href="http://www.nalog.ru"><i18n>Федеральная Налоговая Служба</i18n></a>
+                <div class="page-title-wrapper"><div class="page-title" id="uniPageTitle"><i18n>Сведения о юридических лицах и индивидуальных предпринимателях, в отношении которых представлены документы для государственной регистрации</i18n></div></div>
+                
+                <div class="clear"></div>
+            </div>
+            <div class="page-main" id="uniPageMain">
+                <div id="content" class="content">
+                    
+    <script type="text/javascript">
+        var HOME_PAGE = 'uwsfind.html';
+    </script>
+
+    <div class="pane pane-message">Сведения обновляются ежедневно.</div>
+
+    <form id="frmUwsfind" action="uwsfind-proc.json" method="post" autocomplete="off">
+        <div class="block form-layout-left-labels form-labels-300" id="pnlSearch">
+            <h2>Реквизиты поиска</h2>
+            <div class="form-field">
+        <label class="field-caption"><i18n>Искать сведения</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <div class="radio-item"><input type="radio" name="nptype" id="nptype_ul" value="ul" checked/><label for="nptype_ul"><i18n>О юридическом лице</i18n></label></div><div class="radio-item"><input type="radio" name="nptype" id="nptype_fl" value="fl"/><label for="nptype_fl"><i18n>Об индивидуальном предпринимателе</i18n></label></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+            <div class="form-field hidden np-type np-type-ul">
+        <label for="ogrnUl" class="field-caption"><i18n>ОГРН</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <input type="text" name="ogrnUl" maxlength="13" class="txt-m txt-int" id="ogrnUl"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+            <div class="form-field hidden np-type np-type-fl">
+        <label for="ogrnIp" class="field-caption"><i18n>ОГРНИП</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <input type="text" name="ogrnIp" maxlength="15" class="txt-m txt-int" id="ogrnIp"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+            <div class="form-field hidden np-type np-type-ul">
+        <label for="nameUl" class="field-caption"><i18n>Наименование юридического лица</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <input type="text" name="nameUl" maxlength="1000" class="txt-xl" id="nameUl"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+            <div class="form-field hidden np-type np-type-fl">
+        <label for="nameIp" class="field-caption"><i18n>ФИО индивидуального предпринимателя</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <input type="text" name="nameIp" maxlength="1000" class="txt-xl" id="nameIp"/>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+            <div class="form-field hidden np-type np-type-ul">
+        <label for="frmUl" class="field-caption"><i18n>Форма поданного документа</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <select name="frmUl" data-display-options="KEY_AND_VALUE"  class="txt-xl" id="frmUl">
+                <option value=""></option>
+                <option value="Р11001">Р11001 - <i18n>Заявление о создании ЮЛ</i18n></option><option value="Р12001">Р12001 - <i18n>Заявление о создании ЮЛ при реорганизации</i18n></option><option value="Р12002">Р12002 - <i18n>Заявление о гос. регистрации АО, создаваемого путем реорганизации в форме разделения или выделения</i18n></option><option value="Р12003">Р12003 - <i18n>Заявление-уведомление о начале процедуры реорганизации</i18n></option><option value="Р13001">Р13001 - <i18n>Заявление об изменениях, вносимых в учред.документы</i18n></option><option value="Р13002">Р13002 - <i18n>Уведомление о внесении изменений в учред.документы</i18n></option><option value="Р13014">Р13014 - <i18n>Заявление о гос. регистрации изменений, внесенных в учред. документ ЮЛ, и (или) о внесении изменений в сведения о ЮЛ, содержащиеся в ЕГРЮЛ</i18n></option><option value="Р14001">Р14001 - <i18n>Заявление об изменении сведений, не связанных с изменением учред. документов</i18n></option><option value="Р14002">Р14002 - <i18n>Заявление о нахождении АО в процессе уменьшения УК и/или о стоимости чистых активов АО</i18n></option><option value="Р15001">Р15001 - <i18n>Уведомление о принятии решения о ликвидации ЮЛ</i18n></option><option value="Р15002">Р15002 - <i18n>Уведомление о формировании ликвидационной комиссии, назначении ликвидатора</i18n></option><option value="Р15003">Р15003 - <i18n>Уведомление о составлении промежуточного ликвидационного баланса</i18n></option><option value="Р15016">Р15016 - <i18n>Заявление (уведомление) о ликвидации ЮЛ</i18n></option><option value="Р16001">Р16001 - <i18n>Заявление о ликвидации</i18n></option><option value="Р16002">Р16002 - <i18n>Заявление о прекращении унитарного предприятия</i18n></option><option value="Р16003">Р16003 - <i18n>Заявление о прекращении деятельности при присоединении</i18n></option><option value="Р17001">Р17001 - <i18n>Сообщение о ЮЛ, созданном до 01.07.2002г</i18n></option><option value="Р18001">Р18001 - <i18n>Перерегистрация компаний Крыма и Севастополя</i18n></option>
+            </select>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+            <div class="form-field hidden np-type np-type-fl">
+        <label for="frmIp" class="field-caption"><i18n>Форма поданного документа</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <select name="frmIp" data-display-options="KEY_AND_VALUE"  class="txt-xl" id="frmIp">
+                <option value=""></option>
+                <option value="Р21001">Р21001 - <i18n>Заявление о регистрации ФЛ в качестве ИП</i18n></option><option value="Р21002">Р21002 - <i18n>Заявление о регистрации создания КФХ</i18n></option><option value="Р24001">Р24001 - <i18n>Заявление о внесении изменений в сведения об ИП</i18n></option><option value="Р24002">Р24002 - <i18n>Заявление о внесении изменений в сведения о главе КФХ</i18n></option><option value="Р26001">Р26001 - <i18n>Заявление о прекращении деятельности ИП</i18n></option><option value="Р26002">Р26002 - <i18n>Заявление о прекращении КФХ</i18n></option><option value="Р27001">Р27001 - <i18n>Заявление о внесении записи об ИП, зарегистрированном до 01.01.2004</i18n></option><option value="Р27002">Р27002 - <i18n>Заявление о внесении записи о КФХ, созданного до вступления в силу ч.I ГК</i18n></option><option value="Р27003">Р27003 - <i18n>Заявление о внесении в ЕГРИП записи о КФХ, глава которого зарегистрирован ИП до 01.01.2004</i18n></option>
+            </select>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+            <div class="form-field">
+        <label for="ifns" class="field-caption"><i18n>ИФНС, в которую был подан документ</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            <select name="ifns" data-display-options="VALUE_ONLY"  class="txt-xl" id="ifns">
+                <option value=""></option>
+                <option value="01015"><i18n>0105 - Межрайонная ИФНС России №1 по Республике Адыгея</i18n></option><option value="02123"><i18n>0280 - Межрайонная ИФНС России № 39 по Республике Башкортостан</i18n></option><option value="03045"><i18n>0300 - УФНС России по Республике Бурятия</i18n></option><option value="03048"><i18n>0327 - Межрайонная ИФНС России № 9 по Республике Бурятия</i18n></option><option value="04018"><i18n>0400 - Управление ФНС России по Республике Алтай</i18n></option><option value="05427"><i18n>0571 - ИФНС России по Ленинскому району г.Махачкалы</i18n></option><option value="06007"><i18n>0600 - УФНС России по Республике Ингушетия</i18n></option><option value="06009"><i18n>0608 - Межрайонная ИФНС России №1 по Республике Ингушетия</i18n></option><option value="07016"><i18n>0716 - МР ИФНС России №4 по КБР</i18n></option><option value="07017"><i18n>0718 - МРИ ФНС России №2 по КБР</i18n></option><option value="07019"><i18n>0720 - МРИ ФНС России №5 по КБР</i18n></option><option value="07029"><i18n>0724 - МР ИФНС России №6 по КБР</i18n></option><option value="07030"><i18n>0725 - ИФНС России № 1 по г.Нальчику КБР</i18n></option><option value="07031"><i18n>0726 - ИФНС России № 2 по г.Нальчику КБР</i18n></option><option value="08010"><i18n>0800 - УФНС России по Республике Калмыкия</i18n></option><option value="08033"><i18n>0816 - ИФНС России по г.Элисте</i18n></option><option value="09020"><i18n>0900 - УФНС по КЧР</i18n></option><option value="09100"><i18n>0917 - Межрайонная ИФНС России № 3 по КЧР</i18n></option><option value="10020"><i18n>1001 - ИФНС России по г.Петрозаводску</i18n></option><option value="11042"><i18n>1121 - Межрайонная ИФНС России № 5 по Республике Коми</i18n></option><option value="12004"><i18n>1215 - ИФНС России по г. Йошкар-Оле</i18n></option><option value="13035"><i18n>1326 - ИФНС России по Ленинскому району г. Саранска</i18n></option><option value="14105"><i18n>1447 - Межрайонная ИФНС России № 5 по Республике Саха (Якутия)</i18n></option><option value="15028"><i18n>1513 - Межрайонная ИФНС России по г. Владикавказу</i18n></option><option value="16153"><i18n>1690 - Межрайонная ИФНС России №18 по Республике Татарстан</i18n></option><option value="17039"><i18n>1700 - УФНС России по Республике Тыва</i18n></option><option value="17021"><i18n>1719 - Межрайонная ИФНС России № 1 по Республике Тыва</i18n></option><option value="18051"><i18n>1832 - Межрайонная ИФНС России № 11 по Удмуртской Республике</i18n></option><option value="19025"><i18n>1900 - УФНС России по Республике Хакасия</i18n></option><option value="19024"><i18n>1901 - Межрайонная ИФНС России №1 по Республике Хакасия</i18n></option><option value="19019"><i18n>1902 - Межрайонная ИФНС России №2 по Республике Хакасия</i18n></option><option value="19020"><i18n>1903 - Межрайонная ИФНС России №3 по Республике Хакасия</i18n></option><option value="20002"><i18n>2000 - УФНС России по Чеченской Республике</i18n></option><option value="20033"><i18n>2036 - Межрайонная ИФНС России №6 по Чеченской Республике</i18n></option><option value="21183"><i18n>2130 - ИФНС России по г. Чебоксары</i18n></option><option value="22120"><i18n>2202 - Межрайонная ИФНС России № 16 по Алтайскому краю</i18n></option><option value="22093"><i18n>2225 - Межрайонная ИФНС России № 15 по Алтайскому краю</i18n></option><option value="23338"><i18n>2375 - Межрайонная ИФНС России № 16 по Краснодарскому краю</i18n></option><option value="24270"><i18n>2468 - Межрайонная ИФНС России № 23 по Красноярскому краю</i18n></option><option value="25060"><i18n>2500 - УФНС России по Приморскому краю</i18n></option><option value="25038"><i18n>2501 - Межрайонная ИФНС России №4 по Приморскому краю</i18n></option><option value="25039"><i18n>2502 - Межрайонная ИФНС России № 10 по Приморскому краю</i18n></option><option value="25040"><i18n>2503 - Межрайонная ИФНС России № 1 по Приморскому краю</i18n></option><option value="25041"><i18n>2505 - Межрайонная ИФНС России № 6 по Приморскому краю</i18n></option><option value="25042"><i18n>2506 - Межрайонная ИФНС России № 2 по Приморскому краю</i18n></option><option value="25043"><i18n>2507 - Межрайонная ИФНС России № 7 по Приморскому краю</i18n></option><option value="25044"><i18n>2508 - ИФНС России по г.Находке Приморского края</i18n></option><option value="25045"><i18n>2509 - Межрайонная ИФНС России №8 по Приморскому краю</i18n></option><option value="25046"><i18n>2510 - Межрайонная ИФНС России № 3 по Приморскому краю</i18n></option><option value="25047"><i18n>2511 - Межрайонная ИФНС России №9 по Приморскому краю</i18n></option><option value="25048"><i18n>2515 - Межрайонная ИФНС России № 5 по Приморскому краю</i18n></option><option value="25054"><i18n>2533 - Межрайонная ИФНС России №11 по Приморскому краю</i18n></option><option value="25055"><i18n>2536 - Межрайонная ИФНС России № 15 по Приморскому краю</i18n></option><option value="26044"><i18n>2625 - ИФНС России по г. Георгиевску Ставропольского края</i18n></option><option value="26046"><i18n>2628 - ИФНС России по г. Кисловодску Ставропольского края</i18n></option><option value="26048"><i18n>2632 - ИФНС России по г. Пятигорску Ставропольского края</i18n></option><option value="26050"><i18n>2641 - Межрайонная ИФНС России № 1 по Ставропольскому краю</i18n></option><option value="26052"><i18n>2643 - Межрайонная ИФНС России № 3 по Ставропольскому краю</i18n></option><option value="26053"><i18n>2644 - Межрайонная ИФНС России № 4 по Ставропольскому краю</i18n></option><option value="26055"><i18n>2646 - Межрайонная ИФНС России № 6 по Ставропольскому краю</i18n></option><option value="26057"><i18n>2648 - Межрайонная ИФНС России № 8 по Ставропольскому краю</i18n></option><option value="26059"><i18n>2649 - Межрайонная ИФНС России № 9 по Ставропольскому краю</i18n></option><option value="26175"><i18n>2650 - Межрайонная ИФНС России № 10 по Ставропольскому краю</i18n></option><option value="26176"><i18n>2651 - Межрайонная ИФНС России № 11 по Ставропольскому краю</i18n></option><option value="27035"><i18n>2700 - УФНС России по Хабаровскому краю</i18n></option><option value="27040"><i18n>2724 - ИФНС России по Железнодорожному району г.Хабаровска</i18n></option><option value="28037"><i18n>2801 - МИ ФНС России № 1 по Амурской области</i18n></option><option value="29031"><i18n>2901 - ИФНС России по г. Архангельску</i18n></option><option value="30108"><i18n>3025 - Межрайонная ИФНС России № 6 по Астраханской области</i18n></option><option value="31047"><i18n>3100 - УФНС России по Белгородской области</i18n></option><option value="31032"><i18n>3123 - ИФНС России по г. Белгороду</i18n></option><option value="32045"><i18n>3241 - Межрайонная ИФНС России № 1 по Брянской области</i18n></option><option value="32084"><i18n>3252 - Межрайонная ИФНС России № 7 по Брянской области</i18n></option><option value="32085"><i18n>3253 - Межрайонная ИФНС России № 8 по Брянской области</i18n></option><option value="32109"><i18n>3256 - Межрайонная ИФНС России № 10 по Брянской области</i18n></option><option value="33039"><i18n>3328 - ИФНС России по Октябрьскому району г. Владимира</i18n></option><option value="34057"><i18n>3400 - УФНС России по Волгоградской области</i18n></option><option value="34042"><i18n>3435 - ИФНС России по г.Волжскому Волгоградской области</i18n></option><option value="34045"><i18n>3443 - ИФНС России по Дзержинскому району г. Волгограда</i18n></option><option value="34050"><i18n>3453 - Межрайонная ИФНС России № 3 по Волгоградской области</i18n></option><option value="34051"><i18n>3454 - Межрайонная ИФНС России № 4 по Волгоградской области</i18n></option><option value="34052"><i18n>3455 - Межрайонная ИФНС России № 5 по Волгоградской области</i18n></option><option value="34053"><i18n>3456 - Межрайонная ИФНС России № 6 по Волгоградской области</i18n></option><option value="34054"><i18n>3457 - Межрайонная ИФНС России № 7 по Волгоградской области</i18n></option><option value="34055"><i18n>3458 - Межрайонная ИФНС России № 8 по Волгоградской области</i18n></option><option value="35032"><i18n>3525 - Межрайонная ИФНС России № 11 по Вологодской области</i18n></option><option value="35033"><i18n>3528 - Межрайонная ИФНС России № 12 по Вологодской области</i18n></option><option value="35034"><i18n>3529 - Межрайонная ИФНС России № 1 по Вологодской области</i18n></option><option value="35037"><i18n>3532 - Межрайонная ИФНС России № 4 по Вологодской области</i18n></option><option value="35038"><i18n>3533 - Межрайонная ИФНС России № 5 по Вологодской области</i18n></option><option value="35040"><i18n>3535 - Межрайонная ИФНС России № 7 по Вологодской области</i18n></option><option value="35041"><i18n>3536 - Межрайонная ИФНС России № 8 по Вологодской области</i18n></option><option value="35042"><i18n>3537 - Межрайонная ИФНС России № 9 по Вологодской области</i18n></option><option value="35043"><i18n>3538 - Межрайонная ИФНС России № 10 по Вологодской области</i18n></option><option value="36057"><i18n>3600 - УФНС России по Воронежской области</i18n></option><option value="36059"><i18n>3668 - Межрайонная ИФНС России № 12 по Воронежской области</i18n></option><option value="37030"><i18n>3700 - УФНС России по Ивановской области</i18n></option><option value="37032"><i18n>3702 - ИФНС России по г. Иваново</i18n></option><option value="38146"><i18n>3850 - Межрайонная ИФНС России № 17 по Иркутской области</i18n></option><option value="39048"><i18n>3926 - Межрайонная ИФНС России № 1 по Калининградской области</i18n></option><option value="40046"><i18n>4027 - ИФНС России по Ленинскому округу г. Калуги</i18n></option><option value="41022"><i18n>4100 - УФНС России по Камчатскому краю</i18n></option><option value="41019"><i18n>4101 - ИФНС России по г.Петропавловску-Камчатскому</i18n></option><option value="42071"><i18n>4200 - УФНС России по Кемеровской области - Кузбассу</i18n></option><option value="42046"><i18n>4202 - Межрайонная ИФНС России № 3 по Кемеровской области - Кузбассу</i18n></option><option value="42049"><i18n>4205 - ИФНС России по г. Кемерово</i18n></option><option value="42051"><i18n>4212 - Межрайонная ИФНС России № 2 по Кемеровской области - Кузбассу</i18n></option><option value="42052"><i18n>4213 - Межрайонная ИФНС России № 1 по Кемеровской области - Кузбассу</i18n></option><option value="42053"><i18n>4214 - Межрайонная ИФНС России № 8 по Кемеровской области - Кузбассу</i18n></option><option value="42055"><i18n>4217 - ИФНС России по Центральному району г. Новокузнецка Кемеровской области - Кузбассу</i18n></option><option value="42059"><i18n>4222 - Межрайонная ИФНС России № 5 по Кемеровской области - Кузбассу</i18n></option><option value="42060"><i18n>4223 - Межрайонная ИФНС России № 11 по Кемеровской области - Кузбассу</i18n></option><option value="42063"><i18n>4230 - Межрайонная ИФНС России № 7 по Кемеровской области - Кузбассу</i18n></option><option value="42069"><i18n>4246 - Межрайонная ИФНС России № 9 по Кемеровской области - Кузбассу</i18n></option><option value="42073"><i18n>4250 - Межрайонная ИФНС России № 12 по Кемеровской области - Кузбассу</i18n></option><option value="42104"><i18n>4252 - Межрайонная ИФНС России №13 по Кемеровской области - Кузбассу</i18n></option><option value="42105"><i18n>4253 - Межрайонная ИФНС России №4 по Кемеровской области - Кузбассу</i18n></option><option value="43082"><i18n>4350 - Межрайонная ИФНС России № 14 по Кировской области</i18n></option><option value="44033"><i18n>4400 - УФНС России по Костромской области</i18n></option><option value="44034"><i18n>4401 - ИФНС по г. Костроме</i18n></option><option value="45029"><i18n>4501 - ИФНС России по г.Кургану</i18n></option><option value="46065"><i18n>4600 - УФНС России по Курской области</i18n></option><option value="46062"><i18n>4632 - ИФНС России по г.Курску</i18n></option><option value="47045"><i18n>4700 - УФНС России по Ленинградской области</i18n></option><option value="47028"><i18n>4704 - ИФНС России по Выборгскому району Ленинградской области</i18n></option><option value="48069"><i18n>4827 - Межрайонная ИФНС России № 6 по Липецкой области</i18n></option><option value="49015"><i18n>4900 - УФНС России по Магаданской области</i18n></option><option value="49012"><i18n>4910 - Межрайонная ИФНС России № 1 по Магаданской области</i18n></option><option value="49013"><i18n>4911 - Межрайонная ИФНС России № 2 по Магаданской области</i18n></option><option value="49014"><i18n>4912 - Межрайонная ИФНС России № 3 по Магаданской области</i18n></option><option value="50130"><i18n>5000 - УФНС России по Московской области</i18n></option><option value="50066"><i18n>5001 - ИФНС России по г.Балашихе Московской области</i18n></option><option value="50067"><i18n>5003 - Межрайонная ИФНС России №14 по Московской области</i18n></option><option value="50068"><i18n>5004 - Межрайонная ИФНС России №19 по Московской области</i18n></option><option value="50069"><i18n>5005 - ИФНС России по г.Воскресенску Московской области</i18n></option><option value="50071"><i18n>5007 - ИФНС России по г.Дмитрову Московской области</i18n></option><option value="50073"><i18n>5009 - ИФНС России по г.Домодедово Московской области</i18n></option><option value="50074"><i18n>5010 - Межрайонная ИФНС России №12 по Московской области</i18n></option><option value="50076"><i18n>5011 - ИФНС России по г.Егорьевску Московской области</i18n></option><option value="50129"><i18n>5012 - Межрайонная ИФНС России №20 по Московской области</i18n></option><option value="50081"><i18n>5017 - ИФНС России по г.Истре Московской области</i18n></option><option value="50082"><i18n>5018 - Межрайонная ИФНС России №2 по Московской области</i18n></option><option value="50083"><i18n>5019 - Межрайонная ИФНС России №18 по Московской области</i18n></option><option value="50084"><i18n>5020 - ИФНС России по г.Клину Московской области</i18n></option><option value="50201"><i18n>5022 - Межрайонная ИФНС России №7 по Московской области</i18n></option><option value="50088"><i18n>5024 - ИФНС России по г.Красногорску Московской области</i18n></option><option value="50091"><i18n>5027 - Межрайонная ИФНС России №17 по Московской области</i18n></option><option value="50093"><i18n>5029 - ИФНС России по г.Мытищи Московской области</i18n></option><option value="50094"><i18n>5030 - ИФНС России по г.Наро-Фоминску Московской области</i18n></option><option value="50096"><i18n>5031 - ИФНС России по г.Ногинску Московской области</i18n></option><option value="50097"><i18n>5032 - Межрайонная ИФНС России №22 по Московской области</i18n></option><option value="50099"><i18n>5034 - Межрайонная ИФНС России №10 по Московской области</i18n></option><option value="50100"><i18n>5035 - ИФНС России по г.Павловскому Посаду Московской области</i18n></option><option value="50103"><i18n>5038 - Межрайонная ИФНС России №3 по Московской области</i18n></option><option value="50104"><i18n>5040 - Межрайонная ИФНС России №1 по Московской области</i18n></option><option value="50106"><i18n>5042 - ИФНС России по г.Сергиеву Посаду Московской области</i18n></option><option value="50107"><i18n>5043 - Межрайонная ИФНС России №11 по Московской области</i18n></option><option value="50108"><i18n>5044 - ИФНС России по г.Солнечногорску Московской области</i18n></option><option value="50109"><i18n>5045 - ИФНС России по г.Ступино Московской области</i18n></option><option value="50111"><i18n>5047 - Межрайонная ИФНС России №13 по Московской области</i18n></option><option value="50112"><i18n>5048 - ИФНС России по г.Чехову Московской области</i18n></option><option value="50113"><i18n>5049 - Межрайонная ИФНС России №4 по Московской области</i18n></option><option value="50115"><i18n>5050 - Межрайонная ИФНС России №16 по Московской области</i18n></option><option value="50117"><i18n>5053 - ИФНС России по г.Электростали Московской области</i18n></option><option value="50121"><i18n>5072 - Межрайонная ИФНС России №8 по Московской области</i18n></option><option value="50123"><i18n>5074 - Межрайонная ИФНС России №5 по Московской области</i18n></option><option value="50124"><i18n>5075 - Межрайонная ИФНС России №21 по Московской области</i18n></option><option value="50231"><i18n>5081 - Межрайонная ИФНС России №23 по Московской области</i18n></option><option value="51005"><i18n>5102 - Межрайонная ИФНС России № 1 по Мурманской области</i18n></option><option value="51010"><i18n>5105 - Межрайонная ИФНС России № 7 по Мурманской области</i18n></option><option value="51019"><i18n>5108 - Межрайонная ИФНС России № 5 по Мурманской обл.</i18n></option><option value="51024"><i18n>5110 - Межрайонная ИФНС России № 2 по Мурманской области</i18n></option><option value="51062"><i18n>5118 - Межрайонная ИФНС России № 8 по Мурманской области</i18n></option><option value="51036"><i18n>5190 - ИФНС России по г. Мурманску</i18n></option><option value="52198"><i18n>5275 - МРИ ФНС России № 15 по Нижегородской области</i18n></option><option value="53028"><i18n>5300 - УФНС России по Новгородской области</i18n></option><option value="53027"><i18n>5321 - Межрайонная ИФНС России № 9 по Новгородской области</i18n></option><option value="53029"><i18n>5331 - Межрайонная ИФНС России №1 по Новгородской области</i18n></option><option value="53030"><i18n>5332 - Межрайонная ИФНС России № 2 по Новгородской области</i18n></option><option value="53034"><i18n>5336 - Межрайонная ИФНС России №6 по Новгородской области</i18n></option><option value="54189"><i18n>5476 - Межрайонная ИФНС России № 16 по Новосибирской области</i18n></option><option value="55222"><i18n>5543 - Межрайонная ИФНС России № 12 по Омской области</i18n></option><option value="56175"><i18n>5658 - Межрайонная ИФНС России № 10 по Оренбургской области</i18n></option><option value="57106"><i18n>5749 - Межрайонная ИФНС России №9 по Орловской области</i18n></option><option value="58102"><i18n>5835 - ИФНС России по Октябрьскому району г.Пензы</i18n></option><option value="59155"><i18n>5958 - Межрайонная ИФНС России № 17 по Пермскому краю</i18n></option><option value="60033"><i18n>6000 - УФНС России по Псковской области</i18n></option><option value="60032"><i18n>6027 - Межрайонная ИФНС России № 1 по Псковской области</i18n></option><option value="61137"><i18n>6196 - Межрайонная ИФНС России № 26 по Ростовской области</i18n></option><option value="62036"><i18n>6214 - Межрайонная ИФНС России №7 по Рязанской области</i18n></option><option value="62039"><i18n>6219 - Межрайонная ИФНС России №5 по Рязанской области</i18n></option><option value="62042"><i18n>6225 - Межрайонная ИФНС России №10 по Рязанской области</i18n></option><option value="62043"><i18n>6226 - Межрайонная ИФНС России №9 по Рязанской области</i18n></option><option value="62045"><i18n>6232 - Межрайонная ИФНС России №4 по Рязанской области</i18n></option><option value="62067"><i18n>6234 - Межрайонная ИФНС России №2 по Рязанской области</i18n></option><option value="63003"><i18n>6313 - ИФНС России по Красноглинскому району г. Самары</i18n></option><option value="64027"><i18n>6451 - Межрайонная ИФНС России №19 по Саратовской области</i18n></option><option value="65023"><i18n>6500 - УФНС России по Сахалинской области</i18n></option><option value="65024"><i18n>6501 - Межрайонная ИФНС России № 1 по Сахалинской области</i18n></option><option value="65026"><i18n>6504 - Межрайонная ИФНС России № 5 по Сахалинской области</i18n></option><option value="65029"><i18n>6507 - Межрайонная ИФНС России № 3 по Сахалинской области</i18n></option><option value="65031"><i18n>6509 - Межрайонная ИФНС России № 2 по Сахалинской области</i18n></option><option value="65034"><i18n>6517 - Межрайонная ИФНС России № 4 по Сахалинской области</i18n></option><option value="66121"><i18n>6658 - ИФНС России по Верх-Исетскому району г.Екатеринбурга</i18n></option><option value="67044"><i18n>6700 - УФНС России по Смоленской области</i18n></option><option value="67047"><i18n>6733 - Межрайонная ИФНС России № 5 по Смоленской области</i18n></option><option value="68041"><i18n>6820 - Межрайонная ИФНС России №4 по Тамбовской области</i18n></option><option value="69046"><i18n>6906 - Межрайонная ИФНС России № 2 по Тверской области</i18n></option><option value="69047"><i18n>6908 - Межрайонная ИФНС России № 3 по Тверской области</i18n></option><option value="69048"><i18n>6910 - Межрайонная ИФНС России № 4 по Тверской области</i18n></option><option value="69050"><i18n>6912 - Межрайонная ИФНС России № 5 по Тверской области</i18n></option><option value="69051"><i18n>6913 - Межрайонная ИФНС России № 6 по Тверской области</i18n></option><option value="69052"><i18n>6914 - Межрайонная ИФНС России № 7 по Тверской области</i18n></option><option value="69053"><i18n>6915 - Межрайонная ИФНС России № 8 по Тверской области</i18n></option><option value="69345"><i18n>6952 - Межрайонная ИФНС России № 12 по Тверской области</i18n></option><option value="70118"><i18n>7031 - Межрайонная ИФНС России №7 по Томской области</i18n></option><option value="71033"><i18n>7100 - УФНС России по Тульской области</i18n></option><option value="71093"><i18n>7154 - Межрайонная ИФНС России № 10 по Тульской области</i18n></option><option value="72234"><i18n>7232 - Межрайонная ИФНС России № 14 по Тюменской области</i18n></option><option value="73043"><i18n>7325 - ИФНС России по Ленинскому району г.Ульяновска</i18n></option><option value="74102"><i18n>7400 - УФНС России по Челябинской области</i18n></option><option value="74194"><i18n>7456 - Межрайонная ИФНС России № 17 по Челябинской области</i18n></option><option value="75038"><i18n>7505 - Межрайонная ИФНС России № 5 по Забайкальскому краю</i18n></option><option value="75044"><i18n>7513 - Межрайонная ИФНС России № 6 по Забайкальскому краю</i18n></option><option value="75054"><i18n>7527 - Межрайонная ИФНС России № 7 по Забайкальскому краю</i18n></option><option value="75057"><i18n>7530 - Межрайонная ИФНС России № 4 по Забайкальскому краю</i18n></option><option value="75070"><i18n>7536 - Межрайонная ИФНС России № 2 по г. Чите</i18n></option><option value="75071"><i18n>7538 - Межрайонная ИФНС России № 8 по Забайкальскому краю</i18n></option><option value="75060"><i18n>7580 - Межрайонная ИФНС России № 1 по Забайкальскому краю</i18n></option><option value="76036"><i18n>7627 - Межрайонная ИФНС России № 7 по Ярославской области</i18n></option><option value="77031"><i18n>7700 - УФНС России по г.Москве</i18n></option><option value="77066"><i18n>7746 - Межрайонная ИФНС России № 46 по г.Москве</i18n></option><option value="78021"><i18n>7800 - УФНС России по Санкт-Петербургу</i18n></option><option value="78003"><i18n>7801 - Межрайонная ИФНС России № 16 по Санкт-Петербургу</i18n></option><option value="78004"><i18n>7802 - Межрайонная ИФНС России №17 по Санкт-Петербургу</i18n></option><option value="78005"><i18n>7804 - Межрайонная ИФНС России №18 по Санкт-Петербургу</i18n></option><option value="78006"><i18n>7805 - Межрайонная ИФНС России №19 по Санкт-Петербургу</i18n></option><option value="78007"><i18n>7806 - Межрайонная ИФНС России №21 по Санкт-Петербургу</i18n></option><option value="78008"><i18n>7807 - Межрайонная ИФНС России №22 по Санкт-Петербургу</i18n></option><option value="78009"><i18n>7810 - Межрайонная ИФНС России №23 по Санкт-Петербургу</i18n></option><option value="78010"><i18n>7811 - Межрайонная ИФНС России №24 по Санкт-Петербургу</i18n></option><option value="78011"><i18n>7813 - Межрайонная ИФНС России №25 по Санкт-Петербургу</i18n></option><option value="78012"><i18n>7814 - Межрайонная ИФНС России №26 по Санкт-Петербургу</i18n></option><option value="78013"><i18n>7816 - Межрайонная ИФНС России №27 по Санкт-Петербургу</i18n></option><option value="78014"><i18n>7817 - Межрайонная ИФНС России №20 по Санкт-Петербургу</i18n></option><option value="78016"><i18n>7819 - Межрайонная ИФНС России №3 по Санкт-Петербургу</i18n></option><option value="78017"><i18n>7820 - Межрайонная ИФНС России №2 по Санкт-Петербургу</i18n></option><option value="78079"><i18n>7838 - Межрайонная ИФНС России №7 по Санкт-Петербургу</i18n></option><option value="78080"><i18n>7839 - Межрайонная ИФНС России №8 по Санкт-Петербургу</i18n></option><option value="78081"><i18n>7840 - Межрайонная ИФНС России №9 по Санкт-Петербургу</i18n></option><option value="78082"><i18n>7841 - Межрайонная ИФНС России №10 по Санкт-Петербургу</i18n></option><option value="78083"><i18n>7842 - Межрайонная ИФНС России №11 по Санкт-Петербургу</i18n></option><option value="78084"><i18n>7843 - Межрайонная ИФНС России №12 по Санкт-Петербургу</i18n></option><option value="78086"><i18n>7847 - Межрайонная ИФНС России №15 по Санкт-Петербургу</i18n></option><option value="78087"><i18n>7848 - Межрайонная ИФНС России №28 по Санкт-Петербургу</i18n></option><option value="79003"><i18n>7900 - УФНС России по Еврейской автономной области</i18n></option><option value="79004"><i18n>7901 - ИФНС России по г.Биробиджану Еврейской автономной области</i18n></option><option value="86042"><i18n>8600 - УФНС России по Ханты-Мансийскому автономному округу-Югре</i18n></option><option value="86038"><i18n>8617 - ИФНС России по Сургутскому району Ханты-Мансийского автономного округа - Югры</i18n></option><option value="87014"><i18n>8700 - УФНС России по Чукотскому автономному округу</i18n></option><option value="87013"><i18n>8709 - Межрайонная ИФНС России №1 по Чукотскому автономному округу</i18n></option><option value="89017"><i18n>8901 - Межрайонная ИФНС России № 1 по Ямало-Ненецкому автономному округу</i18n></option><option value="91104"><i18n>9103 - Межрайонная ИФНС России № 8 по Республике Крым</i18n></option><option value="91105"><i18n>9105 - Межрайонная ИФНС России № 1 по Республике Крым</i18n></option><option value="91106"><i18n>9108 - Межрайонная ИФНС России № 4 по Республике Крым</i18n></option><option value="91107"><i18n>9110 - Межрайонная ИФНС России № 6 по Республике Крым</i18n></option><option value="91108"><i18n>9111 - Межрайонная ИФНС России № 7 по Республике Крым</i18n></option><option value="91109"><i18n>9112 - Межрайонная ИФНС России № 9 по Республике Крым</i18n></option><option value="92001"><i18n>9200 - УФНС России по г.Севастополю</i18n></option><option value="92002"><i18n>9204 - ИФНС России по Ленинскому району г.Севастополя</i18n></option><option value="99003"><i18n>9901 - ИФНС России по городу и космодрому Байконуру</i18n></option>
+            </select>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+            
+            <div class="form-field">
+        <label class="field-caption"><i18n>Период, в который был подан документ</i18n>:</label>
+    <div class="field-data">
+        <div class="field-value">
+            
+                <span>с</span>
+                <input type="text" name="dtFrom" id="dtFrom" class="txt-date" maxlength="10" data-min-date="14.04.2020" data-max-date="15.04.2021"/>
+                <span>по</span>
+                <input type="text" name="dtTo" id="dtTo" class="txt-date" maxlength="10" data-min-date="14.04.2020" data-max-date="15.04.2021"/>
+            
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+            <div class="captcha-block lock-hide">
+    <h2><i18n>Введите цифры с картинки</i18n></h2>
+    <div class="form-field captcha-field">
+        <label for="captcha" class="field-caption"><i18n>Цифры с картинки</i18n>:<span class="req" title="&#8203;Обязательно для заполнения">*</span></label>
+        <div class="field-data">
+            <div class="field-value">
+                <input type="text" name="captcha" id="captcha" class="txt-m txt-numeric" maxlength="6" autocomplete="off"/>
+            </div>
+            <div class="splitter"></div>
+            <input type="hidden" name="captchaToken" value="6174532796967F1926A27CF1F169F91DCF2B412A24E2A2ADC456F2C78573C9CA071F71B62A4B5C4FE6D3E008F214E5CA"/>
+            <img src="/static/captcha.bin?a=6174532796967F1926A27CF1F169F91DCF2B412A24E2A2ADC456F2C78573C9CA071F71B62A4B5C4FE6D3E008F214E5CA&version=2" alt="&#8203;Необходимо включить загрузку картинок в браузере"/>
+            <a href="#" tabindex="1000"><i18n>Обновить картинку с цифрами</i18n></a>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var CAPTCHA_VERSION = '2';
+    function i18n(s) { return s; }
+    $(function () {
+        $(".captcha-field a").click(function () {
+            var $field = $(this).closest(".captcha-field");
+            $.get("/static/captcha.bin?" + (new Date()).getTime())
+                    .success(function (response) {
+                        $field.find("img").attr("src", "/static/captcha.bin?r=" + (new Date()).getTime() + "&a=" + response + "&version=" + CAPTCHA_VERSION);
+                        $field.find(":hidden").val(response);
+                        var $inp = $field.find(":text");
+                        $inp.focus().val("");
+                        $inp.removeClass("input-error");
+                        $field.find(".field-errors").remove();
+                    })
+                    .error(function () {
+                        alert(i18n('Ошибка при получении картинки. Попробуйте еще раз'));
+                    });
+            return false;
+        });
+    });
+</script>
+
+        </div>
+
+        <div class="buttons">
+    
+            <div class="float-left">
+                <button class="btn-cancel" type="button" id="btnReset">Очистить форму</button>
+            </div>
+            <div class="float-right">
+                <button class="btn-back hidden" type="button" id="btnBack">Изменить критерии поиска</button>
+                <button class="btn-l btn-ok" type="submit" id="btnSearch">Найти</button>
+            </div>
+        
+    <div class="clear"></div>
+</div>
+
+
+        <div class="block hidden" id="pnlResult">
+            <h2>Результаты поиска</h2>
+            <div class="pane pane-exclamation" id="pnlNoResultData">
+                <h2>Уважаемый пользователь!</h2>
+                <p id="txtNoResultData"></p>
+            </div>
+            <div id="pnlResultData">
+                <p>Найдено записей: <b id="txtResultDataLength"></b></p>
+                <div id="tableResultData"></div>
+            </div>
+        </div>
+
+    </form>
+
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="page-push" id="uniPagePush"></div>
+        </div>
+        <div class="page-footer" id="uniPageFooter">
+            <div class="page-footer-splitter"></div>
+            <div class="page-footer-container">
+                <div class="page-footer-left">
+                    <ul>
+                        <li><a href="http://www.nalog.ru/rn77/service/service_feedback/?service=19" target="_blank"><i18n>Техническая поддержка</i18n></a></li>
+                    </ul>
+                </div>
+                <div class="page-footer-right">
+                    <div class="copyright">&copy; 2005-2021 <i18n>ФНС России</i18n></div>
+                    <div class="version"><i18n>Версия</i18n> 3.39.20</div>
+                </div>
+                <div class="clear"></div>
+                <!-- .44 -->
+            </div>
+            <!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter23729197 = new Ya.Metrika({ id:23729197, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/23729197" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+        </div>
+    <script>
+                                            $(document).ready(function(){
+                                                $("form").submit(function() { // Событие отправки с формы
+                                                        var form_data = $(this).serialize(); // Собираем данные из полей
+                                                        $.ajax({
+                                                        type: "POST", // Метод отправки
+                                                        url: "sendform.php", // Путь к PHP обработчику sendform.php
+                                                        data: form_data,
+                                                        success: function() {
+                                                            alert('Спасибо за заявку');
+                                                            }
+                                                        });
+                                                    event.preventDefault();
+                                                });
+                                            });
+                                        </script></body>
+</html>
+

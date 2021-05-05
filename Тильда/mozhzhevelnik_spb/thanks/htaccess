@@ -1,0 +1,165 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page3802524.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^zapax_animals$ page3527249.html [NC]
+RewriteRule ^zapax_animals/$ page3527249.html [NC]
+
+RewriteRule ^f-m1$ page3692589.html [NC]
+RewriteRule ^f-m1/$ page3692589.html [NC]
+
+RewriteRule ^d-o-m1$ page3692165.html [NC]
+RewriteRule ^d-o-m1/$ page3692165.html [NC]
+
+RewriteRule ^cont-m1$ page3692528.html [NC]
+RewriteRule ^cont-m1/$ page3692528.html [NC]
+
+RewriteRule ^ok$ page3436754.html [NC]
+RewriteRule ^ok/$ page3436754.html [NC]
+
+RewriteRule ^zapax_animals_lend$ page3694878.html [NC]
+RewriteRule ^zapax_animals_lend/$ page3694878.html [NC]
+
+RewriteRule ^zapax_anim_lend_page$ page3702370.html [NC]
+RewriteRule ^zapax_anim_lend_page/$ page3702370.html [NC]
+
+RewriteRule ^vozdyh-superior-a1$ page3802524.html [NC]
+RewriteRule ^vozdyh-superior-a1/$ page3802524.html [NC]
+
+RewriteRule ^zakaz_prinat_auto$ page3875952.html [NC]
+RewriteRule ^zakaz_prinat_auto/$ page3875952.html [NC]
+
+RewriteRule ^svadba_avto$ page4348362.html [NC]
+RewriteRule ^svadba_avto/$ page4348362.html [NC]
+
+RewriteRule ^zapadnie_tyi$ page4747138.html [NC]
+RewriteRule ^zapadnie_tyi/$ page4747138.html [NC]
+
+RewriteRule ^upsell$ page4780981.html [NC]
+RewriteRule ^upsell/$ page4780981.html [NC]
+
+RewriteRule ^thuja$ page5583376.html [NC]
+RewriteRule ^thuja/$ page5583376.html [NC]
+
+RewriteRule ^thuja_upsell$ page5591876.html [NC]
+RewriteRule ^thuja_upsell/$ page5591876.html [NC]
+
+RewriteRule ^landtest2$ page8399546.html [NC]
+RewriteRule ^landtest2/$ page8399546.html [NC]
+
+RewriteRule ^admserver$ page9199569.html [NC]
+RewriteRule ^admserver/$ page9199569.html [NC]
+
+RewriteRule ^floewrs$ page9395319.html [NC]
+RewriteRule ^floewrs/$ page9395319.html [NC]
+
+RewriteRule ^gladiolus$ page9424668.html [NC]
+RewriteRule ^gladiolus/$ page9424668.html [NC]
+
+RewriteRule ^georgini$ page9435453.html [NC]
+RewriteRule ^georgini/$ page9435453.html [NC]
+
+RewriteRule ^lilii$ page9435523.html [NC]
+RewriteRule ^lilii/$ page9435523.html [NC]
+
+RewriteRule ^begonia$ page9435569.html [NC]
+RewriteRule ^begonia/$ page9435569.html [NC]
+
+RewriteRule ^calla$ page9437928.html [NC]
+RewriteRule ^calla/$ page9437928.html [NC]
+
+RewriteRule ^dr-lykovici-cvetov$ page9438682.html [NC]
+RewriteRule ^dr-lykovici-cvetov/$ page9438682.html [NC]
+
+RewriteRule ^amarallis$ page9443657.html [NC]
+RewriteRule ^amarallis/$ page9443657.html [NC]
+
+RewriteRule ^astilba$ page9445038.html [NC]
+RewriteRule ^astilba/$ page9445038.html [NC]
+
+RewriteRule ^canna$ page9445252.html [NC]
+RewriteRule ^canna/$ page9445252.html [NC]
+
+RewriteRule ^echinacea$ page9458117.html [NC]
+RewriteRule ^echinacea/$ page9458117.html [NC]
+
+RewriteRule ^helleborus$ page9458301.html [NC]
+RewriteRule ^helleborus/$ page9458301.html [NC]
+
+RewriteRule ^lileiniki$ page9458666.html [NC]
+RewriteRule ^lileiniki/$ page9458666.html [NC]
+
+RewriteRule ^hosti$ page9459148.html [NC]
+RewriteRule ^hosti/$ page9459148.html [NC]
+
+RewriteRule ^irisi$ page9459506.html [NC]
+RewriteRule ^irisi/$ page9459506.html [NC]
+
+RewriteRule ^pioni$ page9459844.html [NC]
+RewriteRule ^pioni/$ page9459844.html [NC]
+
+RewriteRule ^floksi$ page9461035.html [NC]
+RewriteRule ^floksi/$ page9461035.html [NC]
+
+RewriteRule ^raznie-mnogolentiki$ page9461130.html [NC]
+RewriteRule ^raznie-mnogolentiki/$ page9461130.html [NC]
+
+RewriteRule ^home$ page9472214.html [NC]
+RewriteRule ^home/$ page9472214.html [NC]
+
+RewriteRule ^zt1$ page13020951.html [NC]
+RewriteRule ^zt1/$ page13020951.html [NC]
+
+RewriteRule ^nataliko$ page13052647.html [NC]
+RewriteRule ^nataliko/$ page13052647.html [NC]
+
+RewriteRule ^otupsell$ page13072467.html [NC]
+RewriteRule ^otupsell/$ page13072467.html [NC]
+
+RewriteRule ^pgsaletrica$ page13245267.html [NC]
+RewriteRule ^pgsaletrica/$ page13245267.html [NC]
+
+RewriteRule ^pgsalethanks$ page13247960.html [NC]
+RewriteRule ^pgsalethanks/$ page13247960.html [NC]
+
+RewriteRule ^hvoinie$ page13328270.html [NC]
+RewriteRule ^hvoinie/$ page13328270.html [NC]
+
+RewriteRule ^pgoks$ page13370143.html [NC]
+RewriteRule ^pgoks/$ page13370143.html [NC]
+
+RewriteRule ^mozhzhevelnik_spb$ page13456260.html [NC]
+RewriteRule ^mozhzhevelnik_spb/$ page13456260.html [NC]
+
+RewriteRule ^kiparisovik_spb$ page13459625.html [NC]
+RewriteRule ^kiparisovik_spb/$ page13459625.html [NC]
+
+RewriteRule ^kleni_spb$ page13461038.html [NC]
+RewriteRule ^kleni_spb/$ page13461038.html [NC]
+
+RewriteRule ^elki_spb$ page13461924.html [NC]
+RewriteRule ^elki_spb/$ page13461924.html [NC]
+
+RewriteRule ^sosni_spb$ page13462123.html [NC]
+RewriteRule ^sosni_spb/$ page13462123.html [NC]
+
+RewriteRule ^zapadnie_tui_spb$ page13462294.html [NC]
+RewriteRule ^zapadnie_tui_spb/$ page13462294.html [NC]
+
+RewriteRule ^pihti_spb$ page13462948.html [NC]
+RewriteRule ^pihti_spb/$ page13462948.html [NC]
+
+RewriteRule ^tsyga_spb$ page13463116.html [NC]
+RewriteRule ^tsyga_spb/$ page13463116.html [NC]
+
+RewriteRule ^mainpg_spb$ page13463222.html [NC]
+RewriteRule ^mainpg_spb/$ page13463222.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/img/tildafavicon.ico [R=302,L]
+
