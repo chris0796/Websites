@@ -1,0 +1,75 @@
+/* ТАБЛИЦЫ */
+/* сделать каждую вторую строчку серой, применять на tbody */
+.e_page .gray2n tr:nth-child(2n) {
+	background-color: rgb(247, 247, 247);
+}
+
+/* прижать содержимое ячейки к левому краю */
+.e_page table td.align-left {
+	text-align: left !important;
+}
+
+/* АКАРДЕОН */
+/* если нет текста после списка, то выравнивает отступ снизу */
+.e_page .acardion_margin_bottom {
+	margin-bottom: 16px;
+}
+
+/* ШАПКИ */
+.e_page .margintop-edit  {
+	margin-top: 20px !important;
+}
+
+/* Заголовки и текст */
+.e_page .nomargintop {
+	margin-top: 8px !important;
+}
+.e_page .p-limit-letter {
+	max-width: 60em !important;
+}
+
+
+/*Блок для двух колонок*/
+@media (min-width: 992px) {
+	.container-for-two .item {
+	    width: calc(50% - 12px);
+	    background: #F7F7F7;
+	    margin-bottom: 24px;
+	}
+	.container-for-two .item:nth-child(2n+1) {
+	    margin-right: 24px;
+	}
+	.container-for-two .content{
+		padding: 40px;
+		display: flex;
+		color: #545454;
+	}
+	.container-for-two .content p {
+		padding-left: 32px;
+		margin: 0px;
+	}
+	.container-for-two .content img {
+	    width: 72px;
+	    max-width: 72px;
+	}	
+}
+@media (max-width: 991px) {
+	.container-for-two .item {
+		width: 100%;
+	    background: #F7F7F7;
+	    margin-bottom: 24px;	    
+	}
+	.container-for-two .content{
+		padding: 40px;
+		display: flex;
+		color: #545454;
+	}
+	.container-for-two .content p {
+		padding-left: 32px;
+		margin: 0px;
+	}
+	.container-for-two .content img {
+	    width: 56px;
+	    max-width: 56px;
+	}	
+}

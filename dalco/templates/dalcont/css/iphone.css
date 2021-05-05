@@ -1,0 +1,6 @@
+﻿@media only screen and (max-device-width:480px) {
+body {
+color: #000; /* для Chrome и Safari */
+}
+
+}

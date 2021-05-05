@@ -1,0 +1,9 @@
+.e_page a.shematitle {
+    text-decoration: none!important;
+    text-align: left!important;
+    color: #0F0F0F!important;
+}
+.cloudsScheme .items .cloudsScheme-tabs .tab{
+	text-align: center;
+    height: auto;
+}

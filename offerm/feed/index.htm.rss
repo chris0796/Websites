@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Огород Ф1</title>
+	<atom:link href="http://ogfermer.by/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ogfermer.by</link>
+	<description>Мы знаем о цветах все!</description>
+	<lastBuildDate>Wed, 07 Aug 2019 22:23:51 +0000</lastBuildDate>
+	<language>ru-RU</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.5</generator>
+
+<image>
+	<url>http://ogfermer.by/wp-content/uploads/2019/08/cropped-TextmateIcon-32x32.png</url>
+	<title>Огород Ф1</title>
+	<link>http://ogfermer.by</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Как выращивать цветы</title>
+		<link>http://ogfermer.by/kak-vyrashhivat-czvety/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kak-vyrashhivat-czvety</link>
+					<comments>http://ogfermer.by/kak-vyrashhivat-czvety/#respond</comments>
+		
+		<dc:creator><![CDATA[Nata]]></dc:creator>
+		<pubDate>Thu, 08 Aug 2019 00:25:00 +0000</pubDate>
+				<category><![CDATA[Советы]]></category>
+		<guid isPermaLink="false">http://m29169s4.beget.tech/?p=228</guid>
+
+					<description><![CDATA[<p>Сообщение <a rel="nofollow" href="http://ogfermer.by/kak-vyrashhivat-czvety/">Как выращивать цветы</a> появились сначала на <a rel="nofollow" href="http://ogfermer.by">Огород Ф1</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Сообщение <a rel="nofollow" href="http://ogfermer.by/kak-vyrashhivat-czvety/">Как выращивать цветы</a> появились сначала на <a rel="nofollow" href="http://ogfermer.by">Огород Ф1</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>http://ogfermer.by/kak-vyrashhivat-czvety/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

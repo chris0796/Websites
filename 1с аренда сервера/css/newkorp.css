@@ -1,0 +1,53 @@
+.tab:hover {
+    color: #000000;
+    cursor: pointer;
+}
+.tab.active a {
+    display: block;
+}
+.tab_content {
+    display: none;
+}
+.tab_content.active {
+    display: block;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #ffd205;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background: none repeat scroll 0 0 #fddc4a !important;
+}
+.panel-group .panel {
+    border-radius: 0 !important;
+}
+.panel {
+    border-radius: 0 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) !important;
+}
+#wrapper table td {
+    border: 0 none !important;
+    padding: 0 !important;
+}
+.dotted {
+    text-decoration: none !important;
+}
+div.media:hover {
+    background-color: #eeeeee;
+}
+.media, .media .media {
+    margin-top: 5px !important;
+}
+.open span.icon {
+   background:url(/upload/medialibrary/e29/glyphicons_224_chevron-down.png) no-repeat;
+display:block;
+width:15px;
+height:15px;
+background-size:15px 15px;
+}
+.icon {
+background:url(/upload/medialibrary/4aa/glyphicons_224_chevron-left.png) no-repeat;
+display:none!important;
+width:15px;
+height:15px;
+background-size:15px 15px;
+}

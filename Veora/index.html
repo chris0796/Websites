@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Veora</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/main.min.css?v=1">
+	<meta name="yandex-verification" content="03dc7425ea318fbe" />
+	<link rel="stylesheet" href="https://kassa.yandex.ru/integration/simplepay/css/kassa_construct_form.css">
+</head>
+
+<body>
+    <div class="header__mobile show-sm">
+        <div class="header__mobile-top flb-csb">
+            <a href="/" class="header__logo"><img src="img/logo.svg" width="150" height="61" alt="veora"></a>
+            <button class="header__mobile-burger flb-cc">
+                <img src="img/icon/close_menu.svg" class="close" alt="close">
+                <img src="img/icon/burger_menu.svg" alt="burger" class="burger">
+            </button>
+        </div>
+        <nav class="header__nav flb-cc">
+            <a href="#expert">Мнение специалистов</a>
+            <a href="#company">История компании</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contacts">Стать представителем</a>
+            <a href="#product">Заказать</a>
+            <div class="header__soc flb-ss">
+                <a href="" target="_blank">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.355 13.571V20.6437H11.4287V13.5713H9.96665V11.134H11.4287V9.67068C11.4287 7.68235 12.2542 6.5 14.5996 6.5H16.5523V8.93756H15.3317C14.4187 8.93756 14.3583 9.27818 14.3583 9.91386L14.355 11.1337H16.5661L16.3074 13.571H14.355Z" fill="#C2C2C2" />
+                    </svg>
+                </a>
+                <a href="" target="_blank">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM10.1418 6.10855C10.8814 6.07489 11.1177 6.06666 13.0007 6.06666H12.9985C14.8821 6.06666 15.1175 6.07489 15.8571 6.10855C16.5952 6.14235 17.0993 6.25921 17.5413 6.43067C17.9978 6.60761 18.3835 6.8445 18.7691 7.23017C19.1548 7.61556 19.3917 8.00238 19.5694 8.4584C19.7398 8.89925 19.8568 9.40307 19.8915 10.1412C19.9247 10.8808 19.9334 11.1171 19.9334 13.0001C19.9334 14.8831 19.9247 15.1188 19.8915 15.8584C19.8568 16.5962 19.7398 17.1002 19.5694 17.5412C19.3917 17.997 19.1548 18.3839 18.7691 18.7692C18.3839 19.1549 17.9976 19.3924 17.5418 19.5695C17.1006 19.7409 16.5962 19.8578 15.8581 19.8916C15.1185 19.9252 14.8829 19.9335 12.9998 19.9335C11.117 19.9335 10.8808 19.9252 10.1412 19.8916C9.40325 19.8578 8.89927 19.7409 8.45814 19.5695C8.00241 19.3924 7.61558 19.1549 7.23035 18.7692C6.84482 18.3839 6.60793 17.997 6.43069 17.541C6.25938 17.1002 6.14252 16.5963 6.10858 15.8582C6.07507 15.1187 6.06669 14.8831 6.06669 13.0001C6.06669 11.1171 6.07536 10.8806 6.10843 10.141C6.14166 9.40322 6.25866 8.89925 6.43055 8.45825C6.60822 8.00238 6.84511 7.61556 7.23078 7.23017C7.61616 6.84465 8.00299 6.60776 8.459 6.43067C8.89985 6.25921 9.40368 6.14235 10.1418 6.10855Z" fill="#C2C2C2" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3784 7.31619C12.4991 7.316 12.6291 7.31606 12.7693 7.31612L13.0004 7.31619C14.8516 7.31619 15.071 7.32283 15.802 7.35605C16.478 7.38697 16.8449 7.49992 17.0893 7.59482C17.4129 7.72049 17.6436 7.87071 17.8861 8.11338C18.1288 8.35605 18.279 8.58717 18.4049 8.91073C18.4998 9.15484 18.6129 9.52173 18.6437 10.1977C18.6769 10.9286 18.6842 11.1482 18.6842 12.9985C18.6842 14.8489 18.6769 15.0685 18.6437 15.7994C18.6128 16.4754 18.4998 16.8423 18.4049 17.0864C18.2793 17.4099 18.1288 17.6403 17.8861 17.8828C17.6434 18.1255 17.413 18.2757 17.0893 18.4014C16.8452 18.4967 16.478 18.6094 15.802 18.6403C15.0711 18.6735 14.8516 18.6808 13.0004 18.6808C11.149 18.6808 10.9296 18.6735 10.1987 18.6403C9.52267 18.6091 9.15578 18.4962 8.91123 18.4013C8.58767 18.2756 8.35656 18.1254 8.11389 17.8827C7.87122 17.64 7.721 17.4095 7.59504 17.0858C7.50014 16.8417 7.38704 16.4748 7.35627 15.7988C7.32305 15.0679 7.31641 14.8483 7.31641 12.9968C7.31641 11.1453 7.32305 10.9269 7.35627 10.196C7.38718 9.52 7.50014 9.15311 7.59504 8.9087C7.72071 8.58514 7.87122 8.35403 8.11389 8.11136C8.35656 7.86869 8.58767 7.71847 8.91123 7.59251C9.15564 7.49718 9.52267 7.38451 10.1987 7.35345C10.8383 7.32456 11.0862 7.3159 12.3784 7.31445V7.31619ZM16.7013 8.46742C16.242 8.46742 15.8693 8.83966 15.8693 9.29914C15.8693 9.75848 16.242 10.1311 16.7013 10.1311C17.1607 10.1311 17.5334 9.75848 17.5334 9.29914C17.5334 8.8398 17.1607 8.46713 16.7013 8.46713V8.46742ZM9.43976 13.0001C9.43976 11.0338 11.0339 9.43962 13.0002 9.43954C14.9666 9.43954 16.5604 11.0338 16.5604 13.0001C16.5604 14.9665 14.9667 16.56 13.0004 16.56C11.034 16.56 9.43976 14.9665 9.43976 13.0001Z" fill="#C2C2C2" />
+                        <path d="M13.0006 10.689C14.2769 10.689 15.3117 11.7236 15.3117 13.0001C15.3117 14.2764 14.2769 15.3112 13.0006 15.3112C11.7241 15.3112 10.6895 14.2764 10.6895 13.0001C10.6895 11.7236 11.7241 10.689 13.0006 10.689Z" fill="#C2C2C2" />
+                    </svg>
+                </a>
+                <a href="" target="_blank">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13C0 5.8203 5.8203 0 13 0C20.1797 0 26 5.8203 26 13C26 20.1797 20.1797 26 13 26C5.8203 26 0 20.1797 0 13ZM12.9912 13.2087C14.9082 13.2087 16.4665 11.7043 16.4665 9.85486C16.4665 8.00481 14.9082 6.5 12.9912 6.5C11.0746 6.5 9.51589 8.00481 9.51589 9.85486C9.51589 11.7043 11.0746 13.2087 12.9912 13.2087ZM16.4242 15.1401C15.7958 15.5211 15.1135 15.7913 14.4061 15.9468L16.3489 17.8224C16.7469 18.2058 16.7469 18.8284 16.3489 19.2122C15.9513 19.5959 15.3069 19.5959 14.9098 19.2122L12.9996 17.3691L11.0912 19.2122C10.8922 19.4039 10.6314 19.4998 10.3706 19.4998C10.1103 19.4998 9.84996 19.4039 9.65096 19.2122C9.25338 18.8284 9.25338 18.2062 9.65055 17.8224L11.5935 15.9468C10.8861 15.7913 10.2039 15.5207 9.57548 15.1401C9.09992 14.8507 8.95707 14.2443 9.25671 13.7849C9.55552 13.3248 10.1839 13.1863 10.6603 13.4758C12.083 14.3397 13.9158 14.3399 15.3394 13.4758C15.8157 13.1863 16.4439 13.3248 16.7434 13.7849C17.043 14.2439 16.8997 14.8507 16.4242 15.1401Z" fill="#C2C2C2" />
+                        <path d="M12.9917 8.46606C13.7852 8.46606 14.4306 9.0889 14.4306 9.85486C14.4306 10.6202 13.7852 11.2434 12.9917 11.2434C12.1988 11.2434 11.5527 10.6202 11.5527 9.85486C11.5527 9.0889 12.1988 8.46606 12.9917 8.46606Z" fill="#C2C2C2" />
+                    </svg>
+                </a>
+                <a href="" target="_blank">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.0585 17.1038C13.9303 17.2389 13.6801 17.2662 13.6801 17.2662H12.8513C12.8513 17.2662 11.0228 17.3741 9.41203 15.7284C7.65544 13.9329 6.10436 10.3705 6.10436 10.3705C6.10436 10.3705 6.01483 10.1368 6.11182 10.0243C6.22101 9.89716 6.51875 9.88917 6.51875 9.88917L8.49983 9.87652C8.49983 9.87652 8.68634 9.90648 8.81995 10.003C8.9305 10.0829 8.99221 10.2314 8.99221 10.2314C8.99221 10.2314 9.31233 11.0262 9.73622 11.7452C10.5643 13.1493 10.9496 13.4562 11.2303 13.3057C11.64 13.0867 11.5172 11.3212 11.5172 11.3212C11.5172 11.3212 11.5247 10.6807 11.311 10.3951C11.1456 10.1741 10.8336 10.1095 10.6959 10.0916C10.584 10.0769 10.7671 9.8226 11.0045 9.70875C11.3612 9.53766 11.9906 9.52767 12.7346 9.535C13.3145 9.54099 13.4813 9.57627 13.7079 9.6302C14.2336 9.75473 14.2172 10.1538 14.1818 11.0152C14.1712 11.2728 14.1589 11.5717 14.1589 11.917C14.1589 11.9946 14.1566 12.0773 14.1542 12.1624C14.1419 12.6037 14.1278 13.109 14.4241 13.2971C14.576 13.3929 14.947 13.3111 15.8755 11.7639C16.3156 11.0302 16.6452 10.1681 16.6452 10.1681C16.6452 10.1681 16.7178 10.0143 16.8297 9.94842C16.9443 9.88118 17.099 9.90182 17.099 9.90182L19.1838 9.88917C19.1838 9.88917 19.8105 9.81527 19.9115 10.0936C20.018 10.3845 19.6776 11.0649 18.8257 12.1793C18.0177 13.2367 17.6244 13.6261 17.6605 13.9704C17.6869 14.222 17.9425 14.4496 18.433 14.8962C19.457 15.8294 19.7315 16.3204 19.7974 16.4383C19.8029 16.4481 19.8069 16.4553 19.8098 16.46C20.269 17.2076 19.3005 17.2662 19.3005 17.2662L17.4483 17.2915C17.4483 17.2915 17.0508 17.3687 16.5272 17.0159C16.253 16.8312 15.9849 16.5296 15.7297 16.2423C15.3398 15.8036 14.9797 15.3983 14.6723 15.494C14.1562 15.6551 14.1718 16.7463 14.1718 16.7463C14.1718 16.7463 14.1758 16.9799 14.0585 17.1038Z" fill="#C2C2C2" />
+                    </svg>
+                </a>
+            </div>
+            <div class="header__contacts right">
+                <a href="+78002008809" class="phone">8 800 200 88 09</a>
+                <div class="small">Получить консультацию</div>
+            </div>
+        </nav>
+    </div>
+    <style> 
+    	.ym-payment-btn-block:before{
+    		display:none;
+    	}
+        .ym-product:after{
+            display:none;
+        }
+        
+    </style>
+    <header class="header container flb-csb hide-sm">
+        <div class="header__soc flb-ss">
+            <a href="" target="_blank">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.355 13.571V20.6437H11.4287V13.5713H9.96665V11.134H11.4287V9.67068C11.4287 7.68235 12.2542 6.5 14.5996 6.5H16.5523V8.93756H15.3317C14.4187 8.93756 14.3583 9.27818 14.3583 9.91386L14.355 11.1337H16.5661L16.3074 13.571H14.355Z" fill="#C2C2C2" />
+                </svg>
+            </a>
+            <a href="" target="_blank">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM10.1418 6.10855C10.8814 6.07489 11.1177 6.06666 13.0007 6.06666H12.9985C14.8821 6.06666 15.1175 6.07489 15.8571 6.10855C16.5952 6.14235 17.0993 6.25921 17.5413 6.43067C17.9978 6.60761 18.3835 6.8445 18.7691 7.23017C19.1548 7.61556 19.3917 8.00238 19.5694 8.4584C19.7398 8.89925 19.8568 9.40307 19.8915 10.1412C19.9247 10.8808 19.9334 11.1171 19.9334 13.0001C19.9334 14.8831 19.9247 15.1188 19.8915 15.8584C19.8568 16.5962 19.7398 17.1002 19.5694 17.5412C19.3917 17.997 19.1548 18.3839 18.7691 18.7692C18.3839 19.1549 17.9976 19.3924 17.5418 19.5695C17.1006 19.7409 16.5962 19.8578 15.8581 19.8916C15.1185 19.9252 14.8829 19.9335 12.9998 19.9335C11.117 19.9335 10.8808 19.9252 10.1412 19.8916C9.40325 19.8578 8.89927 19.7409 8.45814 19.5695C8.00241 19.3924 7.61558 19.1549 7.23035 18.7692C6.84482 18.3839 6.60793 17.997 6.43069 17.541C6.25938 17.1002 6.14252 16.5963 6.10858 15.8582C6.07507 15.1187 6.06669 14.8831 6.06669 13.0001C6.06669 11.1171 6.07536 10.8806 6.10843 10.141C6.14166 9.40322 6.25866 8.89925 6.43055 8.45825C6.60822 8.00238 6.84511 7.61556 7.23078 7.23017C7.61616 6.84465 8.00299 6.60776 8.459 6.43067C8.89985 6.25921 9.40368 6.14235 10.1418 6.10855Z" fill="#C2C2C2" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3784 7.31619C12.4991 7.316 12.6291 7.31606 12.7693 7.31612L13.0004 7.31619C14.8516 7.31619 15.071 7.32283 15.802 7.35605C16.478 7.38697 16.8449 7.49992 17.0893 7.59482C17.4129 7.72049 17.6436 7.87071 17.8861 8.11338C18.1288 8.35605 18.279 8.58717 18.4049 8.91073C18.4998 9.15484 18.6129 9.52173 18.6437 10.1977C18.6769 10.9286 18.6842 11.1482 18.6842 12.9985C18.6842 14.8489 18.6769 15.0685 18.6437 15.7994C18.6128 16.4754 18.4998 16.8423 18.4049 17.0864C18.2793 17.4099 18.1288 17.6403 17.8861 17.8828C17.6434 18.1255 17.413 18.2757 17.0893 18.4014C16.8452 18.4967 16.478 18.6094 15.802 18.6403C15.0711 18.6735 14.8516 18.6808 13.0004 18.6808C11.149 18.6808 10.9296 18.6735 10.1987 18.6403C9.52267 18.6091 9.15578 18.4962 8.91123 18.4013C8.58767 18.2756 8.35656 18.1254 8.11389 17.8827C7.87122 17.64 7.721 17.4095 7.59504 17.0858C7.50014 16.8417 7.38704 16.4748 7.35627 15.7988C7.32305 15.0679 7.31641 14.8483 7.31641 12.9968C7.31641 11.1453 7.32305 10.9269 7.35627 10.196C7.38718 9.52 7.50014 9.15311 7.59504 8.9087C7.72071 8.58514 7.87122 8.35403 8.11389 8.11136C8.35656 7.86869 8.58767 7.71847 8.91123 7.59251C9.15564 7.49718 9.52267 7.38451 10.1987 7.35345C10.8383 7.32456 11.0862 7.3159 12.3784 7.31445V7.31619ZM16.7013 8.46742C16.242 8.46742 15.8693 8.83966 15.8693 9.29914C15.8693 9.75848 16.242 10.1311 16.7013 10.1311C17.1607 10.1311 17.5334 9.75848 17.5334 9.29914C17.5334 8.8398 17.1607 8.46713 16.7013 8.46713V8.46742ZM9.43976 13.0001C9.43976 11.0338 11.0339 9.43962 13.0002 9.43954C14.9666 9.43954 16.5604 11.0338 16.5604 13.0001C16.5604 14.9665 14.9667 16.56 13.0004 16.56C11.034 16.56 9.43976 14.9665 9.43976 13.0001Z" fill="#C2C2C2" />
+                    <path d="M13.0006 10.689C14.2769 10.689 15.3117 11.7236 15.3117 13.0001C15.3117 14.2764 14.2769 15.3112 13.0006 15.3112C11.7241 15.3112 10.6895 14.2764 10.6895 13.0001C10.6895 11.7236 11.7241 10.689 13.0006 10.689Z" fill="#C2C2C2" />
+                </svg>
+            </a>
+            <a href="" target="_blank">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13C0 5.8203 5.8203 0 13 0C20.1797 0 26 5.8203 26 13C26 20.1797 20.1797 26 13 26C5.8203 26 0 20.1797 0 13ZM12.9912 13.2087C14.9082 13.2087 16.4665 11.7043 16.4665 9.85486C16.4665 8.00481 14.9082 6.5 12.9912 6.5C11.0746 6.5 9.51589 8.00481 9.51589 9.85486C9.51589 11.7043 11.0746 13.2087 12.9912 13.2087ZM16.4242 15.1401C15.7958 15.5211 15.1135 15.7913 14.4061 15.9468L16.3489 17.8224C16.7469 18.2058 16.7469 18.8284 16.3489 19.2122C15.9513 19.5959 15.3069 19.5959 14.9098 19.2122L12.9996 17.3691L11.0912 19.2122C10.8922 19.4039 10.6314 19.4998 10.3706 19.4998C10.1103 19.4998 9.84996 19.4039 9.65096 19.2122C9.25338 18.8284 9.25338 18.2062 9.65055 17.8224L11.5935 15.9468C10.8861 15.7913 10.2039 15.5207 9.57548 15.1401C9.09992 14.8507 8.95707 14.2443 9.25671 13.7849C9.55552 13.3248 10.1839 13.1863 10.6603 13.4758C12.083 14.3397 13.9158 14.3399 15.3394 13.4758C15.8157 13.1863 16.4439 13.3248 16.7434 13.7849C17.043 14.2439 16.8997 14.8507 16.4242 15.1401Z" fill="#C2C2C2" />
+                    <path d="M12.9917 8.46606C13.7852 8.46606 14.4306 9.0889 14.4306 9.85486C14.4306 10.6202 13.7852 11.2434 12.9917 11.2434C12.1988 11.2434 11.5527 10.6202 11.5527 9.85486C11.5527 9.0889 12.1988 8.46606 12.9917 8.46606Z" fill="#C2C2C2" />
+                </svg>
+            </a>
+            <a href="" target="_blank">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.0585 17.1038C13.9303 17.2389 13.6801 17.2662 13.6801 17.2662H12.8513C12.8513 17.2662 11.0228 17.3741 9.41203 15.7284C7.65544 13.9329 6.10436 10.3705 6.10436 10.3705C6.10436 10.3705 6.01483 10.1368 6.11182 10.0243C6.22101 9.89716 6.51875 9.88917 6.51875 9.88917L8.49983 9.87652C8.49983 9.87652 8.68634 9.90648 8.81995 10.003C8.9305 10.0829 8.99221 10.2314 8.99221 10.2314C8.99221 10.2314 9.31233 11.0262 9.73622 11.7452C10.5643 13.1493 10.9496 13.4562 11.2303 13.3057C11.64 13.0867 11.5172 11.3212 11.5172 11.3212C11.5172 11.3212 11.5247 10.6807 11.311 10.3951C11.1456 10.1741 10.8336 10.1095 10.6959 10.0916C10.584 10.0769 10.7671 9.8226 11.0045 9.70875C11.3612 9.53766 11.9906 9.52767 12.7346 9.535C13.3145 9.54099 13.4813 9.57627 13.7079 9.6302C14.2336 9.75473 14.2172 10.1538 14.1818 11.0152C14.1712 11.2728 14.1589 11.5717 14.1589 11.917C14.1589 11.9946 14.1566 12.0773 14.1542 12.1624C14.1419 12.6037 14.1278 13.109 14.4241 13.2971C14.576 13.3929 14.947 13.3111 15.8755 11.7639C16.3156 11.0302 16.6452 10.1681 16.6452 10.1681C16.6452 10.1681 16.7178 10.0143 16.8297 9.94842C16.9443 9.88118 17.099 9.90182 17.099 9.90182L19.1838 9.88917C19.1838 9.88917 19.8105 9.81527 19.9115 10.0936C20.018 10.3845 19.6776 11.0649 18.8257 12.1793C18.0177 13.2367 17.6244 13.6261 17.6605 13.9704C17.6869 14.222 17.9425 14.4496 18.433 14.8962C19.457 15.8294 19.7315 16.3204 19.7974 16.4383C19.8029 16.4481 19.8069 16.4553 19.8098 16.46C20.269 17.2076 19.3005 17.2662 19.3005 17.2662L17.4483 17.2915C17.4483 17.2915 17.0508 17.3687 16.5272 17.0159C16.253 16.8312 15.9849 16.5296 15.7297 16.2423C15.3398 15.8036 14.9797 15.3983 14.6723 15.494C14.1562 15.6551 14.1718 16.7463 14.1718 16.7463C14.1718 16.7463 14.1758 16.9799 14.0585 17.1038Z" fill="#C2C2C2" />
+                </svg>
+            </a>
+        </div>
+        <a href="/" class="header__logo"><img src="img/logo.svg" width="150" height="61" alt="veora"></a>
+        <div class="header__contacts right">
+            <a href="+78002008809" class="phone">8 800 200 88 09</a>
+            <div class="small">Получить консультацию</div>
+        </div>
+    </header>
+    <nav class="header__nav flb-cc hide-sm">
+        <a href="#expert">Мнение специалистов</a>
+        <a href="#company">История компании</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Стать представителем</a>
+        <a href="#product">Заказать</a>
+    </nav>
+    <section class="top__section">
+        <img src="img/top-figure.svg" class="top__section-figure" alt="figure">
+        <div class="container flb-sb">
+            <div class="top__section-info">
+                <h1>Бактерии в питательной жидкой среде</h1>
+                <div class="subtext flb-csb">
+                    <img src="img/gift.png" class="gift" alt="gift">
+                    <span>Зарегистрируйтесь один раз, участвуйте в розыгрыше двух баночек бактерий, каждую неделю.</span>
+                </div>
+                <form action="" method="post" class="top__section-form form">
+                    <input type="text" name="name" value="" placeholder="Имя" class="input required" required="required">
+                    <input type="text" name="phone" value="" placeholder="Телефон" class="input required phone-mask" required="required">
+                    <button class="btn-aqua btn-submit">Участвовать</button>
+                    <div class="confid">Заполняя данную форму Вы соглашаетесь с <br> <a href="https://veora-bio.ru/politica.html">политикой конфиденциальности</a></div>
+                </form>
+            </div>
+           <div class="top__bootles">
+								<img src="img/bootles.png" alt="bootles">
+								<div class="top__bootles-info info-plus1">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Пребиотики: агар-агар, пептон </div>
+								</div>
+								<div class="top__bootles-info info-plus2">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Штаммы Бифидобактерий B.longum B-379М, B.bifidum 72, B.adolescentis 415, B.laktis
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus3">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Штаммы Лактобактерий L.klasik 343, Lakta-AT, L.plantarum, B.adolescentis 
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus4">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Микроэлементы К, Na. Mg. Cu. Fe. Zn. Se
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus5">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">В результате жизнедеятельности и метаболизма в организме, живые бактерии продуцируют ферменты лактазу и лизоцим для устойчивого роста собственной микробиоты человека. </b>
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus6">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Препарат подходит людям с лактозной непереносимостью</b> 
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus7">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Сохраняем естественный срок жизни бактерий без консервантов и посторонних добавок
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus9">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">Термостабильные лактомин, ацидофилин, лактоцидин.
+				</div>
+								</div>
+								<div class="top__bootles-info info-plus10">
+									<div class="plus flb-cc"><img src="img/icon/plus.svg" alt="plus"></div>
+									<div class="text">•	Живые бактерии стимулируют синтез витаминов С, Е, РР, В1, В2, В6, В7, В9, В12, В15, К, собственной микробиотой
+				</div>
+								</div>
+            </div>
+        </div>
+    </section>
+    <section class="probiotic__section" id="simbiotic">
+        <h2 class="title-section center">Что такое синбиотик в жидкой форме?</h2>
+        <div class="probiotic__section-container container">
+            <img src="img/prebiotic-img-section.png" class="probiotic__section-bg" alt="Зачем нужен симбиотик">
+            <div class="probiotic__section-info flb-csb point1">
+                <img src="img/probiotic-icon/i1.svg" width="38" height="38" alt="icon" class="icon">
+                <div class="text">Жидкая форма синбиотика начинает работать сразу, попадая на слизистые оболочки рта, носоглотки и верхних отделов пищеварительного тракта, осуществляя колонизационную резистентность и воздействуя на патогенные микроорганизмы на протяжении всего ЖКТ
+</div>
+            </div>
+            <div class="probiotic__section-info flb-csb point2">
+                <img src="img/probiotic-icon/i2.svg" width="38" height="38" alt="icon" class="icon">
+                <div class="text"> Аналогов нашего продукта нет. Veora-bio – это смесь живых пробиотиков и их метаболитов, пребиотиков, действующих на организм комплексно, повышая эффект оздоровления на 25-30%
+
+</div>
+            </div>
+            <div class="probiotic__section-info flb-csb point3">
+                <img src="img/probiotic-icon/i3.svg" width="38" height="38" alt="icon" class="icon">
+                <div class="text">Преимущество высокой выживаемости бактерий в жидкой форме (100%) по сравнению с термофильными (сухими) аналогами (20-30%)
+</div>
+            </div>
+            <div class="probiotic__section-info flb-csb point4">
+                <img src="img/probiotic-icon/i4.svg" width="38" height="38" alt="icon" class="icon">
+                <div class="text">Защищают организм и ЖКТ от воздействия антибиотиков, радиации, вредной пищи, канцерогенных и токсических веществ и нетипичных (экзотических) для нашего питания продуктов</div>
+            </div>
+            <div class="probiotic__section-info flb-csb point5">
+                <img src="img/probiotic-icon/i5.svg" width="38" height="38" alt="icon" class="icon">
+                <div class="text">Жидкая среда содержит разнообразные метаболиты-продукты биохимической активности микроорганизмов: аминокислоты, включая незаменимые низкомолекулярные белки (пептиды), органические кислоты (в т.ч. молочная, уксусная, пропионовая).</div>
+            </div>
+        </div>
+    </section>
+    <section class="expert__section" id="expert">
+        <div class="container">
+            <h2 class="title-section center">Что говорят специалисты?</h2>
+            <div class="expert__slider slider">
+                <div class="expert__slider-item">
+                    <div class="expert__slider-video" style="background: url(img/parfenova.jpg);" data-video="LolrPUtd7Tc">
+                        <img src="img/icon/camera.svg" width="200" height="200" class="play-icon" alt="play">
+                    </div>
+                    <div class="expert__slider-card">
+                        <div class="flb-csb mb20">
+                            <img src="img/parfenova-avatar.jpg" alt="Евгения Парфёнова" class="expert-photo">
+                            <div class="expert-info">
+                                <div class="expert-name">Евгения Парфёнова</div>
+                                <div class="expert-position">Врач с 35-ти летним стажем</div>
+                            </div>
+                        </div>
+                        <div class="expert-text">Первый частно-практикующий врач Ульяновской области, заслуженный работник здравоохранения (гинеколог, андролог, сексолог, дерматовенеролог, трансферолог)</div>
+                    </div>
+                </div>
+				<div class="expert__slider-item">
+                    <div class="expert__slider-video" style="background: url(img/sidenkova.jpg);" data-video="vLaNpjpyl7M">
+                        <img src="img/icon/camera.svg" width="200" height="200" class="play-icon" alt="play">
+                    </div>
+                    <div class="expert__slider-card">
+                        <div class="flb-csb mb20">
+                            <img src="img/sidenkova-avatar.jpg" alt="Елена Сиденкова" class="expert-photo">
+                            <div class="expert-info">
+                                <div class="expert-name">Елена Сиденкова</div>
+                                <div class="expert-position">Врач с 17-м летним стажем</div>
+                            </div>
+                        </div>
+                        <div class="expert-text">Кандидат медицинских наук. Врач-терапевт частной клиники г. Москва.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="company__section" id="company">
+        <div class="container">
+            <div class="title-section">История компании</div>
+            <div class="company__tl-wrapper flb-csb hide-md">
+                <div class="company__tl-item">
+                    <div class="tl-year">1992</div>
+                    <div class="tl-text">ТОО «Бионт» создано 2 апреля 1992 года в г. Санкт-Петербурге</div>
+                </div>
+                <div class="company__tl-item">
+                    <div class="tl-year">1997</div>
+                    <div class="tl-text">Диплом Международной выставки «Чай, кофе, десерт, диетпитание» в СПБ за высокое качество продукции. <br><br>
+                        2003 год золотая медаль на выставке
+                        в СПБ «Всероссийский смотр качеста молочных диетпродуктов»
+                        за бифидокефир «Аистёнок»</div>
+                </div>
+                <div class="company__tl-item">
+                    <div class="tl-year">2005</div>
+                    <div class="tl-text">ООО «Пискаревский молочный завод»
+                        и Волосовский молочный завод, выпускающие на основе наших бактерий «Бифидокефир», «Бифидоряженку», «Ацидобифилин»
+                        и другие виды продукции</div>
+                </div>
+                <div class="company__tl-item">
+                    <div class="tl-year">2008</div>
+                    <div class="tl-text">Начало работы над нововым продуктов Бионт+</div>
+                </div>
+				<div class="company__tl-item">
+                    <div class="tl-year">2018</div>
+                    <div class="tl-text">Наладка новой линейки производства. Покупка нового оборудования. Обучение персонала.</div>
+                </div>
+				<div class="company__tl-item">
+                    <div class="tl-year">2020</div>
+                    <div class="tl-text">Создание бренда VEORA BIO</div>
+                </div>
+            </div>
+            <div class="company__tl-slider slider show-md">
+                <div class="company__tl-item">
+                    <div class="tl-year">1992</div>
+                    <div class="tl-text">ТОО «Бионт» создано 2 апреля 1992 года в г. Санкт-Петербург</div>
+                </div>
+                <div class="company__tl-item">
+                    <div class="tl-year">1997</div>
+                    <div class="tl-text">Диплом Международной выставки «Чай, кофе, десерт, диетпитание» в СПБ за высокое качество продукции. <br><br>
+                        2003 год золотая медаль на выставке
+                        в СПБ «Всероссийский смотр качества молочных диетпродуктов»
+                        за бифидокефир «Аистёнок»</div>
+                </div>
+                <div class="company__tl-item">
+                    <div class="tl-year">2005</div>
+                    <div class="tl-text">ООО «Пискаревский молочный завод»
+                        и Волосовский молочный завод, выпускающие на основе наших бактерий «Бифидокефир», «Бифидоряженку», «Ацидобифилин»
+                        и другие виды продукции</div>
+                </div>
+                <div class="company__tl-item">
+                    <div class="tl-year">2008</div>
+                    <div class="tl-text">Начало работы над новым продуктом -  Бионт+ (VEORA BIO)</div>
+                </div>
+				<div class="company__tl-item">
+                    <div class="tl-year">2018</div>
+                    <div class="tl-text">Наладка новой линейки производства. Покупка нового оборудования. Обучение персонала.</div>
+                </div>
+				<div class="company__tl-item">
+                    <div class="tl-year">2020</div>
+                    <div class="tl-text">Создание бренда VEORA BIO</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about__section container flb-sb" id="product">
+        <img src="img/about-bootles.png" alt="img" class="imgbg">
+        <div class="about__lblock">
+            <h2 class="title-section w100">VEORA BIO - НОВЫЙ ЭТАП БИОНТ </h2>
+            <div class="about__infoslider slider">
+            <div class="slide-text">
+			<b>В 1000 раз </b>удалось поднять титр содержания полезных бактерий до <b>10 в 12</b> степени КОЕ/г (при 10 в  9 степени ранее)
+			</div>
+			<div class="slide-text">
+                Вследствие улучшения всех этапов технологии выращивания культур с целью более эффективного накопления биомассы удалось <b>увеличить эффективность симбиотика на 20-30%</b>
+
+            </div>
+            <div class="slide-text">
+                  <b>Новое производство</b> в Краснодарском крае на современном, профессиональном оборудовании.</div>
+            <div class="slide-text">
+                Благодаря покупке самого <b>современного оборудования</b> и строгим правилам соблюдения технологического процесса, а также <b>обеспечения стерильности</b> производственных помещений и тары, удалось <b>достигнуть идеальной чистоты продукта</b>
+ </div>
+            <div class="slide-text">
+                Персонал прошел несколько курсов повышения квалификации получив <b>дипломы международного образца</b>
+</div>
+        </div>
+        </div>
+        <div class="about__result mb20">
+            <form action="https://kassa.yandex.ru/integration/simplepay/payment" method="post" class="about__result-form mb40">
+                <div class="form-title">Сколько баночек заказать?</div>
+                <div class="input-range range-age mb10">
+                    <div class="label mb5">Возраст: <div class="count">0</div>
+                    </div>
+                    <input type="text" class="range-slider" value="0" name="range_age" />
+                    <input type="hidden" class="input-hidden" value="0" name="range_age" />
+                    <div class="flb-sb">
+                        <div>0</div>
+                        <div>100</div>
+                    </div>
+                </div>
+                <div class="input-range range-kurs mb20">
+                    <div class="label mb5">Курс приема (дни): <div class="count">14</div>
+                    </div>
+                    <input type="text" class="range-slider" value="14" name="range-kurs" />
+                    <input type="hidden" class="input-hidden" value="14" name="range_kurs" />
+                    <div class="flb-sb">
+                        <div>14</div>
+                        <div>30</div>
+                    </div>
+                </div>
+                <input type="text" name="custName" value="" placeholder="Имя" class="input required mb20" required="required">
+                <input type="text" name="cps_phone" value="" placeholder="Телефон" class="input required phone-mask mb20" required="required">
+                <button class="btn-aqua btn-submit ym-btn-pay ym-result-price">Узнать результат</button>
+            </form>
+            <div class="flb-csb about__result-sert-list">
+                <a href="/certificate.pdf" target="_blank" class="about__result-sert">
+                    <img src="img/icon/angle-right-slider.svg" width="16" height="16" alt="icon">
+                    <span>Сертификаты</span>
+                </a>
+                <a href="/Veora-Bio - Instrukciya po primeneniyu.docx" class="about__result-sert">
+                    <img src="img/icon/angle-right-slider.svg" width="16" height="16" alt="icon">
+                    <span>Скачать инструкцию</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="reviews__section" id="reviews">
+        <h2 class="title-section center">Отзывы наших покупателей</h2>
+        <div class="reviews__tabs-container container">
+            <div class="reviews__vslider slider">
+                <div class="reviews__item">
+                    <div class="reviews__item-video" style="background: url('img/video-img.png');" data-video="Hs_d8nHvZF8">
+                        <img src="img/icon/play.svg" width="80" height="80" class="play-icon" alt="play">
+                    </div>
+                    <div class="reviews__item-user flb-sb">
+                        <img src="img/olga-leonova-avatar2.jpg" alt="Ольга Леонова" class="user-photo">
+                        <div class="user-info">
+                            <div class="user-name">Ольга Леонова</div>
+                            <div class="user-city">г. Москва</div>
+                        </div>
+                        <div class="user-position w100">Я прошла 14-ти дневный курс. Принимать очень легко, лактобактерии утром, а бифидо вечером. После курса я наблюдаю замечательные результаты. Полностью прошла изжога, которая мучила больше года, процентов на 80 ушёл метеоризм, сухость во рту прошла, и стул стал регулярным. Я осознала, как радостно, легко и хорошо живётся в таком более здоровом состоянии. Я слежу за своим здоровьем, и обязательно буду продолжать применять продукцию VEORA- БИО.</div>
+                    </div>
+                </div>
+			
+				<div class="reviews__item">
+                    <div class="reviews__item-video" style="background: url('img/video-img.png');" data-video="eocT8K_7PwI">
+                        <img src="img/icon/play.svg" width="80" height="80" class="play-icon" alt="play">
+                    </div>
+                    <div class="reviews__item-user flb-sb">
+                        <img src="img/viktoria-kvitkovskich-avatar2.jpg" alt="Виктория Квитковских" class="user-photo">
+                        <div class="user-info">
+                            <div class="user-name">Виктория Квитковских</div>
+                            <div class="user-city">г. Волгоград</div>
+                        </div>
+                        <div class="user-position w100">Мы начали принимать бактерии тогда, когда у одного члена семьи появились признаки простуды. В условиях пандемии действовать нужно было быстро и наверняка, на 100% помочь организму не разболеться и выйти из простуды без химических препаратов. Результат не заставил себя долго ждать и нас порадовал. После двух дней приёма бактерий VEORA- БИО мы обратили внимание на улучшение состояния здоровья, температура пришла в норму, голова перестала болеть, кашель пошёл на спад. Здоровые члены семьи не заразились и отпуск не сорвался.</div>
+                    </div>
+                </div>
+				
+				<div class="reviews__item">
+                    <div class="reviews__item-video" style="background: url('img/video-img.png');" data-video="BJGq1mQGgqo">
+                        <img src="img/icon/play.svg" width="80" height="80" class="play-icon" alt="play">
+                    </div>
+                    <div class="reviews__item-user flb-sb">
+                        <img src="img/lena-volkova-avatar.jpg" alt="Волкова Елена" class="user-photo">
+                        <div class="user-info">
+                            <div class="user-name">Волкова Елена</div>
+                            <div class="user-city">г. Москва</div>
+                        </div>
+                        <div class="user-position w100">Я принимала бактерии VEORA- БИО в составе комплексной терапии. Впервые за несколько лет  мои анализы, показатели аутоиммунного процесса в организме снизились в два раза. Другие анализы тоже улучшились и для меня это большущий результат. Эти бактерии действительно живые. Чувствуется, что они выращены с любовью, они ещё и вкусные к тому же. Сейчас я снова заказываю бактерии VEORA- БИО для своих родителей, потому что уверена в их надёжности.</div>
+                    </div>
+                </div>
+				
+				<div class="reviews__item">
+                    <div class="reviews__item-video" style="background: url('img/video-img.png');" data-video="64dnei8Wdg4">
+                        <img src="img/icon/play.svg" width="80" height="80" class="play-icon" alt="play">
+                    </div>
+                    <div class="reviews__item-user flb-sb">
+                        <img src="img/valya-argeriskul-avatar.jpg" alt="Аргерискул Валентина" class="user-photo">
+                        <div class="user-info">
+                            <div class="user-name">Аргерискул Валентина</div>
+                            <div class="user-city">г. Саратов</div>
+                        </div>
+                        <div class="user-position w100">Мы с мужем приняли решение пропить бактерии VEORA- БИО целый месяц и результат нас очень порадовал. Мы ожили, появился интерес к жизни, блеск в глазах и самочувствие улучшилось. Мы очень благодарны, что есть такие бактерии, которые нам помогли.</div>
+                    </div>
+				</div>	
+				
+				<div class="reviews__item">
+                    <div class="reviews__item-video" style="background: url('img/vera-nemaya.jpg');" data-video="ohVX8V0vRHc">
+                        <img src="img/icon/play.svg" width="80" height="80" class="play-icon" alt="play">
+                    </div> 
+				<div class="reviews__item-user flb-sb">
+                    <img src="img/vera-nemaya-avatar.jpg" alt="Вера Немая" class="user-photo">
+                        <div class="user-info">
+                            <div class="user-name">Вера Немая</div>
+                            <div class="user-city">г. Москва</div>
+                        </div>
+						<div class="user-position w100">Синбиотики VEORA- БИО я применяла две недели. Самочувствие прекрасное. В картине моей микробиоты есть значительные улучшения. Я чувствую, что мой организм постепенно оздоравливается, микробиота восстанавливается и повышается качество моей жизни. Благодарю производителей этих бактерий!</div>
+                </div> 	
+                </div>
+            </div>
+    </section>
+	
+	
+    <section class="order__section2">
+        <div class="container">
+            <div class="title-section center">Как заказать?</div>
+            <div class="order__steps-wrap flb-sb hide-xs">
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i1.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">1</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">Заполните <br>и отправьте форму</div>
+                </div>
+				 <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i3.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">2</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">Оплачивайте с помощью<br>Яндекс Кассы</div>
+                </div>
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i2.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">3</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">С Вами свяжется менеджер <br> для подтверждения заказа</div>
+                </div>
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i4.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">4</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">В течении 3 дней <br> осуществляется доставка <br> транспортной компанией </div>
+                </div>
+            </div>
+            <div class="order__steps-slider slider show-xs">
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i1.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">1</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">Заполните <br>и отправьте форму</div>
+                </div>
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i2.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">2</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">С Вами свяжется менеджер <br> для подтверждения заказа</div>
+                </div>
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i3.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">3</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">Вам придёт <br>ссылка на оплату</div>
+                </div>
+                <div class="order__steps">
+                    <figure class="step-icon flb-cc"><img src="img/order-icon/i4.svg" width="42" height="42" alt="icon"></figure>
+                    <div class="step-number">4</div>
+                    <div class="step-line-dots"></div>
+                    <div class="step-text">В течении 3 дней <br> осуществляется доставка <br> транспортной компанией </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="product__section flb-cc" >
+        <img src="img/contacts-bootles.png" class="product__section-bootles" alt="img"  >
+  
+        <form class="product__form form yandex-money-payment-form" style="padding:32px 35px 20px 35px;" action="https://kassa.yandex.ru/integration/simplepay/payment" method="post">
+        	<div class="form-title" style="font-size:24px;font-weight:700;">Заказать синбиотик</div>
+        	<div class="subtext">Скидка: от 3 шт. - 3%, от 5 шт. - 5%, от 10 шт. - 10%, от 15 шт. - 15%</div>
+    <div class="ym-products">
+        
+        
+        <div class="ym-product">
+            <div class="ym-product-line">
+                <span class="ym-product-description"></span>
+                
+            </div>
+            <div class="product__item flb-csb">
+                <img src="img/product-img1.png" alt="img" class="img">
+                <div class="caption">
+                    <div class="title">Бифидумбактерин</div>
+                    <div class="size">100мл</div>
+                </div>
+                <div class="counter flb-csb" data-price="990">
+                    <a class="btn minus">-</a>
+                    <input type="number" value="1" class="input-count" name="count_bifidumbakterin" disabled="">
+                    <input type="hidden" class="input-price" name="count_bifidumbakterin" value="">
+                    <a class="btn plus">+</a>
+                </div>
+                <div class="price-total">
+                    <span class="price ym-product-price" >990</span> ₽
+                </div>
+                <a class="undisabled">Вернуть</a>
+            </div>
+            <input disabled="" type="hidden" name="text" value="Бифидумбактерин"><input disabled="" type="hidden" name="price" value="990"><input disabled="" type="hidden" name="quantity" value="1"><input disabled="" type="hidden" name="paymentSubjectType" value="commodity"><input disabled="" type="hidden" name="paymentMethodType" value="full_prepayment"><input disabled="" type="hidden" name="tax" value="1">
+        </div>
+        <div class="ym-product">
+            <div class="ym-product-line">
+                <span class="ym-product-description"></span>
+                
+            </div>
+            <div class="product__item flb-csb">
+                <img src="img/product-img1.png" alt="img" class="img">
+                <div class="caption">
+                    <div class="title">Лактобактерин</div>
+                    <div class="size">100мл</div>
+                </div>
+                <div class="counter flb-csb" data-price="990" >
+                    <a class="btn minus">-</a>
+                    <input type="number" value="1" class="input-count" name="count_laktobakterin" disabled="">
+                    <input type="hidden" class="input-price" name="price_laktobakterin" value="">
+                    <a class="btn plus">+</a>
+                </div>
+                <div class="price-total">
+                    <span class="price ym-product-price promo-price">990</span> ₽
+                </div>
+                <a class="undisabled">Вернуть</a>
+            </div>
+            <div class="flb-csb mb15" style="margin-top:15px;" >
+                <div class="promocod-text">ПРОМОКОД:</div>
+                <input type="text" name="promocod" value="" class="promocod-input">
+                
+                <a class="promocod-btn">Применить</a>
+            </div>
+            <div class="total-price">
+                <div class="price-title">Итого:</div>
+                <div class="price-wrap">
+                    <div class="price-sale "><span>990</span> ₽</div>
+                    <div class="price-old"><span>0</span> ₽</div>
+                </div>
+            </div>
+
+            <input disabled="" type="hidden" name="text" value="Лактобактерин"><input disabled="" type="hidden" name="price" value="990"><input disabled="" type="hidden" name="quantity" value="1"><input disabled="" type="hidden" name="paymentSubjectType" value="commodity"><input disabled="" type="hidden" name="paymentMethodType" value="full_prepayment"><input disabled="" type="hidden" name="tax" value="1">
+        </div>
+    </div>
+    <input value="" type="hidden" name="ym_merchant_receipt">
+
+    <div class="ym-customer-info">
+        <input name="custName" class="input required mb20" placeholder="Ваше имя" type="text" value="">
+        <input name="cps_phone" class="input required phone-mask mb20" placeholder="Ваш телефон" type="text" value="">
+        <input name="cps_email" class="input required mb20" placeholder="Ваша электронная почта" type="text" value="">
+        
+
+
+
+    </div>
+
+    <div class="ym-hidden-inputs">
+
+
+
+    </div>
+
+
+    <div class="ym-payment-btn-block ym-before-line ym-align-space-between" style="display:flex;justify-content:center;">
+        <div class="ym-input-icon-rub ym-display-none">
+            <input name="sum" placeholder="0.00" class="ym-input ym-sum-input ym-required-input" type="number" step="any" value="1980">
+        </div>
+        <button data-text="Купить" style="background-color:#20B0BB;display:flex;justify-content:center;align-items:center;font-size:20px;padding-left:50px;padding-right:50px;height:50px;border-radius:50px;margin-top:-50px;" class="ym-btn-pay ym-result-price "><span class="ym-text-crop">Купить</span><span  class="ym-price-output">1&nbsp;980,00&nbsp;₽</span></button>
+        
+    </div>
+    <input name="shopId" type="hidden" value="750592">
+</form>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="agent__section" id="contacts">
+        <div class="container agent__section-map container center mb40">
+            <div class="title-section w100">Стать представителем бренда</div>
+            <img src="img/map-points.svg" alt="map">
+            <div class="center"><button class="btn-aqua show-form">Подать заявку</button></div>
+        </div>
+        <div class="agent__section-wrap container flb-cc hidden">
+            <div class="title-section w100">Стать представителем</div>
+            <img src="img/bootles.png" width="460" alt="bootles">
+            <form action="" method="form" class="agent__section-form form">
+                <div class="form-title">Станьте представителем</div>
+                <div class="label">Ваш город</div>
+                <input type="text" name="city" value="" placeholder="Москва" class="input required mb20" required="required">
+                <div class="label">Ваше имя</div>
+                <input type="text" name="name" value="" placeholder="Имя" class="input required mb20" required="required">
+                <div class="label">Ваш телефон</div>
+                <input type="text" name="phone" value="" placeholder="Телефон" class="input required phone-mask mb20" required="required">
+                <div class="label">Ваша электронная почта</div>
+                <input type="email" name="mail" value="" placeholder="E-mail" class="input required mb20" required="required">
+                <button class="btn-aqua btn-submit">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb20">
+                <a href="/" class="footer__logo"><img src="img/logo.svg" width="150" height="61" alt="veora"></a>
+                <div class="show-md mb30">
+                    <a href="+78002008809" class="footer__phone">8 800 200 88 09</a>
+                    <div class="footer__small">Получить консультацию</div>
+                    <div class="footer__adress">г. Москва, Университетский <br> просперк, дом 4, офис 456. </div>
+                </div>
+                <div class="footer__soc flb-ss hide-sm">
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.355 13.571V20.6437H11.4287V13.5713H9.96665V11.134H11.4287V9.67068C11.4287 7.68235 12.2542 6.5 14.5996 6.5H16.5523V8.93756H15.3317C14.4187 8.93756 14.3583 9.27818 14.3583 9.91386L14.355 11.1337H16.5661L16.3074 13.571H14.355Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM10.1418 6.10855C10.8814 6.07489 11.1177 6.06666 13.0007 6.06666H12.9985C14.8821 6.06666 15.1175 6.07489 15.8571 6.10855C16.5952 6.14235 17.0993 6.25921 17.5413 6.43067C17.9978 6.60761 18.3835 6.8445 18.7691 7.23017C19.1548 7.61556 19.3917 8.00238 19.5694 8.4584C19.7398 8.89925 19.8568 9.40307 19.8915 10.1412C19.9247 10.8808 19.9334 11.1171 19.9334 13.0001C19.9334 14.8831 19.9247 15.1188 19.8915 15.8584C19.8568 16.5962 19.7398 17.1002 19.5694 17.5412C19.3917 17.997 19.1548 18.3839 18.7691 18.7692C18.3839 19.1549 17.9976 19.3924 17.5418 19.5695C17.1006 19.7409 16.5962 19.8578 15.8581 19.8916C15.1185 19.9252 14.8829 19.9335 12.9998 19.9335C11.117 19.9335 10.8808 19.9252 10.1412 19.8916C9.40325 19.8578 8.89927 19.7409 8.45814 19.5695C8.00241 19.3924 7.61558 19.1549 7.23035 18.7692C6.84482 18.3839 6.60793 17.997 6.43069 17.541C6.25938 17.1002 6.14252 16.5963 6.10858 15.8582C6.07507 15.1187 6.06669 14.8831 6.06669 13.0001C6.06669 11.1171 6.07536 10.8806 6.10843 10.141C6.14166 9.40322 6.25866 8.89925 6.43055 8.45825C6.60822 8.00238 6.84511 7.61556 7.23078 7.23017C7.61616 6.84465 8.00299 6.60776 8.459 6.43067C8.89985 6.25921 9.40368 6.14235 10.1418 6.10855Z" fill="#C2C2C2" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3784 7.31619C12.4991 7.316 12.6291 7.31606 12.7693 7.31612L13.0004 7.31619C14.8516 7.31619 15.071 7.32283 15.802 7.35605C16.478 7.38697 16.8449 7.49992 17.0893 7.59482C17.4129 7.72049 17.6436 7.87071 17.8861 8.11338C18.1288 8.35605 18.279 8.58717 18.4049 8.91073C18.4998 9.15484 18.6129 9.52173 18.6437 10.1977C18.6769 10.9286 18.6842 11.1482 18.6842 12.9985C18.6842 14.8489 18.6769 15.0685 18.6437 15.7994C18.6128 16.4754 18.4998 16.8423 18.4049 17.0864C18.2793 17.4099 18.1288 17.6403 17.8861 17.8828C17.6434 18.1255 17.413 18.2757 17.0893 18.4014C16.8452 18.4967 16.478 18.6094 15.802 18.6403C15.0711 18.6735 14.8516 18.6808 13.0004 18.6808C11.149 18.6808 10.9296 18.6735 10.1987 18.6403C9.52267 18.6091 9.15578 18.4962 8.91123 18.4013C8.58767 18.2756 8.35656 18.1254 8.11389 17.8827C7.87122 17.64 7.721 17.4095 7.59504 17.0858C7.50014 16.8417 7.38704 16.4748 7.35627 15.7988C7.32305 15.0679 7.31641 14.8483 7.31641 12.9968C7.31641 11.1453 7.32305 10.9269 7.35627 10.196C7.38718 9.52 7.50014 9.15311 7.59504 8.9087C7.72071 8.58514 7.87122 8.35403 8.11389 8.11136C8.35656 7.86869 8.58767 7.71847 8.91123 7.59251C9.15564 7.49718 9.52267 7.38451 10.1987 7.35345C10.8383 7.32456 11.0862 7.3159 12.3784 7.31445V7.31619ZM16.7013 8.46742C16.242 8.46742 15.8693 8.83966 15.8693 9.29914C15.8693 9.75848 16.242 10.1311 16.7013 10.1311C17.1607 10.1311 17.5334 9.75848 17.5334 9.29914C17.5334 8.8398 17.1607 8.46713 16.7013 8.46713V8.46742ZM9.43976 13.0001C9.43976 11.0338 11.0339 9.43962 13.0002 9.43954C14.9666 9.43954 16.5604 11.0338 16.5604 13.0001C16.5604 14.9665 14.9667 16.56 13.0004 16.56C11.034 16.56 9.43976 14.9665 9.43976 13.0001Z" fill="#C2C2C2" />
+                            <path d="M13.0006 10.689C14.2769 10.689 15.3117 11.7236 15.3117 13.0001C15.3117 14.2764 14.2769 15.3112 13.0006 15.3112C11.7241 15.3112 10.6895 14.2764 10.6895 13.0001C10.6895 11.7236 11.7241 10.689 13.0006 10.689Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13C0 5.8203 5.8203 0 13 0C20.1797 0 26 5.8203 26 13C26 20.1797 20.1797 26 13 26C5.8203 26 0 20.1797 0 13ZM12.9912 13.2087C14.9082 13.2087 16.4665 11.7043 16.4665 9.85486C16.4665 8.00481 14.9082 6.5 12.9912 6.5C11.0746 6.5 9.51589 8.00481 9.51589 9.85486C9.51589 11.7043 11.0746 13.2087 12.9912 13.2087ZM16.4242 15.1401C15.7958 15.5211 15.1135 15.7913 14.4061 15.9468L16.3489 17.8224C16.7469 18.2058 16.7469 18.8284 16.3489 19.2122C15.9513 19.5959 15.3069 19.5959 14.9098 19.2122L12.9996 17.3691L11.0912 19.2122C10.8922 19.4039 10.6314 19.4998 10.3706 19.4998C10.1103 19.4998 9.84996 19.4039 9.65096 19.2122C9.25338 18.8284 9.25338 18.2062 9.65055 17.8224L11.5935 15.9468C10.8861 15.7913 10.2039 15.5207 9.57548 15.1401C9.09992 14.8507 8.95707 14.2443 9.25671 13.7849C9.55552 13.3248 10.1839 13.1863 10.6603 13.4758C12.083 14.3397 13.9158 14.3399 15.3394 13.4758C15.8157 13.1863 16.4439 13.3248 16.7434 13.7849C17.043 14.2439 16.8997 14.8507 16.4242 15.1401Z" fill="#C2C2C2" />
+                            <path d="M12.9917 8.46606C13.7852 8.46606 14.4306 9.0889 14.4306 9.85486C14.4306 10.6202 13.7852 11.2434 12.9917 11.2434C12.1988 11.2434 11.5527 10.6202 11.5527 9.85486C11.5527 9.0889 12.1988 8.46606 12.9917 8.46606Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.0585 17.1038C13.9303 17.2389 13.6801 17.2662 13.6801 17.2662H12.8513C12.8513 17.2662 11.0228 17.3741 9.41203 15.7284C7.65544 13.9329 6.10436 10.3705 6.10436 10.3705C6.10436 10.3705 6.01483 10.1368 6.11182 10.0243C6.22101 9.89716 6.51875 9.88917 6.51875 9.88917L8.49983 9.87652C8.49983 9.87652 8.68634 9.90648 8.81995 10.003C8.9305 10.0829 8.99221 10.2314 8.99221 10.2314C8.99221 10.2314 9.31233 11.0262 9.73622 11.7452C10.5643 13.1493 10.9496 13.4562 11.2303 13.3057C11.64 13.0867 11.5172 11.3212 11.5172 11.3212C11.5172 11.3212 11.5247 10.6807 11.311 10.3951C11.1456 10.1741 10.8336 10.1095 10.6959 10.0916C10.584 10.0769 10.7671 9.8226 11.0045 9.70875C11.3612 9.53766 11.9906 9.52767 12.7346 9.535C13.3145 9.54099 13.4813 9.57627 13.7079 9.6302C14.2336 9.75473 14.2172 10.1538 14.1818 11.0152C14.1712 11.2728 14.1589 11.5717 14.1589 11.917C14.1589 11.9946 14.1566 12.0773 14.1542 12.1624C14.1419 12.6037 14.1278 13.109 14.4241 13.2971C14.576 13.3929 14.947 13.3111 15.8755 11.7639C16.3156 11.0302 16.6452 10.1681 16.6452 10.1681C16.6452 10.1681 16.7178 10.0143 16.8297 9.94842C16.9443 9.88118 17.099 9.90182 17.099 9.90182L19.1838 9.88917C19.1838 9.88917 19.8105 9.81527 19.9115 10.0936C20.018 10.3845 19.6776 11.0649 18.8257 12.1793C18.0177 13.2367 17.6244 13.6261 17.6605 13.9704C17.6869 14.222 17.9425 14.4496 18.433 14.8962C19.457 15.8294 19.7315 16.3204 19.7974 16.4383C19.8029 16.4481 19.8069 16.4553 19.8098 16.46C20.269 17.2076 19.3005 17.2662 19.3005 17.2662L17.4483 17.2915C17.4483 17.2915 17.0508 17.3687 16.5272 17.0159C16.253 16.8312 15.9849 16.5296 15.7297 16.2423C15.3398 15.8036 14.9797 15.3983 14.6723 15.494C14.1562 15.6551 14.1718 16.7463 14.1718 16.7463C14.1718 16.7463 14.1758 16.9799 14.0585 17.1038Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer__copyright hide-sm">2020 © Все права защищены </div>
+            </div>
+            <ul class="footer__menu col-lg-2 col-md-3 mb20">
+                <li class="title">Меню</li>
+                <li><a href="">О продукте</a></li>
+                <li><a href="">О компании</a></li>
+                <li><a href="">Отзывы</a></li>
+                <li><a href="">Полезное</a></li>
+                <li><a href="">Контакты</a></li>
+            </ul>
+            <ul class="footer__menu col-md-3 mb20">
+                <li class="title">Инфо</li>
+                <li><a href="">Сертификаты</a></li>
+                <li><a href="">Где заказать?</a></li>
+                <li><a href="">Стать партнером</a></li>
+                <li><a href="">Реквизиты</a></li>
+                <li><a href="http://veora-bio.ru/politica.html">Политика конфиденциальности</a></li>
+            </ul>
+            <div class="col-lg-3 hide-md right mb20">
+                <a href="+78002008809" class="footer__phone">8 800 200 88 09</a>
+                <div class="footer__small">Получить консультацию</div>
+                <div class="footer__adress">Краснодарский Край, г. Горячий Ключ <br> улица Щорса, дом 50. </div>
+            </div>
+            <div class="col-md-12 show-sm mt40">
+                <div class="footer__soc">
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.355 13.571V20.6437H11.4287V13.5713H9.96665V11.134H11.4287V9.67068C11.4287 7.68235 12.2542 6.5 14.5996 6.5H16.5523V8.93756H15.3317C14.4187 8.93756 14.3583 9.27818 14.3583 9.91386L14.355 11.1337H16.5661L16.3074 13.571H14.355Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM10.1418 6.10855C10.8814 6.07489 11.1177 6.06666 13.0007 6.06666H12.9985C14.8821 6.06666 15.1175 6.07489 15.8571 6.10855C16.5952 6.14235 17.0993 6.25921 17.5413 6.43067C17.9978 6.60761 18.3835 6.8445 18.7691 7.23017C19.1548 7.61556 19.3917 8.00238 19.5694 8.4584C19.7398 8.89925 19.8568 9.40307 19.8915 10.1412C19.9247 10.8808 19.9334 11.1171 19.9334 13.0001C19.9334 14.8831 19.9247 15.1188 19.8915 15.8584C19.8568 16.5962 19.7398 17.1002 19.5694 17.5412C19.3917 17.997 19.1548 18.3839 18.7691 18.7692C18.3839 19.1549 17.9976 19.3924 17.5418 19.5695C17.1006 19.7409 16.5962 19.8578 15.8581 19.8916C15.1185 19.9252 14.8829 19.9335 12.9998 19.9335C11.117 19.9335 10.8808 19.9252 10.1412 19.8916C9.40325 19.8578 8.89927 19.7409 8.45814 19.5695C8.00241 19.3924 7.61558 19.1549 7.23035 18.7692C6.84482 18.3839 6.60793 17.997 6.43069 17.541C6.25938 17.1002 6.14252 16.5963 6.10858 15.8582C6.07507 15.1187 6.06669 14.8831 6.06669 13.0001C6.06669 11.1171 6.07536 10.8806 6.10843 10.141C6.14166 9.40322 6.25866 8.89925 6.43055 8.45825C6.60822 8.00238 6.84511 7.61556 7.23078 7.23017C7.61616 6.84465 8.00299 6.60776 8.459 6.43067C8.89985 6.25921 9.40368 6.14235 10.1418 6.10855Z" fill="#C2C2C2" />
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3784 7.31619C12.4991 7.316 12.6291 7.31606 12.7693 7.31612L13.0004 7.31619C14.8516 7.31619 15.071 7.32283 15.802 7.35605C16.478 7.38697 16.8449 7.49992 17.0893 7.59482C17.4129 7.72049 17.6436 7.87071 17.8861 8.11338C18.1288 8.35605 18.279 8.58717 18.4049 8.91073C18.4998 9.15484 18.6129 9.52173 18.6437 10.1977C18.6769 10.9286 18.6842 11.1482 18.6842 12.9985C18.6842 14.8489 18.6769 15.0685 18.6437 15.7994C18.6128 16.4754 18.4998 16.8423 18.4049 17.0864C18.2793 17.4099 18.1288 17.6403 17.8861 17.8828C17.6434 18.1255 17.413 18.2757 17.0893 18.4014C16.8452 18.4967 16.478 18.6094 15.802 18.6403C15.0711 18.6735 14.8516 18.6808 13.0004 18.6808C11.149 18.6808 10.9296 18.6735 10.1987 18.6403C9.52267 18.6091 9.15578 18.4962 8.91123 18.4013C8.58767 18.2756 8.35656 18.1254 8.11389 17.8827C7.87122 17.64 7.721 17.4095 7.59504 17.0858C7.50014 16.8417 7.38704 16.4748 7.35627 15.7988C7.32305 15.0679 7.31641 14.8483 7.31641 12.9968C7.31641 11.1453 7.32305 10.9269 7.35627 10.196C7.38718 9.52 7.50014 9.15311 7.59504 8.9087C7.72071 8.58514 7.87122 8.35403 8.11389 8.11136C8.35656 7.86869 8.58767 7.71847 8.91123 7.59251C9.15564 7.49718 9.52267 7.38451 10.1987 7.35345C10.8383 7.32456 11.0862 7.3159 12.3784 7.31445V7.31619ZM16.7013 8.46742C16.242 8.46742 15.8693 8.83966 15.8693 9.29914C15.8693 9.75848 16.242 10.1311 16.7013 10.1311C17.1607 10.1311 17.5334 9.75848 17.5334 9.29914C17.5334 8.8398 17.1607 8.46713 16.7013 8.46713V8.46742ZM9.43976 13.0001C9.43976 11.0338 11.0339 9.43962 13.0002 9.43954C14.9666 9.43954 16.5604 11.0338 16.5604 13.0001C16.5604 14.9665 14.9667 16.56 13.0004 16.56C11.034 16.56 9.43976 14.9665 9.43976 13.0001Z" fill="#C2C2C2" />
+                            <path d="M13.0006 10.689C14.2769 10.689 15.3117 11.7236 15.3117 13.0001C15.3117 14.2764 14.2769 15.3112 13.0006 15.3112C11.7241 15.3112 10.6895 14.2764 10.6895 13.0001C10.6895 11.7236 11.7241 10.689 13.0006 10.689Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 13C0 5.8203 5.8203 0 13 0C20.1797 0 26 5.8203 26 13C26 20.1797 20.1797 26 13 26C5.8203 26 0 20.1797 0 13ZM12.9912 13.2087C14.9082 13.2087 16.4665 11.7043 16.4665 9.85486C16.4665 8.00481 14.9082 6.5 12.9912 6.5C11.0746 6.5 9.51589 8.00481 9.51589 9.85486C9.51589 11.7043 11.0746 13.2087 12.9912 13.2087ZM16.4242 15.1401C15.7958 15.5211 15.1135 15.7913 14.4061 15.9468L16.3489 17.8224C16.7469 18.2058 16.7469 18.8284 16.3489 19.2122C15.9513 19.5959 15.3069 19.5959 14.9098 19.2122L12.9996 17.3691L11.0912 19.2122C10.8922 19.4039 10.6314 19.4998 10.3706 19.4998C10.1103 19.4998 9.84996 19.4039 9.65096 19.2122C9.25338 18.8284 9.25338 18.2062 9.65055 17.8224L11.5935 15.9468C10.8861 15.7913 10.2039 15.5207 9.57548 15.1401C9.09992 14.8507 8.95707 14.2443 9.25671 13.7849C9.55552 13.3248 10.1839 13.1863 10.6603 13.4758C12.083 14.3397 13.9158 14.3399 15.3394 13.4758C15.8157 13.1863 16.4439 13.3248 16.7434 13.7849C17.043 14.2439 16.8997 14.8507 16.4242 15.1401Z" fill="#C2C2C2" />
+                            <path d="M12.9917 8.46606C13.7852 8.46606 14.4306 9.0889 14.4306 9.85486C14.4306 10.6202 13.7852 11.2434 12.9917 11.2434C12.1988 11.2434 11.5527 10.6202 11.5527 9.85486C11.5527 9.0889 12.1988 8.46606 12.9917 8.46606Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                    <a href="" target="_blank">
+                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 0C5.8203 0 0 5.8203 0 13C0 20.1797 5.8203 26 13 26C20.1797 26 26 20.1797 26 13C26 5.8203 20.1797 0 13 0ZM14.0585 17.1038C13.9303 17.2389 13.6801 17.2662 13.6801 17.2662H12.8513C12.8513 17.2662 11.0228 17.3741 9.41203 15.7284C7.65544 13.9329 6.10436 10.3705 6.10436 10.3705C6.10436 10.3705 6.01483 10.1368 6.11182 10.0243C6.22101 9.89716 6.51875 9.88917 6.51875 9.88917L8.49983 9.87652C8.49983 9.87652 8.68634 9.90648 8.81995 10.003C8.9305 10.0829 8.99221 10.2314 8.99221 10.2314C8.99221 10.2314 9.31233 11.0262 9.73622 11.7452C10.5643 13.1493 10.9496 13.4562 11.2303 13.3057C11.64 13.0867 11.5172 11.3212 11.5172 11.3212C11.5172 11.3212 11.5247 10.6807 11.311 10.3951C11.1456 10.1741 10.8336 10.1095 10.6959 10.0916C10.584 10.0769 10.7671 9.8226 11.0045 9.70875C11.3612 9.53766 11.9906 9.52767 12.7346 9.535C13.3145 9.54099 13.4813 9.57627 13.7079 9.6302C14.2336 9.75473 14.2172 10.1538 14.1818 11.0152C14.1712 11.2728 14.1589 11.5717 14.1589 11.917C14.1589 11.9946 14.1566 12.0773 14.1542 12.1624C14.1419 12.6037 14.1278 13.109 14.4241 13.2971C14.576 13.3929 14.947 13.3111 15.8755 11.7639C16.3156 11.0302 16.6452 10.1681 16.6452 10.1681C16.6452 10.1681 16.7178 10.0143 16.8297 9.94842C16.9443 9.88118 17.099 9.90182 17.099 9.90182L19.1838 9.88917C19.1838 9.88917 19.8105 9.81527 19.9115 10.0936C20.018 10.3845 19.6776 11.0649 18.8257 12.1793C18.0177 13.2367 17.6244 13.6261 17.6605 13.9704C17.6869 14.222 17.9425 14.4496 18.433 14.8962C19.457 15.8294 19.7315 16.3204 19.7974 16.4383C19.8029 16.4481 19.8069 16.4553 19.8098 16.46C20.269 17.2076 19.3005 17.2662 19.3005 17.2662L17.4483 17.2915C17.4483 17.2915 17.0508 17.3687 16.5272 17.0159C16.253 16.8312 15.9849 16.5296 15.7297 16.2423C15.3398 15.8036 14.9797 15.3983 14.6723 15.494C14.1562 15.6551 14.1718 16.7463 14.1718 16.7463C14.1718 16.7463 14.1758 16.9799 14.0585 17.1038Z" fill="#C2C2C2" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer__copyright">2020 © Все порава защищены </div>
+            </div>
+        </div>
+    </footer>
+    <div class="popup__modal">
+        <div class="popup__mask"></div>
+        <div class="popup popup__successfull">
+            <a class="popup__close"><img src="img/icon/close.svg" width="28" height="28" alt="close"></a>
+            <div class="successfull-info flb-cc">
+                <img src="img/icon/check-successfull.svg" width="135" height="135" alt="ok!">
+                <div class="title w100">Форма отправлена!</div>
+                <div class="text w100">Благодарим за отправку!</div>
+            </div>
+        </div>
+        <div class="popup__result popup">
+            <img src="img/popup-bg.svg" alt="bg" class="popup__result-bg">
+            <a class="popup__close"><img src="img/icon/close.svg" width="28" height="28" alt="close"></a>
+            <div class="flb-csb">
+                <div class="popup__result-info">
+                    <div class="result-title">Ваш результат</div>
+                    <div class="result-text">
+                        <div class="product-title flb-cs">
+                            <span>Лакто Бактерин </span>
+                            <img src="img/icon/long-arrow-right.svg" alt="">
+                            <span class="number"><span class="ml">10</span> мл в день</span>
+                        </div>
+                        <div class="product-title flb-cs">
+                            <span>Бифидум Бактерин</span>
+                            <img src="img/icon/long-arrow-right.svg" alt="">
+                            <span class="number"><span class="ml">10</span> мл в день</span>
+                        </div>
+                        <div class="descr desrc-age5 mb15 hidden">
+                            Детям до 5 лет чайную ложку лактобактерина размешать в 15 мл воды, принимать утром за 30-40 минут до завтрака. Чайную ложку Бифидумбактерина размешать в 15 мл воды, принимать перед сном.
+                        </div>
+                        <div class="descr desrc-age5-14 mb15 hidden">
+                            Детям от 5 до 14 лет десертную ложку лактобактерина размешать в 30 мл воды, принимать утром за 30-40 минут до завтрака. Десертную ложку Бифидумбактерина размешать в 30 мл воды, принимать перед сном.
+                        </div>
+                        <div class="descr desrc-age14 mb15 hidden">
+                            Взрослым и детям старше 14 лет 1 cт. ложку лактобактерина размешать в 50 мл воды, принимать утром за 30-40 минут до завтрака. 1 ст.ложку Бифидумбактерина размешать в 50 мл воды, принимать перед сном.
+                        </div>
+                    </div>
+                    <div class="kurs-info">Курс (дней): <span class="count cout-day">7</span></div>
+                    <div class="kurs-info">Количество упаковок: <span class="count cout-bootles">7</span></div>
+                    <a href="/Veora-Bio - Instrukciya po primeneniyu.docx" class="about__result-sert mt10">
+                        <img src="img/icon/angle-right-slider.svg" width="16" height="16" alt="icon">
+                        <span>Скачать инструкцию</span>
+                    </a>
+                    <button class="btn-aqua buy-product">Купить</button>
+                </div>
+                <div class="popup__result-bootles">
+                    <div class="bootles-item flb-sb mb20">
+                        <div class="count">
+                            <span>12</span>
+                            баночек
+                        </div>
+                        <img src="img/popup-bootles1.png" class="img" alt="bootles">
+                    </div>
+                    <div class="bootles-item flb-sb">
+                        <div class="count">
+                            <span>3</span>
+                            баночек
+                        <img src="img/popup-bootles2.png" class="img" alt="bootles">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.min.js"></script>
+    <script src="js/common.js?v=1"></script>
+    <script src="https://kassa.yandex.ru/integration/simplepay/js/kassa_construct_form.js"></script>
+</body>
+
+</html>

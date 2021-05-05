@@ -1,0 +1,200 @@
+@keyframes driveRight {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    17% {
+        top: 154px;
+        right: 274px;
+    }
+    34% {
+        top: 338px;
+        right: 578px;
+    }
+    50% {
+        top: 510px;
+        right: 872px;
+    }
+    67% {
+        top: 682px;
+        right: 1170px;
+    }
+    84% {
+        top: 856px;
+        right: 1480px;
+    }
+    100% {
+        top: 1054px;
+        right: 1822px;
+    }
+    117% {
+        top: 1166px;
+        right: 2010px;
+    }
+}
+
+@-webkit-keyframes driveRight {
+    0% {
+        top: 0;
+        right: 0;
+    }
+    17% {
+        top: 154px;
+        right: 274px;
+    }
+    34% {
+        top: 338px;
+        right: 578px;
+    }
+    50% {
+        top: 510px;
+        right: 872px;
+    }
+    67% {
+        top: 682px;
+        right: 1170px;
+    }
+    84% {
+        top: 856px;
+        right: 1480px;
+    }
+    100% {
+        top: 1054px;
+        right: 1822px;
+    }
+    117% {
+        top: 1166px;
+        right: 2010px;
+    }
+}
+
+.drive--right {
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: driveRight;
+    transform-origin: 50% 50% 0;
+}
+
+.drive1 {
+    animation-duration: 12.5s;
+    animation-delay: -1.8s;
+}
+
+.drive2 {
+    animation-duration: 6.5s;
+}
+
+.drive3 {
+    animation-duration: 12.5s;
+    animation-delay: 1.8s;
+}
+
+@keyframes driveLeft {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    17% {
+        top: 154px;
+        left: 274px;
+    }
+    34% {
+        top: 338px;
+        left: 578px;
+    }
+    50% {
+        top: 510px;
+        left: 872px;
+    }
+    67% {
+        top: 682px;
+        left: 1170px;
+    }
+    84% {
+        top: 856px;
+        left: 1480px;
+    }
+    100% {
+        top: 1054px;
+        left: 1822px;
+    }
+    117% {
+        top: 1166px;
+        left: 2010px;
+    }
+}
+
+@-webkit-keyframes driveLeft {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    17% {
+        top: 154px;
+        left: 274px;
+    }
+    34% {
+        top: 338px;
+        left: 578px;
+    }
+    50% {
+        top: 510px;
+        left: 872px;
+    }
+    67% {
+        top: 682px;
+        left: 1170px;
+    }
+    84% {
+        top: 856px;
+        left: 1480px;
+    }
+    100% {
+        top: 1054px;
+        left: 1822px;
+    }
+    117% {
+        top: 1166px;
+        left: 2010px;
+    }
+}
+
+.drive--left {
+    animation-timing-function: linear;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: driveLeft;
+    transform-origin: 50% 50% 0;
+}
+
+.drive4 {
+    animation-duration: 26.5s;
+    animation-delay: -1.8s;
+}
+
+.drive5 {
+    animation-duration: 8.65s;
+}
+
+.drive6 {
+    animation-duration: 17.14285714s;
+    animation-delay: -3.2s;
+}
+
+.drive7 {
+    animation-duration: 11.15s;
+}
+
+.drive8 {
+    animation-duration: 26.5s;
+    animation-delay: 1.8s;
+}

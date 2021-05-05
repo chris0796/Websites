@@ -1,0 +1,198 @@
+.promo--list .promo--item {
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative
+}
+
+.technology--item {
+    background: #F3F3F9 !important
+}
+
+.solutions--list .top--image {
+    overflow: hidden
+}
+
+.promo--list .top--image {
+    position: relative;
+    width: 100%;
+    height: 230px;
+    display: block;
+    overflow: hidden
+}
+
+.technology--item {
+    background: transparent
+}
+
+.technology--item a:hover .list-item-name a:hover, .technology--item .list-item-name a {
+    opacity: 1 !important
+}
+
+.technology--item:hover a:hover {
+    opacity: 1
+}
+
+.technology--item .list-item-name a span {
+    position: static;
+    width: auto;
+    height: auto;
+    -webkit-transform: skew(0deg);
+    -moz-transform: skew(0deg);
+    -o-transform: skew(0deg);
+    background: transparent;
+    display: inline-block;
+    padding: 5px 10px
+}
+
+.top--image img, .technology--item:hover .top--image img {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+.technology--item:hover .list-item-name a, .technology--item .list-item-name a {
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear
+}
+
+.technology--item.promo--item.even:hover .list-item-name a, .technology--item.solutions--items.even:hover .list-item-name a {
+    background: rgba(255, 210, 0, 1);
+    background-clip: content-box;
+    background-origin: content-box;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone
+}
+
+.technology--item.promo--item.odd:hover .list-item-name a, .technology--item.solutions--items.odd:hover .list-item-name a {
+    background: rgba(15, 15, 15, 1);
+    background-clip: content-box;
+    background-origin: content-box;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone
+}
+
+.solutions--items.odd .top--image .list-item-name {
+    top: .5rem;
+    left: .5rem
+}
+
+.technology--item:hover .top--image img {
+    -webkit-filter: contrast(100%) brightness(100%) opacity(100%);
+    filter: contrast(100%) brightness(100%) opacity(100%)
+}
+
+.technology--item:hover .top--image.img-items-down img {
+    -webkit-filter: contrast(110%) brightness(110%) opacity(100%);
+    filter: contrast(110%) brightness(110%) opacity(100%)
+}
+
+.top--image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0
+}
+
+.even .top--image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 300px solid #FFD200;
+    border-left: 300px solid transparent
+}
+
+.even:hover .top--image:after {
+    border-bottom: 0 solid #FFD200;
+    border-left: 0 solid transparent
+}
+
+.technology--item.promo--item, .even:hover .top--image:after, .top--image:after, .technology--item.promo--item, .odd .top--image:after {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
+}
+
+.odd .top--image:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 300px solid #0F0F0F;
+    border-right: 300px solid transparent
+}
+
+.odd:hover .top--image:after {
+    border-top: 0 solid #0F0F0F;
+    border-right: 0 solid transparent
+}
+
+.technology--item.promo--item .list-item-name {
+    margin-bottom: 0;
+    position: relative;
+    bottom: 0;
+    top: -1rem
+}
+
+.technology--item.promo--item.odd .list-item-name {
+    top: 0
+}
+
+.technology--item.promo--item .list-item-name a {
+    font-size: 14px
+}
+
+.technology--item.promo--item .list-item-content {
+    position: absolute;
+    width: 50%
+}
+
+.technology--item.promo--item.even .list-item-content, .technology--item.solutions--items.even .list-item-name {
+    bottom: 0;
+    right: .5rem;
+    width: 55%;
+    text-align: right;
+    top: auto
+}
+
+.technology--item.solutions--items.even .list-item-name {
+    margin-bottom: .5rem
+}
+
+.technology--item.promo--item.odd .list-item-content {
+    top: 1rem;
+    left: .5rem
+}
+
+.technology--item.promo--item.odd .list-item-content a {
+    color: #ffd200
+}
+
+.technology--item.promo--item.odd:hover .triangel-black {
+    border-bottom: 38px solid #FFD200;
+    border-left: 38px solid transparent
+}
+
+.promo--list .pagination_wrap {
+    margin-top: 40px
+}
+
+.technology--item .list-item-name a {
+    position: relative;
+    display: inline-block
+}

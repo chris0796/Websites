@@ -1,0 +1,399 @@
+.e_page h2.marg_top0{
+	margin-top: 0!important;
+}
+
+.e_page .tariff_b {
+	width: 50%!important;
+	line-height: 24px!important;
+	max-width: 320px;
+}
+.e_page .tariff_b2 {
+	margin-left: 20px;
+}
+.e_page .tariff_b_center{
+	display: flex!important;
+	justify-content: center!important;
+}
+.e_page .tariff_b_center a{
+	text-align: center;
+	line-height: 24px!important;
+	padding-top: 5px!important;
+}
+.dopoln{
+	width: 100%!important;
+}
+.e_page .gruz_img{
+	width: 100%!important;
+	height: auto!important;
+}
+.width100{
+	width: 100%!important;
+}
+.screenShots .screenShots_blocks > .width100{
+	max-height: 100%;
+}
+.bot_but{
+	margin-top: 30px;
+}
+.bot_but button{
+	width: 100%;
+}
+.bot_but_3{
+	padding-right: 7px!important;
+	padding-left: 20px!important;
+}
+.bot_but_2{
+	padding-right: 10px!important;
+}
+
+.e_page .otstup{
+	margin-top: 20px;
+}
+.e_page .icon_text_sh{
+	width: 100%!important;
+	align-items: flex-start!important;
+}
+.e_page .text_left td, tr{
+	text-align: left;
+}
+.e_page .vyravnivanie td:last-child{
+	text-align: left;
+}
+.but_center{
+	text-align: center!important;
+}
+.e_page .flex_img_text{
+	display: flex!important;
+}
+.img_pad50{
+	padding: 0 55px;
+}
+.center_vniz{
+	text-align: center;
+	margin-top: 15px;
+}
+.taLeft td{
+	text-align: left!important;
+}
+.spisok{
+	margin-left: 0!important;
+}
+.marg_bot16{
+	margin-bottom: 16px!important;
+}
+.marg_top16{
+	margin-top: 16px!important;
+}
+.zagolovok_ot_img{
+	margin-bottom: 15px;
+}
+.zagolovok_ot_text{
+	margin-top: 25px;
+}
+.img_sprava{
+	display: flex!important;
+}
+.img_razmer{
+	width: 200%;
+
+	margin-right: 20px;
+}
+.img_razmer1{
+	width: 250%;
+	margin-right: 20px;
+}
+
+.razmer_banner{
+	background-size: cover;
+}
+.shirina_20{
+	width: 13%!important;
+}
+.vn_optstup{
+	padding-right: 44%!important;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.e_page .razmer_sw{
+	line-height: 25px!important;
+}
+.e_page .stepToStart .steps_pl{
+	padding-left: 5%;
+}
+.knopkaVniz{
+	margin-top: 1%;
+}
+.e_page .stepToStart .steps .line .noline:after {
+	display: none!important;
+}
+.e_page .stepToStart .razmer_img img{
+	max-width: 80%!important;
+}
+.e_page .sdvigVniz{
+	margin-top: 18px;
+}
+.pocentru .item{
+	width: 100%!important;
+}
+.pocentru :last-child{
+	margin-bottom: 0!important;
+}
+.dve_knopki{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2.3%;
+}
+.vtoraia_kn button{
+	padding: 0 37px!important;
+}
+.popolam .items .item{
+	width: 48%!important;
+}
+.popolam .items .item p{
+	margin-top: 0;
+}
+.popolam .title{
+	padding-right: 28px;
+	font-size: 12px!important;
+}
+.font_s25{
+	font-size: 25px!important;
+}
+.pad_left0 .item .info{
+	padding-left: 0!important;
+}
+.pad_left8{
+	padding-left: 8%;
+}
+.pad_left3{
+	padding-left: 3.5%;
+}
+.display_no{
+	display: none;
+}
+.no_bord .owl-dots:before{
+	display: none;
+}
+.no_bord .owl-dots:after{
+	display: none;
+}
+.no_bord .align-center{
+	color: #444444;
+}
+.no_bord .mask{
+	padding: 0!important;
+}
+.no_bord .mask .cont{
+	padding-top: 0!important;
+}
+.e_page .mar_top25{
+	margin-top: 2.5%;
+}
+.media_butt{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.color_polos li:nth-child(even){
+	background-color: #F7F7F7;
+}
+.color_polos hr{
+	margin: 0;
+}
+.color_polos li{
+	padding: 8px 0px!important;
+	margin: 0!important;
+	padding-left: 42px!important;
+}
+.color_polos li:last-child{
+	border: none;
+}
+.color_polos li:after{
+	top: 9px!important;
+	left: 10px!important;
+}
+.fonKakVnizu{
+	background: url(/images/f/page/promo/mob-app-for-delivery/mobAppBG2.jpg);
+}
+.fonKakVnizu:after{
+	border: 1px solid rgba(255, 255, 255, 0.24)!important;
+}
+.fonKakVnizu .wrap.flex .info .top.flex .title-1{
+	color: #fff;
+}
+.fonKakVnizu .wrap.flex .info .top.flex .title-2{
+	color: #fff;
+}
+.fonKakVnizu .wrap.flex .info .top.flex .efsol_goldUL li{
+	color: #fff;
+}
+.padTop0{
+	padding-top: 0!important;
+}
+.newArrow{
+	background-color: #fff!important;
+}
+.newArrow .item{
+	background-color: #F7F7F7!important;
+	background-image: url(/images/f/page/promo/mob-app-for-delivery/relatedArr1.svg)!important;
+}
+
+/**Ira correct********************/
+.screenShots .screenShots_blocks > .item > .content.correct-i > a.item {
+	width: calc(50% - 8px);
+}
+.screenShots .screenShots_blocks > .item > .content.correct-i > a.item:nth-child(1) {
+	margin-right: 16px;
+}
+
+@media (max-width: 1349px) {
+	.pad_left8{
+		padding-left: 0;
+	}
+	.pad_left3{
+		padding-left: 0;
+	}
+	.e_page .margTop{
+		margin-top: 0!important;
+	}
+	.padTop{
+		padding-top: 0!important;
+	}
+	.e_page .stepToStart .razmer_img img{
+		padding-bottom: 11%;
+		max-width: 100%!important;
+		padding-right: 20px;
+	}
+}
+@media (max-width: 1199px) {
+	.mar_bot0Media{
+		margin-bottom: 0!important;
+	}
+	.e_page .stepToStart .razmer_img img{
+		max-width: 100%!important;
+		padding-right: 20px;
+		padding-bottom: 29%!important;
+	}
+	.pad2_10{
+		padding: 0 10px;
+	}
+
+	.media_butt button{
+		font-size: 15px!important;
+	}
+}
+
+@media (max-width: 767px) {
+	.e_page .vyravnivanie table{
+		margin-bottom: 0;
+	}
+	.pad2_10{
+		padding: 0 10px;
+	}
+	.e_page .flex_img_text{
+		display: block!important;
+	}
+	.img_razmer{
+		width: 100%;
+	}
+	.bot_but{
+		display: none!important;
+	}
+	.popolam .items{
+		display: block;
+	}
+	.popolam .items .item{
+		width: 100%!important;
+		margin-top: 20px;
+	}
+	.media_butt{
+		display: flex!important;
+	}
+	.media_butt .col{
+		width: 38%;
+	}
+	.screenShots .screenShots_blocks > .item > .content.correct-i > a.item {
+		width: 100%;
+	}
+	.screenShots .screenShots_blocks > .item > .content.correct-i > a.item:nth-child(1) {
+		margin-right: 0;
+		margin-bottom: 16px;
+	}
+
+}
+
+
+@media (max-width: 700px) {
+	.e_page .tariff_b_center{
+		display: block!important; 
+	}
+	.e_page .tariff_b{
+		width: 100%;
+		margin: 0 auto; 
+	}
+	.e_page .tariff_b2{
+		margin-top: 15px;
+	}
+}
+
+
+@media (max-width: 640px) {
+	.media_slide_bg .mask.fixBG_mob{
+		background-color: #fff!important;
+	}
+	.media_butt{
+		display: block!important;
+	}
+	.media_butt .col{
+		width: 66%;
+		padding-right: 0!important;
+		padding-left: 0!important;
+		margin-left: 17%!important;
+	}
+	.media_butt .media_butt3{
+		margin-top: 20px;
+	}
+	.display_yes{
+		display: none;
+	}
+	.display_no{
+		display: block;
+	}
+	.display_no h4{
+		margin-top: 20px;
+	}
+	.e_page .mar_top25{
+		margin-top: 25px;
+	}
+	.shirina_20{
+		display: none!important;
+	}
+	.dve_knopki{
+		display: block;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.dve_knopki :last-child{
+		margin-top: 12px;
+	}
+	.pocentru .item{
+		margin-bottom: 24px!important;
+	}
+	.pocentru :last-child{
+		margin-bottom: 0!important;
+	}
+	.e_page .media_fs{
+		font-size: 13px!important;
+	}
+}
+@media (max-width: 440px){
+	.e_page .media_fs{
+		font-size: 12px!important;
+	}
+	.no_br p br{
+		display: none;
+	}
+	.no_br br{
+		display: none;	
+	}
+}

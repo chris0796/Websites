@@ -1,0 +1,477 @@
+.it {
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=0, Color=#000000)";/*IE 8*/
+-moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);/*FF 3.5+*/
+-webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 0 0 5px 2px rgba(0,0,0,0.3);/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color=#000000); /*IE 5.5-7*/
+}
+content .col-md-3 col-md-4 col-md-5 col-md-6 col-md-7 col-md-8 col-md-12 {
+margin: 15px;
+}
+.row {
+/* margin-left: 0px !important;
+margin-right: 0px !important; */
+}
+.it .col-md-5 img {
+width: 100%;
+opacity:1.0;
+}
+.it .col-md-5 img {
+width: 100%;
+opacity:1.0;
+}
+.it .col-md-7 h4{
+line-height: 1.4;
+}
+
+.row [data-content="yellow"] {
+border-top: 10px solid #ffffff;
+padding-left: 5px !important;
+}
+it .row:hover {
+background: #f6f6f6;
+}
+it .row:hover img {
+opacity: 0.9;
+}
+p [data-content="text"] {
+padding:15px;
+}
+@media screen and (min-width: 1350px) {
+#h20 {font-size: 20px !important;font-weight: 700 !important;}
+}
+@media screen and (max-width: 1350px) {
+#h20 {font-size: 20px !important;font-weight: 700 !important;margin-top: 10px !important;}
+
+}
+#it-img {
+padding-left: 0px !important;
+padding-right: 0px !important;
+border: 1px solid #bdbdbd;
+}
+.it_li {background:#FFD205;color:#ffffff;width:38px;height:33px;padding-right:2px;text-align:center;line-height:33px;font-family:Arial;font-size:24px;font-weight:bold;float:left;margin-top:2px;}
+.it_label {margin-left:52px;margin-bottom:30px;}
+.it_label h3 {margin-top:0px;font-size:19px;color:#2E4346; }
+#zglvk {
+padding-left: 0 !important;
+padding: 0 30px;
+font-family: 'Open Sans';
+font-size: 30px;
+text-align: center;
+margin-top: 30px;
+background: url(/bitrix/templates/index_new/img/h2_bg.png) 0px 18px repeat-x;
+color: #2E4346;
+clear: both;
+background-position: 0 22px;
+}
+/* Заголовок */
+#zglvk span {
+display: inline-block;
+padding: 0px 30px 0px 30px;
+background: #ffffff;
+}
+/* Стили в ITIL */
+#itil-p {width: 100%; height: 160px; background: ; border: 2px solid #8dbcca; padding-left: 15px;}
+#itil-d {width: 100%; height: 160px; background: ; border: 2px solid #a597bc; padding-left: 15px;}
+#itil-a {width: 100%; height: 160px; background: ; border: 2px solid #8aba93; padding-left: 15px;}
+#itil-c {width: 100%; height: 160px; background: ; border: 2px solid #d4879a; padding-left: 15px;}
+
+.it-client .it_label {
+position: relative;
+bottom: 45px;
+left: 12px;
+}
+.container-fluid .it-client {
+background: #ffce47;
+padding-top: 45px;
+}
+.container-fluid {
+padding-left: 0px !important;
+padding-right: 0px !important;
+}
+/* Стили блока Как мы работаем */
+@media screen and (min-width: 1350px) {
+img#it-img-1 {display: none;}
+.breadcrumb { 
+        padding: 0px 0px !important;
+        margin-bottom: 20px;
+		background-color: transparent;
+        border-radius: 0px !important;
+        height: 115px;
+		}
+		.breadcrumb div { 
+			float: left; 
+			padding: 4px;
+			height: 130px;
+		}
+		.breadcrumb div p {
+			color: #555 !important;
+			text-decoration: none; 
+			padding: 10px 0 42px 33px;
+			background: brown;                   /* fallback color */
+			background: hsla(49,100%,35%,1); 
+			position: relative; 
+			display: block;
+			float: left;
+			border-radius: 4px;
+			height: 125px;
+		}
+		.breadcrumb div p:after { 
+			content: " "; 
+			display: block; 
+			width: 0; 
+			height: 0;
+			border-top: 60px solid transparent;           /* Go big on the size, and let overflow hide */
+			border-bottom: 59px solid transparent;
+			border-left: 38px solid hsla(49,100%,35%,1);
+			position: absolute;
+			top: 100%;
+			margin-top: -122px; 
+			left: 100%;
+			z-index: 2; 
+		}	
+		.breadcrumb div p:before { 
+			content: " "; 
+			display: block; 
+			width: 0; 
+			height: 0;
+			border-top: 60px solid transparent;           /* Go big on the size, and let overflow hide */
+			border-bottom: 59px solid transparent;
+			border-left: 38px solid white;
+			position: absolute;
+			top: 100%;
+			margin-top: -122px; 
+			margin-left: 1px;
+			left: 100%;
+			z-index: 1; 
+		}	
+		.breadcrumb div:first-child p {
+			padding-left: 20px;
+		}
+		.breadcrumb div:nth-child(2) p       { background:        hsla(49,100%,45%,1); }
+		.breadcrumb div:nth-child(2) p:after { border-left-color: hsla(49,100%,45%,1); }
+		.breadcrumb div:nth-child(3) p       { background:        hsla(49,100%,50%,1); }
+		.breadcrumb div:nth-child(3) p:after { border-left-color: hsla(49,100%,50%,1); }
+		.breadcrumb div:nth-child(4) p       { background:        hsla(49,100%,55%,1); }
+		.breadcrumb div:nth-child(4) p:after { border-left-color: hsla(49,100%,55%,1); }
+		.breadcrumb div:nth-child(5) p       { background:        hsla(49,100%,60%,1); }
+		.breadcrumb div:nth-child(5) p:after { border-left-color: hsla(49,100%,60%,1); }
+		.breadcrumb div:nth-child(6) p       { background:        hsla(49,100%,65%,1); }
+		.breadcrumb div:nth-child(6) p:after { border-left-color: hsla(49,100%,65%,1); }
+		.breadcrumb div:nth-child(7) p       { background:        hsla(49,100%,70%,1); }
+		.breadcrumb div:nth-child(7) p:after { border-left-color: hsla(49,100%,70%,1); }
+		
+		.breadcrumb div p:hover {cursor:pointer; background: hsla(49,100%,80%,1); }
+		.breadcrumb div p:hover:after { border-left-color: hsla(49,100%,80%,1) !important; }
+}
+
+@media screen and (max-width: 1349px) {
+.breadcrumb {display: none;}
+.breadcrumb div {display: none;}
+}
+		
+/* Стили блока тарифы*/	
+.price {
+	height: 500px;
+	clear: both;
+}		
+.price .panel
+{
+    text-align: center;
+	border-radius: 0px !important;
+}
+.price .panel:hover { box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(130, 130, 130, 0.35); }
+.price .panel-body
+{
+    padding: 0px;
+    text-align: center;
+}
+
+.price .the-price
+{
+    background-color: rgba(220,220,220,.17);
+    box-shadow: 0 1px 0 #dcdcdc, inset 0 1px 0 #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+.price .the-price h3
+{
+	font-size: 30px;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.price .subscript
+{
+    font-size: 25px;
+}
+
+/* CSS-only ribbon styles    */
+.price .cnrflash
+{
+    /*Position correctly within container*/
+    position: absolute;
+    top: -9px;
+    right: 4px;
+    z-index: 1; /*Set overflow to hidden, to mask inner square*/
+    overflow: hidden; /*Set size and add subtle rounding  		to soften edges*/
+    width: 100px;
+    height: 100px;
+    border-radius: 3px 5px 3px 0;
+}
+.price .cnrflash-inner
+{
+    /*Set position, make larger then 			container and rotate 45 degrees*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 145px;
+    height: 145px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -o-transform: rotate(45deg); /* Opera */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari and Chrome */
+    -webkit-transform-origin: 100% 100%; /*Purely decorative effects to add texture and stuff*/ /* Safari and Chrome */
+    -ms-transform-origin: 100% 100%;  /* IE 9 */
+    -o-transform-origin: 100% 100%; /* Opera */
+    -moz-transform-origin: 100% 100%; /* Firefox */
+    background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.1) 50%), linear-gradient(0deg, transparent 0%, rgba(1,1,1,.2) 50%);
+    background-size: 4px,auto, auto,auto;
+    background-color: #aa0101;
+    box-shadow: 0 3px 3px 0 rgba(1,1,1,.5), 0 1px 0 0 rgba(1,1,1,.5), inset 0 -1px 8px 0 rgba(255,255,255,.3), inset 0 -1px 0 0 rgba(255,255,255,.2);
+}
+.price .cnrflash-inner:before, .cnrflash-inner:after
+{
+    /*Use the border triangle trick to make  				it look like the ribbon wraps round it's 				container*/
+    content: " ";
+    display: block;
+    position: absolute;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border: 8px solid #800000;
+}
+.price .cnrflash-inner:before
+{
+    left: 1px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.price .cnrflash-inner:after
+{
+    right: 0;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.price .cnrflash-label
+{
+    /*Make the label look nice*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    padding-bottom: 5px;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(1,1,1,.8);
+    font-size: 0.95em;
+    font-weight: bold;
+    text-align: center;
+}
+.gold {
+border-color: gold;
+}
+.price .panel-heading {
+border-top-right-radius: 0px !important;
+border-top-left-radius: 0px !important;
+}
+.gold .panel-heading {
+color: #fff;
+background-color: gold;
+border-color: gold;
+}
+.silver {
+border-color: silver;
+}
+.silver .panel-heading {
+color: #fff;
+background-color: silver;
+border-color: silver;
+}
+.bronze {
+border-color: burlywood;
+}
+.bronze .panel-heading {
+color: #fff;
+background-color: burlywood;
+border-color: burlywood;
+}
+/* Стили Наши клиенты */
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+.carousel .thumbnail:hover {
+border-color: #ffd306 !important;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #ffd306;
+}
+/* Сертификаты */
+/* Main carousel style */
+.carousel {
+    width: 100%;
+}
+
+/* Indicators list style */
+.article-slide .carousel-indicators {
+    bottom: 0;
+    left: 0;
+    margin-left: 5px;
+    width: 100%;
+}
+/* Indicators list style */
+.article-slide .carousel-indicators li {
+    border: medium none;
+    border-radius: 0;
+    float: left;
+    height: 54px;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px !important;
+    margin-top: 0;
+    width: 100px;
+}
+/* Indicators images style */
+.article-slide .carousel-indicators img {
+    border: 2px solid #FFFFFF;
+    float: left;
+    height: 54px;
+    left: 0;
+    width: 100px;
+}
+/* Indicators active image style */
+.article-slide .carousel-indicators .active img {
+    border: 2px solid #428BCA;
+    opacity: 0.7;
+}
+/* Наши преимущества */
+.it-super {background: #FFDB36;
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=0, Color=#333333)";/*IE 8*/
+-moz-box-shadow: 0 0 50px 21px rgba(51,51,51,0.1) inset;/*FF 3.5+*/
+-webkit-box-shadow: 0 0 50px 21px rgba(51,51,51,0.1) inset;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+box-shadow: 0 0 50px 21px rgba(51,51,51,0.1) inset;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=50, Direction=135, Color=#333333); /*IE 5.5-7*/}
+.it-super table tr td {border: 0px !important;}
+
+ @media screen and (max-width: 1000px) {
+        .price {
+            height: 100%!important;
+        }
+    }
+    
+    .it-super {
+        background: #ffffff;
+    }
+    
+    #quote-carousel {
+        padding: 0 10px 30px 10px;
+        margin-top: 30px;
+        /* Control buttons  */
+        /* Previous button  */
+        /* Next button  */
+        /* Changes the position of the indicators */
+        /* Changes the color of the indicators */
+    }
+    
+    .carousel-indicators {}
+    
+    #quote-carousel .carousel-indicators {
+        right: 50%;
+        top: auto;
+        bottom: 0px;
+        margin-right: -19px;
+    }
+    
+    #quote-carousel .carousel-indicators li {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        cursor: pointer;
+        border: 4px solid #CCC;
+        border-radius: 50px;
+        opacity: 0.4;
+        overflow: hidden;
+        transition: all 0.4s;
+    }
+    
+    #quote-carousel .carousel-indicators .active {
+        background: #333333;
+        width: 128px;
+        height: 128px;
+        border-radius: 100px;
+        border-color: #EBCC7E;
+        opacity: 1;
+        overflow: hidden;
+    }
+    
+    .carousel-inner {
+        min-height: 250px;
+    }
+    
+    .item blockquote {
+        border-left: none;
+        margin: 0;
+    }
+    
+    .item blockquote p:before {
+        float: left;
+        margin-right: 10px;}
+
+ul.xordered{
+	
+}
+
+ul.xordered-in-list{
+        float: left;
+}
+
+ul.xordered li{
+	background: transparent url("/upload/medialibrary/4e9/x.png") 0 0 no-repeat;
+	list-style: none;
+	margin-bottom: 10px;
+        padding-left: 20px;
+}
+
+ul.xordered li li{
+	background: none;
+        margin-top: 10px;
+	margin-bottom: 10px;
+        padding-left: 20px;
+}

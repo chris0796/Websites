@@ -1,0 +1,1045 @@
+.anotationText-1-fix2 {
+	border-left: 3px solid #f9d313;
+	background-color: #F5F5F5;
+	padding: 16px 32px;
+	margin-bottom: 16px;
+}
+.attention-block-yell {
+	width: 20px;
+	height: 20px;
+	background-color: #f9d205;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.20);
+	font-size: 15px;
+}
+
+/*.pic-fix-margin-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 410px;
+	margin-right: 50PX;
+	margin-left: 90px;
+	}*/
+@media screen and (max-width: 640px){
+
+	.pic-fix-margin-1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 410px;
+		margin-right: 40PX;
+		margin-left: 47px;
+	}
+
+}
+
+
+/*START__http://ext-dev.efsol.ru/manuals/priemka-tovara-light.html*/
+.margin_bottom_fix_ul{
+	margin-bottom: 16px!important;
+}
+/*END__http://ext-dev.efsol.ru/manuals/priemka-tovara-light.html*/
+
+
+/*****START__http://ext-dev.efsol.ru/promo/1c-zup-differences.html******/
+.btnWrap_but_center {
+	text-align: center!important;
+}
+.e_page_table_1c_zup_diff{
+	margin-bottom: 16px!important;
+}
+.e_page table .text-left-fix:first-child {
+	text-align: left!important;
+}
+h2.no-mrg-top {
+	margin-top: 0!important;
+}
+/*****END__http://ext-dev.efsol.ru/promo/1c-zup-differences.html******/
+
+/*****START__http://ext-dev.efsol.ru/news/bdo-yunikon.htmll******/
+.textBoxBG_right_content-fix{
+	padding: 95px;
+}
+@media screen and (max-width: 1024px) {
+	.textBoxBG_title br{
+		display: none!important;
+	}
+}
+
+
+/*.textBoxBG_right_content-paddingFix{
+	padding: 150px;
+}*/
+
+
+/*****end__http://ext-dev.efsol.ru/news/bdo-yunikon.htmll******/
+
+
+
+/*****START__http://ext-dev.efsol.ru/articles/address-storage.html******/
+
+
+.table_center_fix_am{
+    text-align: center!important;
+}
+
+td.text-left-fix {
+	text-align: left!important;
+}
+
+
+
+/*****END__http://ext-dev.efsol.ru/articles/address-storage.html******/
+
+
+
+
+/*****START__http://ext-dev.efsol.ru/articles/corporate-email.html******/
+
+.e_page table td.orange span{
+	background-color: #fbcc07;
+	color: black;
+	padding: 4px 8px;
+	border-radius: 2px;
+}
+.e_page table td {
+	text-align: center;
+}
+
+.e_page table td:first-child {
+	text-align: center!important;
+
+}
+
+.anotationText-1-fix{
+	margin-top: 16px!important;
+	border-left: 3px solid #f9d313;
+	background-color: #F5F5F5;
+	padding: 16px 32px;
+}
+table.table-fix {
+	margin-bottom: 0!important;
+}
+
+/*****end__http://ext-dev.efsol.ru/articles/corporate-email.html******/
+
+/*START____http://ext-dev.efsol.ru/products/modules-for-1c-erp.html*/
+div#tab_block-fix{
+	margin-top: 16px!important;
+}
+.hr-for-button{
+	border-top:3px solid #ffd205;
+	margin-top:3px !important;
+}
+/*EnD____http://ext-dev.efsol.ru/products/modules-for-1c-erp.html*/
+
+
+
+
+/*start http://ext-dev.efsol.ru/articles/transport_ed.html*/
+
+.screenShots .screenShots_blocks-fix > .item-fix > .content > a.item-fix {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #e2e2e2;
+	padding: 16px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -1px;
+	/* height: 100%; */
+}
+.fix-margin {
+	margin-top: 24px!important;
+}
+
+.screenShots .screenShots_blocks-fix > .item-fix {
+	width: calc(50% - 8px);
+	margin-right: -2px;
+	position: relative;
+	max-height: inherit;
+/*	margin-bottom: 32px;*/
+}
+.screenShots .screenShots_blocks-fix > .item-fix > .title {
+	text-align: center;
+/*	margin-bottom: 8px;*/
+	font-size: 14px;
+}
+.screenShots .screenShots_blocks-fix > .item-fix > .content {
+	width: 100%;
+	min-height: 100%;
+}
+
+
+/*end http://ext-dev.efsol.ru/articles/transport_ed.html*/
+
+
+
+
+/*start http://ext-dev.efsol.ru/promo/cloud-152.html*/
+.pic-fix {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 320px;
+	margin-left: 90px;
+}
+
+
+
+/*.top-banner .banner-container {
+	background: url(/images/f/page/promo/cloud-152/12.jpg) no-repeat right !important;
+	display: block;
+	background-size: cover;
+}*/
+
+/*.banner-content-left::after {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	width: 0;
+	height: 100%;
+	border-top: 451px solid #444!important;
+	border-right: 40px solid transparent;
+	top: 0;
+	left: 100%;
+	bottom: 0;
+}*/
+/*.garantie-section .banner__container {
+	background: #44545F url(/images/f/page/promo/cloud-152/22.jpg)!important;
+	background-size: contain;
+}*/
+/*.banner-content-left .wraper_cont {
+	padding: 48px 16px 24px 48px!important;
+	font-family: 'Open Sans', sans-serif;
+}
+.banner__right::after {
+	border-top: 365px solid #44545F !important;
+}*/
+img.img-server-fix {
+	width: 470px;
+	height: auto;
+}
+/*
+.stepToStart .steps .line .title-fix {
+	-webkit-box-flex: 4;
+	-ms-flex: 1;
+	flex: 2;
+	padding-left: 30px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+}
+.title-fix {
+	padding-left: 24px!important;
+}
+button.button-linetext {
+	background-color: transparent;
+	border: none;
+	color: #106ce2;
+	border-bottom: dashed 1px #106ce2;
+}
+.banner__container .textBoxBG_title {
+	font-size: 18px!important;
+
+}
+.get-service .stepToStart .pic-fix {
+	width: calc(50% - 24px);
+	background: transparent;
+}
+.img-server-fix {
+	max-width: 100%;
+	height: auto;
+	padding-left: 0;
+}
+*/
+
+
+
+
+
+
+@media (max-width: 768px){
+	.pic-fix {
+		display: none!important;
+	}
+	.fix-margin {
+		margin-top: 42px!important;
+	}
+}
+@media (max-width: 1024px){
+	.pic-fix {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 320px;
+		margin-left: 0px;
+	}
+}
+/*!*	.banner-container-right {*/
+		/*background:url(/images/f/page/promo/cloud-152/12.jpg) 0 0 no-repeat!important;*/
+	/*}*/
+	/*.banner__left {*/
+		/*background: #b4babf url(/images/f/page/promo/cloud-152/22.jpg) 0 0 no-repeat!important;*/
+	/*}*/
+	/*.get-service .stepToStart .pic-fix{*/
+		/*display: none!important;*/
+	/*}*/
+/*}*!*/
+
+/*!*end http://ext-dev.efsol.ru/promo/cloud-152.html*!*/
+
+/*!* http://ext-dev.efsol.ru/manuals/inventarizaciya-kladovoy-light.html*!*/
+
+/*!*.screenShots .screenShots_blocks-fix {*/
+	/*width: 100%;*/
+	/*!* margin-top: 32px; *!*/
+	/*!* margin-bottom: 64px; *!*/
+	/*-webkit-box-pack: justify;*/
+	/*-ms-flex-pack: justify;*/
+	/*justify-content: space-between;*/
+/*}*!*/
+/*!* http://ext-dev.efsol.ru/manuals/inventarizaciya-kladovoy-light.html*!*/
+
+/*http://ext-dev.efsol.ru/articles/avtomatizaciya-logistiki-vozmozhnosti-it-tehnologiy-sravnenie-programmnogo-obespecheniy.html*/
+.e_page .p-text-center {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 16px 0px;
+	text-align: center;
+	/* color: #616161; */
+	/* font-family: Tahoma; */
+}
+a.a-for-table {
+	color: #444444!important;
+	text-decoration: none!important;
+}
+/*.e_page .goldBTN {
+	height: 50px!important;
+	padding: 0px 20px!important;
+
+}*/
+.hide-block-show {
+	display: none;
+}
+.attention-block-yell:hover ~ .hide-block-show{
+	display: block;
+	transition: 1s;
+}
+img.checkTable {
+	width: 24px !important;
+}
+br.fix-br-for-li {
+	display: none!important;
+}
+@media (max-width: 1024px){
+	br.fix-br-for-li {
+		display: block!important;
+	}
+}
+@media (max-width: 1350px){
+	br.fix-br-for-li {
+		display: block!important;
+	}
+}
+/*http://ext-dev.efsol.ru/articles/avtomatizaciya-logistiki-vozmozhnosti-it-tehnologiy-sravnenie-programmnogo-obespecheniy.html*/
+/*http://ext-dev.efsol.ru/news/mobilnoe-prilozhenie-dlya-kurerov-dlya-sistemy-kargo.html*/
+img.image-fix-size {
+	width: 90%;
+	height: auto;
+}
+
+/*http://ext-dev.efsol.ru/news/mobilnoe-prilozhenie-dlya-kurerov-dlya-sistemy-kargo.html*/
+
+/*slider*/
+.info-head-img {
+	width: 150px;
+	height: auto;
+	margin-top: 10px;
+}
+.anotationText-full-border {
+	border: 5px solid #f9d313;
+	background-color: #ffffff;
+	padding: 16px 32px;
+}
+.btnWRAP-fix{
+	width: 215px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 16px;
+}
+.greenBTN-slide {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 24px;
+	height: 40px;
+	border: 0px;
+	background-color: #03BF53;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.20);
+	box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.20);
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white!important;
+	-webkit-transition: all ease 0.24s;
+	-o-transition: all ease 0.24s;
+	transition: all ease 0.24s;
+	text-decoration: none!important;
+	margin-top: 5px;
+
+}
+.greenBTN-slide:hover{
+background-color: #029a43;
+-webkit-transform: translateY(-2px)scale(1.02);
+-ms-transform: translateY(-2px)scale(1.02);
+transform: translateY(-2px)scale(1.02);
+-webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (max-width: 640px){
+	.anotationText-full-border {
+		padding: 8px 24px;
+	}
+}
+.tab:hover {
+	color: #000000;
+	cursor: pointer;
+}
+.tab.active a {
+	display: block;
+}
+.tab_content {
+	display: none;
+}
+.tab_content.active {
+	display: block;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: #ffd205;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	background: none repeat scroll 0 0 #fddc4a !important;
+}
+.panel-group .panel {
+	border-radius: 0 !important;
+}
+.panel {
+	border-radius: 0 !important;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) !important;
+}
+#wrapper table td {
+	border: 0 none !important;
+	padding: 0 !important;
+}
+.dotted {
+	text-decoration: none !important;
+}
+div.media:hover {
+	background-color: #eeeeee;
+}
+.media, .media .media {
+	margin-top: 5px !important;
+}
+/*slider end*/
+
+/*analiz-konkurentosposobnosti-kompanij-postavschikov.html*/
+
+.table-orange{
+	background-color: #f9d205;
+}
+.table-gray{
+	background-color: #F7F7F7;
+}
+.e_page table td.table-orange {
+	border: 1px solid #e8c404 !important;
+}
+
+/*analiz-konkurentosposobnosti-kompanij-postavschikov.html*/
+
+.block-width-img{
+	width: 360px!important;
+}
+.attention .attention-fix-ki {
+	width: 7%!important;
+	max-height: 60px;
+	margin-right: 20px;
+}
+
+    .fix-margin-2{
+        margin-top: 96px;
+    }
+.img-head-fix-agency{
+	width: 96%;
+}
+.e_page .imageTitle-fix {
+	margin-bottom: 16px;
+	font-size: 12px;
+	opacity: 0.64;
+}
+td.text-left-fix-grey {
+	background-color: #f1f1f1;
+}
+    p.pre-style {
+        display: block;
+        padding: 9.5px;
+        margin: 0 0 10px;
+        font-size: 13px;
+        line-height: 1.428571429;
+        word-break: break-all;
+        word-wrap: break-word;
+        color: #333;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+ 		}
+
+
+		.pic-fix-2{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 410px;
+			margin-right: 50PX;
+			margin-left: 90px;
+		}
+@media screen and (max-width: 640px){
+
+	.pic-fix-2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 410px;
+		margin-right: 40PX;
+		margin-left: 47px;
+	}
+
+}
+
+
+.icon-fix-1{
+	display: none;
+}
+.img-fix-1{
+	width: 85%;
+}
+.cont-fix {
+	margin-left: 16px;
+	margin-top: 18px;
+}
+
+.cont-fix h3{
+	margin-top: 0px;
+	margin-bottom: 16px;
+	border-left: 0;
+	padding-left: 0;
+}
+.twoTabIcon.flex .item .cont-fix-2{
+	padding-left: 0px;
+}
+.twoTabIcon.flex .item .cont-fix-2 h3 {
+	margin-top: 0px;
+	margin-bottom: 16px;
+	border-left: 0;
+	padding-left: 0;
+}
+.twoTabIcon.flex .item .cont-fix-2 .desc {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 0;
+	color: #545454;
+}
+
+
+
+/*rediz*/
+.cloudsClients .clientsLogos .items .item .imgLogo-fix {
+	width: calc(19.66% + 4px);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #E7E7E7;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 16px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+ .imgLogo-fix {
+	width: calc(19.66% + 4px);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #E7E7E7;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	box-sizing: border-box;
+	padding: 16px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+
+
+.screenShots .screenShots_blocks-fix > .item {
+	width: calc(50% - 8px);
+	margin-right: -2px;
+	position: relative;
+	max-height: 180px;
+	margin-bottom: 32px;
+}
+.screenShots .screenShots_blocks-fix {
+	width: 100%;
+	margin-top: 32px;
+	/* margin-bottom: 64px; */
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: center;
+	margin-bottom: 120px;
+}
+.screenShots .screenShots_blocks-fix > .item > .title {
+	text-align: center;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+.screenShots .screenShots_blocks-fix > .item > .content {
+	width: 100%;
+	min-height: 100%;
+}
+#content a {
+	color: #398EC4;
+	text-decoration: underline;
+}
+.screenShots .screenShots_blocks-fix > .item > .content > a.item {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #e2e2e2;
+	padding: 16px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -1px;
+	/* height: 100%; */
+}
+
+
+.currDelivery_header .wrap.flex .pic-fix-3{
+	margin-top: 100px;
+	margin-right: 30px;
+}
+@media screen and (max-width: 640px){
+	.currDelivery_header .wrap.flex .pic-fix-3{
+		display: none;
+	}
+	.currDelivery_header .wrap.flex .pic-fix-4{
+		display: none;
+	}
+	.cloudsClients .clientsLogos .items .item .imgLogo-fix {
+		width: calc(19.66% + 2px);
+	}
+	.screenShots .screenShots_blocks-fix > .item {
+		width: 100%;
+	}
+
+}
+.currDelivery_header .wrap.flex .pic-fix-4{
+	margin-top: 75px;
+	margin-right: 30px;
+}
+
+
+/*rediz*/
+
+
+
+/*new rediz*/
+
+.icon-fix-none{
+	display: none;
+}
+.twoTabIcon.flex .item .cont-fix{
+	padding-left: 0px;
+}
+.twoTabIcon.flex .item .cont .desc {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 0;
+	/* color: #545454; */
+}
+.borderIcons .item-fix{
+	width: calc(33.33% - 24px);
+	background: #F7F7F7;
+	padding: 24px 16px;
+	margin: 0 24px 24px 0;
+}
+.borderIcons .item-fix .icon {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.borderIcons .item-fix .desc {
+	color: #545454;
+	text-align: left;
+	margin-top: 18px;
+	text-align: left;
+}
+
+.borderIcons .item-fix .title {
+	font-weight: bold;
+	color: #2E4346;
+	font-family: Tahoma;
+	text-transform: uppercase;
+	margin-top: 24px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+@media (max-width: 640px){
+	.borderIcons .item-fix {
+		width: 100%;
+		background: #F7F7F7;
+		padding: 24px 16px;
+		margin: 0px 24px 24px 24px;
+	}
+}
+
+
+.fix-margin-16{
+	margin-top: 16px!important;
+}
+
+
+    .fix_2_icons_line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    @media screen and (max-width: 640px){
+        .fix_2_icons_line {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+        }
+        .stepToStart .pic-fix-5
+        {
+            display: none;
+        }
+    }
+    .stepToStart .pic-fix-5 {
+        margin-left: 90px;
+        width: 30%;
+    }
+
+.responsive-table table .bad-1 li{
+	background-image: url(/images/f/page/promo/1c-zup-upgrade/bad.svg);
+	color: #545454;
+	margin: 16px 0px;
+	list-style: none;
+	padding-left: 32px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+
+}
+.responsive-table table .good-1 li
+{
+	background-image: url(/images/f/page/promo/1c-zup-upgrade/good.svg);
+	color: #545454;
+	margin: 16px 0px;
+	list-style: none;
+	padding-left: 32px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+}
+ul.bad-1 {
+	margin: 0;
+	padding: 0;
+}
+ul.good-1{
+	margin: 0;
+	padding: 0;
+}
+.item-100-fix{
+	width: 100%;
+}
+.screenShots .screenShots_blocks > .item-100-fix > .content {
+	width: 100%;
+	min-height: 100%;
+}
+.screenShots .screenShots_blocks > .item-100-fix > .content > a.item {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border: 1px solid #e2e2e2;
+	padding: 16px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: -1px;
+	/* height: 100%; */
+}
+img.checkTable-fix {
+	width: 17px !important;
+	margin-bottom: 4px;
+}
+.twoTabIcon-mar-fix .twoTabIcon.flex.more2.twoTabIcon-bigdesc .item{
+	margin-bottom: 16px;!important;
+}
+.twoTabIcon-mar-fix  .twoTabIcon-bigdesc .desc {
+	margin-top: 16px;
+}
+.twoTabIcon-fix-block .twoTabIcon.flex.more2 {
+	margin: 0;!important;
+}
+.twoTabIcon-fix-block .twoTabIcon.flex.more2 .item {
+	margin: 0!important;
+}
+/*.e_page-fix .attention span {
+	font-weight: 300!important;
+}
+.e_page-fix .twoTabIcon.flex.more2 {
+	margin: 0;!important;
+}
+.e_page-fix   .screenShots-item-btm .screenShots .screenShots_blocks > .item {
+	margin-bottom: 0px!important;
+}
+.e_page-fix   .screenShots .screenShots_blocks > .item {
+	max-height: -webkit-fill-available;
+}
+.e_page-fix    .attention .attention-cont{
+	width: 90%;
+	font-size: 14px;
+}*/
+
+@media (max-width: 768px){
+	.twoTabIcon-fix-block .twoTabIcon.flex.more2 .item {
+		margin-bottom: 16px!important;
+	}
+}
+
+.fullBlock-goldGradient .item .cont>h3 {
+	margin-top: 0;
+	padding-left: 0;
+	border-left: none;
+	font-size: 22px!important;
+}
+
+
+
+.attention {
+	background: #F7F7F7;
+	padding: 20px;
+	font-weight: 700;
+	position: relative;
+	align-items: center !important;
+	border-left: 3px solid #FFD200;
+	margin-bottom: 24px;
+}
+.attention img, .attention span {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+}
+.attention img {
+	width: 3%;
+	max-height: 60px;
+	margin-right: 20px;
+}
+.attention span {
+	width: 90%;
+	font-size: 16px;
+}
+
+.vitrina-dannykh .block-bad-fix {
+	width: 100%;
+	background-color: #FFF8F7;
+	padding: 32px 16px;
+}
+.vitrina-dannykh .block-bad-fix ul li {
+	color: #545454;
+	margin: 16px;
+	list-style: none;
+	padding-left: 32px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	background-image: url(/images/f/page/promo/1c-zup-upgrade/bad.svg);
+}
+
+.vitrina-dannykh .block-good-fix{
+	width: 100%;
+	background-color: #F1F9F1;
+	padding: 32px 16px;
+}
+.vitrina-dannykh .block-good-fix ul li{
+	color: #545454;
+	margin: 16px;
+	list-style: none;
+	padding-left: 32px;
+	background-repeat: no-repeat;
+	background-position: left 3px;
+	background-image: url(/images/f/page/promo/1c-zup-upgrade/good.svg);
+}
+.vitrina-dannykh .block-bad-fix ul{
+	padding: 0px;
+	margin: 0px;
+}
+.vitrina-dannykh .block-good-fix ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.s-nedvijemost .abon-services_container .item .item-container::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	background-color: #F7F7F7;
+	left: 100%;
+	right: auto;
+	top: 50%;
+	bottom: auto;
+	display: none;
+}
+.s-nedvijemost img.icon-svg {
+	width: 74px;
+	height: 74px;
+}
+.s-nedvijemost .banner-asymmetry .banner__container {
+	background-size: 88% !important;
+}
+.anotationText-full-border {
+	border: 5px solid #44545F;
+	background-color: #ffffff;
+	padding: 16px 32px;
+	border-top: none;
+}
+.s-nedvijemost .abon-services_container .item:nth-child(-n+3), .abon-services_container .item:nth-child(5), .abon-services_container .item:nth-child(6), .abon-services_container .item:nth-child(7) {
+	margin-right: 40px;
+}
+.s-nedvijemost .borderIcons .item {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+}
+.s-nedvijemost .borderIcons_info {
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+.s-nedvijemost  .goodBad_table .wrap .block {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 32px 40px;
+}
+.block.good {
+	width: 100%;
+}
+.s-nedvijemost .fix-width-img{
+	width: 120px
+}
+@media screen and (max-width: 640px) {
+	.s-nedvijemost  .borderIcons .item {
+		width: 100%;
+		text-align: center;
+		padding: 0px 24px;
+		margin: 24px 0px;
+	}
+	.s-nedvijemost  .abon-services_container .item:nth-child(-n+3), .abon-services_container .item:nth-child(5), .abon-services_container .item:nth-child(6), .abon-services_container .item:nth-child(7) {
+		margin-right: 0px;
+	}
+}
+
+.s-nedvijemost .textBoxBG.ttHeader .textBoxBG_title {
+	font-size: 24px;
+}
+
+
+.p-big-footer{
+	font-size: 18px!important;
+}
+
+.service-1c-reporting .currDelivery_header .wrap.flex .info .top.flex ul.efsol_goldUL {
+	margin-top: 16px;
+	width: 98%;
+}
+.service-1c-reporting .single-icon-row .item .title-single {
+	margin-bottom: 16px;
+}
+.service-1c-reporting  .borderIcons .item .title {
+	font-weight: 700;
+	color: #465861;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin-top: 24px;
+	margin-bottom: 8px;
+}
+/*
+.service-1c-reporting .inner--page .container .flex {
+	-ms-flex-pack: center;
+	justify-content: left;
+	margin-bottom: 24px;
+}*/
+.service-1c-reporting .title-single {
+
+}
+
+.service-1c-reporting  .single-icon-row .item .title-single{
+	margin-bottom: 12px!important;
+}
+
+
+.news_mobile-fox-express .screenShots .screenShots_blocks>.item {
+
+	max-height: initial!important;
+	margin-bottom: 8px!important;
+}
+
+.news_mobile-fox-express  .page_audit_it_str .goodBad_table .wrap .block {
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 32px 40px;
+}
+

@@ -1,0 +1,14 @@
+.tp_banner{
+  font-size: 28px;
+  background-color: #f1642e;
+  min-height: 200px;
+  color: #fff;
+  text-align:  center;
+  text-transform:  uppercase;
+  margin:0 grid-auto-columns:;
+  padding: 40px;
+  border-top: 5px solid #242841;
+}
+.tp_offer{
+  margin-top:40px
+}

@@ -1,0 +1,432 @@
+
+
+/* Start:/local/templates/inner_new/components/rezonans/news.detail/page/style.css?1583242745283*/
+#loader{
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     z-index:-1;   
+}
+#loader.activated{
+     background:url('/local/templates/inner_new/components/rezonans/news.detail/page/img/wait.gif') center center no-repeat;
+     z-index:999;
+     
+}
+
+#loader.deactivated{
+     background:none;
+     z-index:1;
+}
+
+/* End */
+
+
+/* Start:/local/templates/inner_new/components/rezonans/news.detail/page/jquery-ui-1.7.2.custom.css?15832427453974*/
+/*
+* jQuery UI CSS Framework
+* Copyright (c) 2009 AUTHORS.txt (http://jqueryui.com/about)
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+*/
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* end clearfix */
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+.ui-dialog .ui-dialog-titlebar-close {
+height:18px;
+margin:-10px 0 0;
+padding:1px;
+position:absolute;
+right:0.3em;
+top:50%;
+width:19px;
+}
+
+.ui-icon {
+background-repeat:no-repeat;
+display:block;
+overflow:hidden;
+text-indent:-99999px;
+}
+
+.ui-dialog .ui-dialog-titlebar-close span {
+display:block;
+margin:1px;
+}
+
+.ui-widget-header .ui-icon {
+background-image:url("/local/templates/inner_new/components/rezonans/news.detail/page/images/close.png");
+}
+
+.ui-icon {
+/*background-image:url("/local/templates/inner_new/components/rezonans/news.detail/page/images/ui-icons_222222_256x240.png");*/
+height:16px;
+width:16px;
+}
+
+/* Overlays */
+.ui-widget-overlay {
+height:100%;
+left:0;
+position:absolute;
+top:0;
+width:100%;
+}
+.ui-widget-overlay { background:#666666; opacity: .30;filter:Alpha(Opacity=30); }
+.ui-widget-shadow { margin: -5px 0 0 -5px; padding: 5px; background: #000000 url(/local/templates/inner_new/components/rezonans/news.detail/page/images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x; opacity: .20;filter:Alpha(Opacity=20); -moz-border-radius: 5px; -webkit-border-radius: 5px; }/* Resizable
+----------------------------------*/
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block;}
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0px; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0px; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0px; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0px; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}/* Dialog
+----------------------------------*/
+.ui-dialog { position: relative; padding: .2em; width: 300px; }
+.ui-dialog .ui-dialog-titlebar { padding: .5em .3em .3em 1em; position: relative;  }
+.ui-dialog .ui-dialog-title { float: left; margin: -0.3em 0 0.2em -1em; font-size: 0.8em; color: #999999; } 
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 1px; }
+.ui-dialog .ui-dialog-content { border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+/* End */
+
+
+/* Start:/local/templates/inner_new/components/rezonans/form.result.new/efsol-bs/style.css?15832427454992*/
+#opendialog
+{
+cursor:pointer;
+cursor:hand;
+margin:7px;
+}
+.form-content
+{
+width:625px;
+font-family: Tahona,Arial,sans-serif !important;
+}
+.formorder_header
+{
+padding-bottom:20px;
+}
+.formorder_header img.imageheader
+{
+margin:0 0 0 10px !important;
+border:1px solid #CCC;
+padding:2px  !important;
+}
+.formorder_header h3
+{
+font-size:16px !important;
+margin:0;
+padding:0;
+line-height:18px !important;
+font-weight:bold !important;
+font-family: Tahona,Arial,sans-serif !important;
+}
+.formorder_header_title
+{
+font-size:14px !important;
+color:#555555;
+font-family: Tahona,Arial,sans-serif !important;
+}
+.formorder_header_desc
+{
+font-size:11px !important;
+color:#333;
+font-family: Tahona,Arial,sans-serif !important;
+}
+.formorder-caption
+{
+display:inline;
+font-size:14px !important;
+line-height:14px !important;
+font-weight:bold !important;
+font-family: Tahona,Arial,sans-serif !important;
+}
+.formorder-caption_desc,
+.formorder-caption_error
+{
+display:inline;
+font-size:10px !important;
+line-height:10px !important;
+color:#333;
+font-family: Tahona,Arial,sans-serif !important;
+font-weight:normal !important;
+}
+.formorder-caption_desc
+{
+margin-left:10px !important;
+}
+.formorder-caption_error
+{
+margin:0 !important;
+color:red;
+}
+
+.whereque
+{
+/*width:600px;*/
+background-color:#fff49a;
+padding:10px 5px 15px 5px;
+margin:0 0 17px 0;
+border:1px solid #48687D;
+}
+.whereque-caption
+{
+padding:0 0 10px 0;
+text-align:center;
+}
+.whereque input
+{
+width:18px;
+float:left;
+display:inline;
+padding:1px;
+margin:0 1px;
+}
+.whereque label
+{
+width:90px;
+float:left;
+display:inline;
+margin:0 !important;
+padding:0 !important;
+text-align:left;
+font-size:12px !important;
+line-height:14px !important;
+font-family: Tahona,Arial,sans-serif !important;
+
+}
+* html .whereque label { margin:0 0 0 0 !important; }
+.checksep
+{
+display:block;
+font-size:1px !important;
+line-height:1px !important;
+width:100%;
+height:5px;
+}
+.submitdembtn,
+.resettdembtn
+{
+border:1px solid #48687D;
+padding:0 0 0 5px !important;
+width:95px;
+height:26px;
+float:left;
+margin-left:10px;
+font-size:14px !important;
+line-height:26px !important;
+text-align:center;
+font-weight:normal !important;
+display:inline;
+color:black;
+cursor:pointer;
+cursor:hand;
+}
+.submitdembtn
+{
+background-color:#FAE818;
+}
+.resettdembtn
+{
+background-color:#E6E6E6;
+}
+
+input.inputtext
+{
+width:320px !important;
+font-size:100% !important;
+}
+input.inputphonetext
+{
+width:224px !important;
+display:inline;
+margin:0 0 0 15px !important;
+}
+input.inputphonecode
+{
+width:70px !important;
+display:inline;
+}
+.separator_phone
+{
+height:20px;
+width:13px;
+display:inline-block;
+margin:0 !important;
+padding:0 !important;
+}
+
+.captcha_block
+{
+float:left;
+display:inline;
+margin:0;
+padding:0;
+}
+.captcha_block .captcha_block_title
+{
+margin:0;
+padding:0;
+float:left;
+display:inline;
+width:138px;
+height:30px;
+}
+input#mathcaptcha
+{
+width:70px !important;
+}
+.inputcaptcha
+{
+margin:0;
+padding:0;
+float:left;
+display:inline;
+width:105px;
+height: 25px;
+}
+table.formorder-table
+{
+width:575px;
+background-color:white;
+border-collapse:collapse;
+font-size:100% !important;
+font-weight:normal;
+line-height:120% !important;
+/*margin-left:-25px;*/
+}
+
+table.formorder-table th, table.formorder-table td
+{
+	/*padding: 3px 3px;*/
+	vertical-align:top;
+}
+
+table.formorder-table tr
+{
+/*border:1px solid white;*/
+}
+table.formorder-table th
+{
+	text-align: left;
+}
+
+table.formorder-table td
+{
+	padding: 4px 1px;
+	/*border:1px solid white;*/
+}
+
+
+
+.error-fld {
+	display: block;
+	float: left;
+	height: 13px;
+	width: 15px;
+	background-repeat: no-repeat;
+	background-image: url(/local/templates/inner_new/components/rezonans/form.result.new/efsol-bs/images/icon_warn.gif);
+}
+
+/*
+ * jQuery UI Autocomplete 1.8.13
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Autocomplete#theming
+ */
+.ui-autocomplete { position: absolute; cursor: default;
+background-color:white;
+border:1px solid grey;
+}
+
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */
+/*
+ * jQuery UI Menu 1.8.13
+ *
+ * Copyright 2010, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Menu#theming
+ */
+.ui-menu {
+	list-style:none;
+	padding: 2px;
+	margin: 0;
+	display:block;
+	float: left;
+}
+.ui-menu .ui-menu {
+	margin-top: -3px;
+}
+.ui-menu .ui-menu-item {
+	margin:0;
+	padding: 0;
+	zoom: 1;
+	float: left;
+	clear: left;
+	width: 100%;
+	text-align:left;
+}
+.ui-menu .ui-menu-item a {
+	text-decoration:none;
+	display:block;
+	padding:.2em .4em;
+	line-height:1.5;
+	zoom:1;
+	color:#777777;
+}
+.ui-menu .ui-menu-item a.ui-state-hover,
+.ui-menu .ui-menu-item a.ui-state-active {
+	font-weight: normal;
+	/*margin: -1px;*/
+	color:#777777;
+	background-color:#EEEEEE;
+}
+
+.whereque-callback
+{
+/*width:608px;*/
+padding:0px 3px 9px 3px;
+margin:0 0 6px 0;
+}
+textarea.inputtextarea
+{
+resize: none !important;;
+width:570px !important;
+height:100px !important;
+}
+/* End */
+/* /local/templates/inner_new/components/rezonans/news.detail/page/style.css?1583242745283 */
+/* /local/templates/inner_new/components/rezonans/news.detail/page/jquery-ui-1.7.2.custom.css?15832427453974 */
+/* /local/templates/inner_new/components/rezonans/form.result.new/efsol-bs/style.css?15832427454992 */

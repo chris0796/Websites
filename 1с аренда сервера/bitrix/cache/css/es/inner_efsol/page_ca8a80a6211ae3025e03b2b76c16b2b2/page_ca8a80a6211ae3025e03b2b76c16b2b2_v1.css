@@ -1,0 +1,24 @@
+
+
+/* Start:/local/templates/inner_efsol/components/rezonans/news/office/rezonans/news.detail/page_contacts/style.css?1583242745283*/
+#loader{
+     position:absolute;
+     top:0;
+     left:0;
+     width:100%;
+     height:100%;
+     z-index:-1;   
+}
+#loader.activated{
+     background:url('/local/templates/inner_efsol/components/rezonans/news/office/rezonans/news.detail/page_contacts/img/wait.gif') center center no-repeat;
+     z-index:999;
+     
+}
+
+#loader.deactivated{
+     background:none;
+     z-index:1;
+}
+
+/* End */
+/* /local/templates/inner_efsol/components/rezonans/news/office/rezonans/news.detail/page_contacts/style.css?1583242745283 */
