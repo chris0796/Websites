@@ -1,0 +1,636 @@
+Uri: http://test-silverduck.online/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\index.htm
+Content Type: text/html
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/css/style.min.css
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\css\style.min.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/css/noJS.css
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\css\noJS.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/feed/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: http://test-silverduck.online/comments/feed/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\comments\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: http://test-silverduck.online/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-includes\css\dist\block-library\style.min.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-includes/css/dist/block-library/theme.min.css?ver=5.7.1
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-includes\css\dist\block-library\theme.min.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=4.7.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\vendors-style.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=4.7.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\style.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\woocommerce-layout.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\woocommerce-smallscreen.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/twenty-nineteen.css?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\twenty-nineteen.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/wc-quantity-plus-minus-button/assets/css/style.css?ver=1.0.0
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\wc-quantity-plus-minus-button\assets\css\style.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-json/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-json\index.htm.json
+Content Type: application/json
+
+Uri: http://test-silverduck.online/wp-includes/wlwmanifest.xml
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-includes\wlwmanifest.xml
+Content Type: application/xml
+
+Uri: http://test-silverduck.online/product/ballada/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\product\ballada\index.htm
+Content Type: text/html
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/js/modernizr.custom.79639.js
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\js\modernizr.custom.79639.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/jquery-manager/assets/js/jquery-3.5.1.min.js
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\jquery-manager\assets\js\jquery-3.5.1.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/jquery-manager/assets/js/jquery-migrate-3.3.0.min.js
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\jquery-manager\assets\js\jquery-migrate-3.3.0.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/preloader.gif
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\preloader.gif
+Content Type: image/gif
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/book/book.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\book\book.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/chelram.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\chelram.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/play.svg
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\play.svg
+Content Type: image/svg+xml
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug1.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug1.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug2.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug2.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug3.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug3.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug4.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug4.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug5.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug5.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug6.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug6.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug7.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug7.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug8.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug8.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug9.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug9.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/drug10.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\drug10.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/about/01.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\about\01.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/about/02.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\about\02.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menestrel.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menestrel.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/decor-icon.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\decor-icon.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/brand-1.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\brand-1.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/prod-1.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\prod-1.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/brand-2.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\brand-2.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/prod-2.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\prod-2.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/brand-3.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\brand-3.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/prod-3.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\prod-3.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/brand-4.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\brand-4.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/prod-4.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\prod-4.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/brand-5.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\brand-5.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/prod-5.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\prod-5.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/brand-6.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\brand-6.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/catalog/prod-6.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\catalog\prod-6.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/decor-el.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\decor-el.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/01.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\01.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/size-full.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\size-full.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/size-half.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\size-half.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/size-1-4.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\size-1-4.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder-300x300.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder-300x300.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/count-.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\count-.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/count+.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\count .png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/02.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\02.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/03.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\03.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/04.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\04.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/05.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\05.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/cards-img/06.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\cards-img\06.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/med/med.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\med\med.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/med/med-img.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\med\med-img.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sous/sous.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sous\sous.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sous/sous-img.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sous\sous-img.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/01.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\01.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/02.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\02.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/03.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\03.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/04.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\04.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/05.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\05.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/box-img.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\box-img.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/sir-box/04-2.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\sir-box\04-2.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/contacts-img.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\contacts-img.png
+Content Type: image/png
+
+Uri: https://yandex.ru/map-widget/v1/?um=constructor:1d5f1846f640f958c3c9988fa7acee22ad54f8a3520f45c21b2a297acbcfe7a7&source=constructor
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\map-widget\v1\index.htm
+Content Type: text/html
+
+Uri: https://yandex.ru/map-widget/v1/?um=constructor:e47e2526ef367c7d9246a388b931290e4f8ef8544273a571c6b309fd238af122&source=constructor
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\map-widget\v1\index-1.htm
+Content Type: text/html
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/rec-img.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\rec-img.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/instagram.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\instagram.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/shef.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\shef.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/1.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\1.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/2.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\2.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/3.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\3.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/4.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\4.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/5.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\5.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/6.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\6.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/7.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\7.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/8.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\8.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/recepti/pages/9.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\recepti\pages\9.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/kids.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\kids.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/magnit.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\magnit.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/01.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\01.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/02.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\02.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/03.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\03.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/04.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\04.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/05.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\05.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/06.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\06.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/07.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\07.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/menu-items/08.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\menu-items\08.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/js/jquerypp.custom.js
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\js\jquerypp.custom.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/js/jquery.bookblock.js
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\js\jquery.bookblock.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/js/script.js
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\js\script.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\jquery-blockui\jquery.blockUI.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\frontend\add-to-cart.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\js-cookie\js.cookie.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\frontend\woocommerce.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\frontend\cart-fragments.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/wc-quantity-plus-minus-button/assets/js/scripts.js?ver=1.0.0
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\wc-quantity-plus-minus-button\assets\js\scripts.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-includes/js/wp-embed.min.js?ver=5.7.1
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-includes\js\wp-embed.min.js
+Content Type: application/x-javascript
+
+Uri: https://i.ytimg.com/vi_webp/DEeAN471boQ/sddefault.webp
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\vi_webp\DEeAN471boQ\sddefault.webp
+Content Type: image/webp
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder-100x100.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder-100x100.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder-450x450.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder-450x450.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder-1024x1024.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder-1024x1024.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder-150x150.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder-150x150.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder-768x768.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder-768x768.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/uploads/woocommerce-placeholder.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\uploads\woocommerce-placeholder.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/fonts/Victoriana.css
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\fonts\Victoriana.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/right-bg.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\right-bg.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/book/page-left.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\book\page-left.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/book/page-right.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\book\page-right.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/strekka_levo.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\strekka_levo.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/strekka_levo-hover.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\strekka_levo-hover.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/strekka_pravo.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\strekka_pravo.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/strekka_pravo-hover.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\strekka_pravo-hover.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/border-catalog.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\border-catalog.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/border-map.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\border-map.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/basket-border.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\basket-border.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/img/youramka.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\img\youramka.png
+Content Type: image/png
+
+Uri: https://wordpress.org/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\index-1.htm
+Content Type: text/html
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/star.eot
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\star.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/star.eot?
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\star-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/star.woff
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\star.woff
+Content Type: application/font-woff
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/star.ttf
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\star.ttf
+Content Type: application/octet-stream
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/star.svg
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\star.svg
+Content Type: image/svg+xml
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.eot?
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\WooCommerce-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.woff
+Content Type: application/font-woff
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.ttf
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.ttf
+Content Type: application/octet-stream
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.svg
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\fonts\WooCommerce.svg
+Content Type: image/svg+xml
+
+Uri: https://www.youtube.com/watch?v=DEeAN471boQ&feature=youtu.be
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\watch.html
+Content Type: text/html
+
+Uri: http://test-silverduck.online/product/ballada/feed/
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\product\ballada\feed\index.htm.rss
+Content Type: application/rss+xml
+
+Uri: http://test-silverduck.online/wp-content/plugins/woo-variations-table/ui/public/woo-variations-table.css?ver=2.2.12
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woo-variations-table\ui\public\woo-variations-table.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woo-variations-table/ui/public/build/woo-variations-table-app.css?ver=2.2.12
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woo-variations-table\ui\public\build\woo-variations-table-app.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\photoswipe\photoswipe.min.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.min.css?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.min.css
+Content Type: text/css
+
+Uri: http://test-silverduck.online/wp-json/wp/v2/product/13
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-json\wp\v2\product\13.json
+Content Type: application/json
+
+Uri: http://test-silverduck.online/wp-json/oembed/1.0/embed?url=http:%2F%2Ftest-silverduck.online%2Fproduct%2Fballada%2F
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-json\oembed\1.0\embed.json
+Content Type: application/json
+
+Uri: http://test-silverduck.online/wp-json/oembed/1.0/embed?url=http:%2F%2Ftest-silverduck.online%2Fproduct%2Fballada%2F&format=xml
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-json\oembed\1.0\embed.xml
+Content Type: text/xml
+
+Uri: http://test-silverduck.online/wp-content/plugins/woo-variations-table/js/woo-variations-table-scripts.js?ver=2.2.12
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woo-variations-table\js\woo-variations-table-scripts.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woo-variations-table/ui/public/build/woo-variations-table-app.js?ver=2.2.12
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woo-variations-table\ui\public\build\woo-variations-table-app.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\zoom\jquery.zoom.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\flexslider\jquery.flexslider.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\photoswipe\photoswipe.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\photoswipe\photoswipe-ui-default.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=5.2.2
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\js\frontend\single-product.min.js
+Content Type: application/x-javascript
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/fonts/times.ttf
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\fonts\times.ttf
+Content Type: application/octet-stream
+
+Uri: http://test-silverduck.online/wp-content/themes/twentynineteen/fonts/AcademyCondensed.ttf
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\themes\twentynineteen\fonts\AcademyCondensed.ttf
+Content Type: application/octet-stream
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.png
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.png
+Content Type: image/png
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.svg
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\default-skin.svg
+Content Type: image/svg+xml
+
+Uri: http://test-silverduck.online/wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/preloader.gif
+File Name: C:\Users\pavli\Desktop\test-silverduck.online\wp-content\plugins\woocommerce\assets\css\photoswipe\default-skin\preloader.gif
+Content Type: image/gif
+
