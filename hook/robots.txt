@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Disallow: /politica.html
+Disallow: /agreement.html

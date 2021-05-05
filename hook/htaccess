@@ -1,0 +1,18 @@
+# Site charsets
+AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]  
+ 
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://hookah-catering.ru/ [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ portfolio/index\.html\ HTTP/
+RewriteRule ^index\.html$ http://hookah-catering.ru/portfolio/ [R=301,L]
+  
+RewriteRule ^portfolio(/?)+$ portfolio/index.html [L] 
