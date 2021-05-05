@@ -1,0 +1,1 @@
+jQuery(document).ready(function(){jQuery("#jm-back-top").hide();jQuery(function(){jQuery(window).scroll(function(){if(jQuery(this).scrollTop()>100){jQuery('#jm-back-top').fadeIn();}else{jQuery('#jm-back-top').fadeOut();}});jQuery('#jm-back-top a').click(function(){jQuery('body,html').animate({scrollTop:0},800);return false;});});});
